@@ -4,6 +4,12 @@ let ENGLISH_TRANSLATIONS = {
     },
     index: {
         browser_title: "BillaBear - Level up your Stripe billing",
+        hero: {
+            line_one: "Level up how you bill via Stripe",
+            line_two: "Handle custom deals with ease",
+            line_three: "Control how your handle Taxes",
+            description: "A powerful Subscription and Billing that cover the gaps that Stripe Billing has.",
+        }
     },
     templates: {
         browser_title: "BillaBear - Templates",

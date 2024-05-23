@@ -53,10 +53,10 @@ let showResponseMenu = ref(true);
               From: "opacity-100 translate-y-0"
               To: "opacity-0 translate-y-1"
           -->
-          <div class="absolute z-10 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2" id="feature_menu" v-if="showFeatureMenu">
+          <div class="absolute z-50 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2" id="feature_menu" v-if="showFeatureMenu">
             <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
-                <NuxtLink to="/branding" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/branding" @click="showFeatureMenu = !showFeatureMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/chart-bar -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -70,7 +70,7 @@ let showResponseMenu = ref(true);
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/tax" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/tax" @click="showFeatureMenu = !showFeatureMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/cursor-click -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -84,7 +84,7 @@ let showResponseMenu = ref(true);
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/workflows" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/workflows" @click="showFeatureMenu = !showFeatureMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -96,7 +96,7 @@ let showResponseMenu = ref(true);
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/integrations" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/integrations" @click="showFeatureMenu = !showFeatureMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/view-grid -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -109,7 +109,7 @@ let showResponseMenu = ref(true);
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/subscriptions" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/subscriptions" @click="showFeatureMenu = !showFeatureMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/refresh -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -122,7 +122,7 @@ let showResponseMenu = ref(true);
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/reports" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/reports" @click="showFeatureMenu = !showFeatureMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/document-report -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">

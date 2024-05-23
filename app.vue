@@ -3,7 +3,9 @@
 
     <TopMenu />
 
-    <NuxtLayout />
+    <div class="container">
+
+    </div>
     <NuxtPage />
 
 
