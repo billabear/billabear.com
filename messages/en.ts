@@ -49,6 +49,21 @@ let ENGLISH_TRANSLATIONS = {
                 title: "Workflows",
                 description: "Ability to create workflows that trigger actions for billing events",
             }
+        },
+        faq: {
+            title: "Frequently asked questions",
+            question_one: {
+                title: "Can I self-host BillaBear for free?",
+                description: "Yes! BillaBear is available on GitHub and you can use it for free! It's easy to deploy on DigitalOcean and using docker-compose."
+            },
+            question_two: {
+                title: "Can I get database exports from the cloud hosted version?",
+                description: "Yes! Paying customers will be entitled to ask for database exports."
+            },
+            question_three: {
+                title: "How much control do I have over emails?",
+                description: "BillaBear integrates with multiple email service providers and allows you to use their template system or BillaBear's."
+            }
         }
     },
     templates: {
