@@ -70,6 +70,35 @@ let ENGLISH_TRANSLATIONS = {
         browser_title: "BillaBear - Control Your Branding",
         title: "Brand all your communications"
     },
+    pricing: {
+        browser_title: "BillaBear - Pricing",
+        title: "Pricing",
+        description: "The right price for you, whoever you are",
+        sub_description: "Professional level integration with Stripe without the cost",
+        features: {
+            tax_reports: "Tax Reports",
+            slack_integrations: "Slack Integration",
+            mass_subscription_management: "Mass Subscription Management",
+            workflow_management: "Workflow Management",
+        },
+        free: {
+            title: "Starter",
+            cost: "5%",
+            cost_extra: "of all transactions",
+            description: "All the features with no upfront fee"
+        },
+        professional: {
+            title: "Professional",
+            cost: "$150",
+            cost_extra: "/mo",
+            description: "All the features at a set monthly fee."
+        },
+        support: {
+            title: "Self-hosted Support",
+            description: "Get all the support you could need for your self-hosted version of BillaBear.",
+            button: "Contact Us"
+        }
+    },
     menu: {
         home: "Home",
         features: {
