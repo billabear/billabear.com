@@ -7,7 +7,7 @@ let ENGLISH_TRANSLATIONS = {
         hero: {
             line_one: "Cover the gaps in Stripe Billing",
             line_two: "Full control without dev-work",
-            line_three: "Control how your handle Taxes",
+            line_three: "Control how you handle Taxes",
             description: "A powerful Subscription and Billing that cover the gaps that Stripe Billing has.",
         },
         social_proof: {

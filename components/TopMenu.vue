@@ -2,7 +2,7 @@
 
 let showFeatureMenu = ref(false);
 let showMoreMenu = ref(false);
-let showResponseMenu = ref(true);
+let showResponseMenu = ref(false);
 </script>
 
 <template>
@@ -25,7 +25,7 @@ let showResponseMenu = ref(true);
 
         </button>
       </div>
-      <nav class="hidden md:flex space-x-10">
+      <nav class="hidden md:flex space-x-10 z-50">
         <div class="relative">
           <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
           <button type="button"
@@ -166,7 +166,7 @@ let showResponseMenu = ref(true);
               From: "opacity-100 translate-y-0"
               To: "opacity-0 translate-y-1"
           -->
-          <div class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0" v-if="showMoreMenu">
+          <div class="absolute z-50 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-xs sm:px-0" v-if="showMoreMenu">
             <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                 <a href="https://github.com/billabear/billabear" target="_blank" class="-m-3 p-3 block rounded-md hover:bg-gray-50">
@@ -199,7 +199,7 @@ let showResponseMenu = ref(true);
         From: "opacity-100 scale-100"
         To: "opacity-0 scale-95"
     -->
-    <div class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden" v-if="showResponseMenu">
+    <div class="absolute top-0 z-50 inset-x-0 p-2 transition transform origin-top-right md:hidden" v-if="showResponseMenu">
       <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
         <div class="pt-5 pb-6 px-5">
           <div class="flex items-center justify-between">
