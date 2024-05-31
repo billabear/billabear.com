@@ -3,16 +3,52 @@ let ENGLISH_TRANSLATIONS = {
         logo_alt: "BillaBear"
     },
     index: {
-        browser_title: "BillaBear - Level up your Stripe billing",
+        browser_title: "BillaBear - Level up your Stripe Billing",
         hero: {
-            line_one: "Level up how you bill via Stripe",
-            line_two: "Handle custom deals with ease",
+            line_one: "Cover the gaps in Stripe Billing",
+            line_two: "Full control without dev-work",
             line_three: "Control how your handle Taxes",
             description: "A powerful Subscription and Billing that cover the gaps that Stripe Billing has.",
+        },
+        features: {
+            title: "Built to go to Scale from years of experience",
+            description: "Be in complete control while being able to avoid vendor lock-in.",
+            brands: {
+                title: "Unlimited Brands",
+                description: "One billing system that allows you to sell from multiple brands"
+            },
+            team: {
+                title: "Manage Your Team",
+                description: "With a powerful permission system you can be in control over your teams.",
+            },
+            tax: {
+                title: "Manage Your Tax",
+                description: "Have your tax calculations based on the economic thresholds.",
+            },
+            templates: {
+                title: "Control Your Branding",
+                description: "Be in complete control over PDFs and email templates.",
+            },
+            reports: {
+                title: "LTV Reports",
+                description: "With advance reports you can see LTV for cohort groups",
+            },
+            quotes: {
+                title: "Quotes",
+                description: "Create quotes for potential customers that allows them to buy instantly.",
+            },
+            invoices: {
+                title: "Invoices Or Card",
+                description: "Bill customers via invoices or by charging their cards",
+            },
+            workflows: {
+                title: "Workflows",
+                description: "Ability to create workflows that trigger actions for billing events",
+            }
         }
     },
     templates: {
-        browser_title: "BillaBear - Templates",
+        browser_title: "BillaBear - Control Your Branding",
         title: "Brand all your communications"
     },
     menu: {

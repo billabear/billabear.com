@@ -7,9 +7,7 @@ useHead({
 </script>
 
 <template>
-  <div>
-    <h1>{{ $t('templates.title') }}</h1>
-  </div>
+  <div>fdsfd</div>
 </template>
 
 <style scoped>
