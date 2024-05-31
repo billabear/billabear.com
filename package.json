@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "node .output/server/index.mjs"
   },
   "dependencies": {
     "@nuxtjs/i18n": "^8.3.1",
@@ -23,5 +24,8 @@
   },
   "resolutions": {
     "jackspeak": "2.1.1"
+  },
+  "engines": {
+    "node": "16.x"
   }
 }
