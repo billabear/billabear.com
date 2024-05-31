@@ -10,6 +10,10 @@ let ENGLISH_TRANSLATIONS = {
             line_three: "Control how your handle Taxes",
             description: "A powerful Subscription and Billing that cover the gaps that Stripe Billing has.",
         },
+        social_proof: {
+            title: "Over 420 Github stars and counting",
+            description: "With stars from developers from:"
+        },
         features: {
             title: "Built to go to Scale from years of experience",
             description: "Be in complete control while being able to avoid vendor lock-in.",
