@@ -4,6 +4,41 @@ let showFeatureMenu = ref(false);
 let showDepartmentMenu = ref(false);
 let showMoreMenu = ref(false);
 let showResponseMenu = ref(false);
+
+function hideMenus() {
+  showFeatureMenu.value = false;
+  showMoreMenu.value = false;
+  showResponseMenu.value = false;
+  showDepartmentMenu.value = false;
+}
+
+function featureMenu() {
+  showFeatureMenu.value = !showFeatureMenu.value;
+  showMoreMenu.value = false;
+  showResponseMenu.value = false;
+  showDepartmentMenu.value = false;
+}
+
+function moreMenu() {
+  showFeatureMenu.value = false;
+  showMoreMenu.value = !showMoreMenu.value;
+  showResponseMenu.value = false;
+  showDepartmentMenu.value = false;
+}
+
+function departmentMenu() {
+  showFeatureMenu.value = false;
+  showMoreMenu.value = false;
+  showResponseMenu.value = false;
+  showDepartmentMenu.value = !showDepartmentMenu.value;;
+}
+
+function responseMenu() {
+  showFeatureMenu.value = false;
+  showMoreMenu.value = false;
+  showResponseMenu.value = !showResponseMenu.value;
+  showDepartmentMenu.value = false;
+}
 </script>
 
 <template>
@@ -16,7 +51,7 @@ let showResponseMenu = ref(false);
         </NuxtLink>
       </div>
       <div class="-mr-2 -my-2 md:hidden">
-        <button @click="showResponseMenu = !showResponseMenu" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+        <button @click="responseMenu" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                 aria-expanded="false">
           <span class="sr-only">{{ $t('menu.open_menu') }}</span>
           <!-- Heroicon name: outline/menu -->
@@ -32,7 +67,7 @@ let showResponseMenu = ref(false);
           <button type="button"
                   class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   aria-expanded="true"
-                  aria-controls="feature_menu"  @click="showFeatureMenu = !showFeatureMenu">
+                  aria-controls="feature_menu"  @click="featureMenu">
             <span>{{ $t('menu.features.title') }}</span>
             <!--
               Heroicon name: solid/chevron-down
@@ -57,7 +92,7 @@ let showResponseMenu = ref(false);
           <div class="absolute z-50 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2" id="feature_menu" v-if="showFeatureMenu">
             <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
-                <NuxtLink to="/branding" @click="showFeatureMenu = !showFeatureMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/branding" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/chart-bar -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -71,7 +106,7 @@ let showResponseMenu = ref(false);
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/tax" @click="showFeatureMenu = !showFeatureMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/tax" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/cursor-click -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -85,7 +120,7 @@ let showResponseMenu = ref(false);
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/workflows" @click="showFeatureMenu = !showFeatureMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/workflows" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -97,7 +132,7 @@ let showResponseMenu = ref(false);
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/integrations" @click="showFeatureMenu = !showFeatureMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/integrations" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/view-grid -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -110,7 +145,7 @@ let showResponseMenu = ref(false);
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/subscriptions" @click="showFeatureMenu = !showFeatureMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/subscriptions" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/refresh -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -123,7 +158,7 @@ let showResponseMenu = ref(false);
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/reports" @click="showFeatureMenu = !showFeatureMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/reports" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/document-report -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -145,7 +180,7 @@ let showResponseMenu = ref(false);
           <button type="button"
                   class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   aria-expanded="true"
-                  aria-controls="department_menu"  @click="showDepartmentMenu = !showDepartmentMenu">
+                  aria-controls="department_menu"  @click="departmentMenu">
             <span>{{ $t('menu.departments.title') }}</span>
 
             <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -157,7 +192,7 @@ let showResponseMenu = ref(false);
               <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
 
 
-                <NuxtLink to="/department/finance" @click="showDepartmentMenu = !showDepartmentMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/department/finance" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/chart-bar -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -170,7 +205,7 @@ let showResponseMenu = ref(false);
                     <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.finance.description') }}</p>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/department/tech" @click="showDepartmentMenu = !showDepartmentMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/department/tech" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/chart-bar -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -183,7 +218,7 @@ let showResponseMenu = ref(false);
                     <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.tech.description') }}</p>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/department/customer-support" @click="showDepartmentMenu = !showDepartmentMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/department/customer-support" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/chart-bar -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -196,7 +231,7 @@ let showResponseMenu = ref(false);
                     <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.customer_support.description') }}</p>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/department/sales" @click="showDepartmentMenu = !showDepartmentMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/department/sales" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/chart-bar -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -208,7 +243,7 @@ let showResponseMenu = ref(false);
                     <p class="text-base font-medium text-gray-900">{{ $t('menu.departments.sales.title') }}</p>
                     <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.sales.description') }}</p>
                   </div>
-                </NuxtLink><NuxtLink to="/department/marketing" @click="showDepartmentMenu = !showDepartmentMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                </NuxtLink><NuxtLink to="/department/marketing" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                   <!-- Heroicon name: outline/chart-bar -->
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -231,7 +266,7 @@ let showResponseMenu = ref(false);
 
         <div class="relative">
           <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
-          <button type="button" @click="showMoreMenu = !showMoreMenu" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
+          <button type="button" @click="moreMenu" class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" aria-expanded="false">
             <span>{{ $t('menu.more.title') }}</span>
             <!--
               Heroicon name: solid/chevron-down
