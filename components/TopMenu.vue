@@ -1,6 +1,7 @@
 <script setup lang="ts">
 
 let showFeatureMenu = ref(false);
+let showDepartmentMenu = ref(false);
 let showMoreMenu = ref(false);
 let showResponseMenu = ref(false);
 </script>
@@ -15,7 +16,7 @@ let showResponseMenu = ref(false);
         </NuxtLink>
       </div>
       <div class="-mr-2 -my-2 md:hidden">
-        <button @click="showResponseMenu = !showResponsMenu" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+        <button @click="showResponseMenu = !showResponseMenu" type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                 aria-expanded="false">
           <span class="sr-only">{{ $t('menu.open_menu') }}</span>
           <!-- Heroicon name: outline/menu -->
@@ -139,6 +140,92 @@ let showResponseMenu = ref(false);
           </div>
         </div>
 
+        <div class="relative">
+          <!-- Item active: "text-gray-900", Item inactive: "text-gray-500" -->
+          <button type="button"
+                  class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  aria-expanded="true"
+                  aria-controls="department_menu"  @click="showDepartmentMenu = !showDepartmentMenu">
+            <span>{{ $t('menu.departments.title') }}</span>
+
+            <svg class="text-gray-400 ml-2 h-5 w-5 group-hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </button>
+          <div class="absolute z-50 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2" id="feature_menu" v-if="showDepartmentMenu">
+            <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
+              <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
+
+
+                <NuxtLink to="/department/finance" @click="showDepartmentMenu = !showDepartmentMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                  <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                    <!-- Heroicon name: outline/chart-bar -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+                    </svg>
+
+                  </div>
+                  <div class="ml-4">
+                    <p class="text-base font-medium text-gray-900">{{ $t('menu.departments.finance.title') }}</p>
+                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.finance.description') }}</p>
+                  </div>
+                </NuxtLink>
+                <NuxtLink to="/department/tech" @click="showDepartmentMenu = !showDepartmentMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                  <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                    <!-- Heroicon name: outline/chart-bar -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+                    </svg>
+
+                  </div>
+                  <div class="ml-4">
+                    <p class="text-base font-medium text-gray-900">{{ $t('menu.departments.tech.title') }}</p>
+                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.tech.description') }}</p>
+                  </div>
+                </NuxtLink>
+                <NuxtLink to="/department/customer-support" @click="showDepartmentMenu = !showDepartmentMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                  <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                    <!-- Heroicon name: outline/chart-bar -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+                    </svg>
+
+                  </div>
+                  <div class="ml-4">
+                    <p class="text-base font-medium text-gray-900">{{ $t('menu.departments.customer_support.title') }}</p>
+                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.customer_support.description') }}</p>
+                  </div>
+                </NuxtLink>
+                <NuxtLink to="/department/sales" @click="showDepartmentMenu = !showDepartmentMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                  <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                    <!-- Heroicon name: outline/chart-bar -->
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+                    </svg>
+
+                  </div>
+                  <div class="ml-4">
+                    <p class="text-base font-medium text-gray-900">{{ $t('menu.departments.sales.title') }}</p>
+                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.sales.description') }}</p>
+                  </div>
+                </NuxtLink><NuxtLink to="/department/marketing" @click="showDepartmentMenu = !showDepartmentMenu" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
+                  <!-- Heroicon name: outline/chart-bar -->
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10" />
+                  </svg>
+
+                </div>
+                <div class="ml-4">
+                  <p class="text-base font-medium text-gray-900">{{ $t('menu.departments.marketing.title') }}</p>
+                  <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.marketing.description') }}</p>
+                </div>
+              </NuxtLink>
+              </div>
+            </div>
+          </div>
+
+        </div>
         <NuxtLink to="/pricing" class="text-base font-medium text-gray-500 hover:text-gray-900"> {{ $t('menu.pricing') }} </NuxtLink>
         <a href="https://docs.billabear.com" target="_blank" class="text-base font-medium text-gray-500 hover:text-gray-900"> {{ $t('menu.docs') }} </a>
 
