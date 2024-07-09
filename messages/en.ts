@@ -179,7 +179,8 @@ let ENGLISH_TRANSLATIONS = {
         doc_templates: {
             title: "Control Your Document Templates",
             paragraph: "From quotes to invoices, you control how your documents are presented. Using the powerful Twig templating language you're able to ensure your template looks how you want it. And with a choice of PDF renders from wkhtmltopdf to Docraptor integration you can ensure that the PDF is generated how you need it to be.",
-            cta_button: "Start Free Trial"
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of PDF template edit page"
         }
     }
 }
