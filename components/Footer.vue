@@ -115,8 +115,13 @@
             </ul>
           </div>
           <div class="mt-12 md:mt-0">
-            <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
+            <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">{{ $t('footer.legal.title') }}</h3>
             <ul role="list" class="mt-4 space-y-4">
+              <li>
+                <NuxtLink to="/legal/terms-of-sale" class="text-base text-gray-500 hover:text-gray-900">
+                  {{ $t('footer.legal.terms_of_sale') }}
+                </NuxtLink>
+              </li>
               <li>
                 <NuxtLink to="/legal/terms-of-use" class="text-base text-gray-500 hover:text-gray-900">
                   {{ $t('footer.legal.terms_of_use') }}

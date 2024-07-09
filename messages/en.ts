@@ -121,6 +121,7 @@ let ENGLISH_TRANSLATIONS = {
             title: "Legal",
             privacy_policy: "Privacy Policy",
             terms_of_use: "Terms Of Use",
+            terms_of_sale: "Terms Of Sale",
         }
     }
 }
