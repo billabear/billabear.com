@@ -119,7 +119,8 @@ let ENGLISH_TRANSLATIONS = {
     footer: {
         legal: {
             title: "Legal",
-            privacy_policy: "Privacy Policy"
+            privacy_policy: "Privacy Policy",
+            terms_of_use: "Terms Of Use",
         }
     }
 }

@@ -118,7 +118,9 @@
             <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">Legal</h3>
             <ul role="list" class="mt-4 space-y-4">
               <li>
-                <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Claim </a>
+                <NuxtLink to="/legal/terms-of-use" class="text-base text-gray-500 hover:text-gray-900">
+                  {{ $t('footer.legal.terms_of_use') }}
+                </NuxtLink>
               </li>
 
               <li>
