@@ -3,10 +3,10 @@ let ENGLISH_TRANSLATIONS = {
         logo_alt: "BillaBear"
     },
     index: {
-        browser_title: "BillaBear - Level up your Stripe Billing",
+        browser_title: "BillaBear - Take Control Of Your Billing",
         hero: {
             header: {
-                line_one: "Take control of your",
+                line_one: "Take Control Of Your",
                 line_two: "Billing",
             },
             paragraph: "With deep integration with Stripe, a power tax system, automated workflow processes, and lots more you'll have complete control",
