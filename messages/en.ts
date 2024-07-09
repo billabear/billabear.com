@@ -175,6 +175,11 @@ let ENGLISH_TRANSLATIONS = {
             browser_title: "BillaBear - Privacy Policy",
         }
     },
+    pages: {
+        workflow: {
+            browser_title: "BillaBear - Workflows to ensure that everything is done in order"
+        }
+    },
     features: {
         doc_templates: {
             title: "Control Your Documents Look",
@@ -190,6 +195,13 @@ let ENGLISH_TRANSLATIONS = {
             line_four: "Choose which emails are sent on a per-brand basis.",
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of Email template list page"
+        },
+        workflow_list: {
+            title: "Ensure important tasks are done",
+            paragraph: "With Workflows, you're able to ensure important billing and subscription processes are completed fully. No more, finding out a subscription cancellation didn't go through a month later when the customer complains they got rebilled.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of workflow list page"
+
         }
     }
 }

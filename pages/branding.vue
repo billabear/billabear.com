@@ -14,11 +14,9 @@ useHead({
 
     <div class="relative pt-16 pb-32 overflow-hidden">
       <div class="relative">
-
         <DocTemplates />
       </div>
       <div class="mt-24">
-
         <EmailTemplates />
       </div>
     </div>
