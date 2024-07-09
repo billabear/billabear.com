@@ -177,10 +177,19 @@ let ENGLISH_TRANSLATIONS = {
     },
     features: {
         doc_templates: {
-            title: "Control Your Document Templates",
+            title: "Control Your Documents Look",
             paragraph: "From quotes to invoices, you control how your documents are presented. Using the powerful Twig templating language you're able to ensure your template looks how you want it. And with a choice of PDF renders from wkhtmltopdf to Docraptor integration you can ensure that the PDF is generated how you need it to be.",
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of PDF template edit page"
+        },
+        email_templates: {
+            title: "Control Your Emails",
+            line_one: "With integrations with SendGrid, MailGun, Postmark, etc you can choose how your email is delivered.",
+            line_two: "You have complete control over templates from using the Twig templating language or Email Providers' templating systems.",
+            line_three: "With email templates connected to a brand, you can ensure each brand is correctly displayed.",
+            line_four: "Choose which emails are sent on a per-brand basis.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of Email template list page"
         }
     }
 }
