@@ -134,8 +134,11 @@
                 </NuxtLink>
               </li>
 
+
               <li>
-                <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Terms </a>
+                <NuxtLink to="/legal/data-processing-agreement-dpa" class="text-base text-gray-500 hover:text-gray-900">
+                  {{ $t('footer.legal.data_processing_agreement') }}
+                </NuxtLink>
               </li>
             </ul>
           </div>

@@ -313,9 +313,9 @@
           <p>
             8. The price of the goods:
             <br/>
-            (a). is in pounds sterling (&#163;)(GBP);
+            (a). is in pounds sterling (&#163;)(GBP) or US Dollars (&dollar;)(USD)
             <br/>
-            (b). includes VAT at the applicable rate; and<br/>
+            (b). excludes VAT at the applicable rate; and<br/>
             (c). does not include the cost of: <br/>
             I. delivering the goods (delivery options and costs will be provided before
             you place your order); or<<br/>
