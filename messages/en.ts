@@ -73,7 +73,7 @@ let ENGLISH_TRANSLATIONS = {
         },
         professional: {
             title: "Professional",
-            cost: "$150",
+            cost: "$250",
             cost_extra: "/mo",
             description: "All the features at a set monthly fee."
         },
@@ -173,6 +173,13 @@ let ENGLISH_TRANSLATIONS = {
         },
         privacy_policy: {
             browser_title: "BillaBear - Privacy Policy",
+        }
+    },
+    features: {
+        doc_templates: {
+            title: "Control Your Document Templates",
+            paragraph: "From quotes to invoices, you control how your documents are presented. Using the powerful Twig templating language you're able to ensure your template looks how you want it. And with a choice of PDF renders from wkhtmltopdf to Docraptor integration you can ensure that the PDF is generated how you need it to be.",
+            cta_button: "Start Free Trial"
         }
     }
 }
