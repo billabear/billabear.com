@@ -13,6 +13,42 @@ let ENGLISH_TRANSLATIONS = {
             get_demo: "Get Demo",
             start_trial: "Start Free Trial"
         },
+        features: {
+            title: "Built to go to Scale from years of experience",
+            description: "Be in complete control while being able to avoid vendor lock-in.",
+            brands: {
+                title: "Unlimited Brands",
+                description: "One billing system that allows you to sell from multiple brands"
+            },
+            team: {
+                title: "Manage Your Team",
+                description: "With a powerful permission system you can be in control over your teams.",
+            },
+            tax: {
+                title: "Manage Your Tax",
+                description: "Have your tax calculations based on the economic thresholds.",
+            },
+            templates: {
+                title: "Control Your Branding",
+                description: "Be in complete control over PDFs and email templates.",
+            },
+            reports: {
+                title: "LTV Reports",
+                description: "With advance reports you can see LTV for cohort groups",
+            },
+            quotes: {
+                title: "Quotes",
+                description: "Create quotes for potential customers that allows them to buy instantly.",
+            },
+            invoices: {
+                title: "Invoices Or Card",
+                description: "Bill customers via invoices or by charging their cards",
+            },
+            workflows: {
+                title: "Workflows",
+                description: "Ability to create workflows that trigger actions for billing events",
+            }
+        },
     },
     templates: {
         browser_title: "BillaBear - Control Your Branding",
