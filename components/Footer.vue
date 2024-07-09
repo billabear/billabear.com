@@ -146,7 +146,7 @@
       </div>
     </div>
     <div class="mt-12 border-t border-gray-200 py-8">
-      <p class="text-base text-gray-400 xl:text-center">&copy; 2020 Workflow, Inc. All rights reserved.</p>
+      <p class="text-base text-gray-400 xl:text-center">&copy; 2024 Humbly Arrogant Software Limited. All rights reserved.</p>
     </div>
   </div>
 </footer>

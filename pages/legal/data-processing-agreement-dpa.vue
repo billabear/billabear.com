@@ -143,12 +143,12 @@
   </section>
 </template>
 
-<script lang="ts">
-import {defineComponent} from 'vue'
+<script setup lang="ts">
 
-export default defineComponent({
-  name: "data-processing-agreement-dpa"
-})
+const { locale, setLocale, t } = useI18n()
+useHead({
+  title: t('legal.data_processing_agreement.browser_title'),
+});
 </script>
 
 <style scoped>

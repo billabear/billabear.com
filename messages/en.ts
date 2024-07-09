@@ -124,6 +124,11 @@ let ENGLISH_TRANSLATIONS = {
             terms_of_sale: "Terms Of Sale",
             data_processing_agreement: "Data Processing Agreement"
         }
+    },
+    legal: {
+        data_processing_agreement: {
+            browser_title: "BillaBear - Data Processing Agreement"
+        }
     }
 }
 export { ENGLISH_TRANSLATIONS }
