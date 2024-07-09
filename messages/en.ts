@@ -128,6 +128,15 @@ let ENGLISH_TRANSLATIONS = {
     legal: {
         data_processing_agreement: {
             browser_title: "BillaBear - Data Processing Agreement"
+        },
+        terms_of_use: {
+            browser_title: "BillaBear - Terms Of Use"
+        },
+        terms_of_sale: {
+            browser_title: "BillaBear - Terms Of Sale"
+        },
+        privacy_policy: {
+            browser_title: "BillaBear - Privacy Policy",
         }
     }
 }

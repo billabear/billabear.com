@@ -95,12 +95,12 @@
   </section>
 </template>
 
-<script lang="ts">
-import {defineComponent} from 'vue'
 
-export default defineComponent({
-  name: "privacy-policy"
-})
+<script setup lang="ts">
+const { locale, setLocale, t } = useI18n()
+useHead({
+  title: t('legal.privacy_policy.browser_title'),
+});
 </script>
 
 <style scoped>

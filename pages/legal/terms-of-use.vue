@@ -222,12 +222,11 @@
   </section>
 </template>
 
-<script lang="ts">
-import {defineComponent} from 'vue'
-
-export default defineComponent({
-  name: "terms-of-use"
-})
+<script setup lang="ts">
+const { locale, setLocale, t } = useI18n()
+useHead({
+  title: t('legal.terms_of_use.browser_title'),
+});
 </script>
 
 <style scoped>
