@@ -115,6 +115,12 @@ let ENGLISH_TRANSLATIONS = {
         signup: "Signup",
         login: "Login",
         exist_customer: "Existing customer?"
+    },
+    footer: {
+        legal: {
+            title: "Legal",
+            privacy_policy: "Privacy Policy"
+        }
     }
 }
 export { ENGLISH_TRANSLATIONS }

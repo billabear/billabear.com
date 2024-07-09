@@ -122,7 +122,9 @@
               </li>
 
               <li>
-                <a href="#" class="text-base text-gray-500 hover:text-gray-900"> Privacy </a>
+                <NuxtLink to="/legal/privacy-policy" class="text-base text-gray-500 hover:text-gray-900">
+                  {{ $t('footer.legal.privacy_policy') }}
+                </NuxtLink>
               </li>
 
               <li>
