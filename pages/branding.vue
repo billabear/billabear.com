@@ -10,9 +10,18 @@ useHead({
 </script>
 
 <template>
-  <section class="mx-auto max-w-7xl lg:px-8 my-6">
-    <DocTemplates />
-    <EmailTemplates />
+  <section class="">
+
+    <div class="relative pt-16 pb-32 overflow-hidden">
+      <div class="relative">
+
+        <DocTemplates />
+      </div>
+      <div class="mt-24">
+
+        <EmailTemplates />
+      </div>
+    </div>
   </section>
 </template>
 
