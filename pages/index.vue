@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import DocTemplates from "~/components/features/Templates/DocTemplates.vue";
 import WorkflowOverall from "~/components/features/Workflow/WorkflowOverall.vue";
+import SubscriptionManagementOverall
+  from "~/components/features/SubscriptionManagement/SubscriptionManagementOverall.vue";
 const { locale, setLocale, t } = useI18n()
 useHead({
   title: t('index.browser_title'),
@@ -67,7 +69,7 @@ useHead({
         <WorkflowOverall />
       </div>
       <div class="mt-24">
-        <WorkflowOverall />
+        <SubscriptionManagementOverall />
       </div>
     </div>
 

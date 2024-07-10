@@ -225,6 +225,13 @@ let ENGLISH_TRANSLATIONS = {
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of workflow list page"
 
+        },
+        subscription_management_overall: {
+            title: "Manage Subscriptions With Ease",
+            paragraph: "Manage all aspects of your subscriptions. With the ability to create custom plans and prices on the fly, you're no longer constrained in how you support your customers.",
+            paragraph_two: "With the ability to easily change existing subscriptions, you'll be able to handle edge cases with a few clicks instead of requiring technical intervention.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of subscription overview page"
         }
     }
 }
