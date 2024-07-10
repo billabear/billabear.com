@@ -218,7 +218,11 @@ let ENGLISH_TRANSLATIONS = {
             browser_title: "BillaBear - Workflows to ensure that everything is done in order"
         },
         subscription_management: {
-            browser_title: "BillaBear - Manage subscriptions with ease"
+            browser_title: "BillaBear - Manage subscriptions with ease",
+            title: "Manage Subscriptions With Ease",
+            subtitle: "With a powerful and customisable subscription management system enable your teams to support your customers"
+            ,free_trial: "Start A Free Trial",
+            demo: "Book A Demo"
         },
     },
     features: {
