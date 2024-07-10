@@ -247,6 +247,13 @@ let ENGLISH_TRANSLATIONS = {
             paragraph_two: "With the ability to easily change existing subscriptions, you'll be able to handle edge cases with a few clicks instead of requiring technical intervention.",
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of subscription overview page"
+        },
+        subscription_mass_change: {
+            title: "Mass Changes To Your Subscription Plans",
+            paragraph: "Ensure you maximise your revenue with ease when you increase your prices. No need to plan and align with tech to apply a mass change to existing subscription to new prices or new plans. With a click of a few buttons you can select which subscriptions to change and see the potential change in revenue caused by the change.",
+            paragraph_two: "With the ability to export affected customers you'll be able to send an email blast to affected customers with ease.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of subscription mass change page"
         }
     }
 }
