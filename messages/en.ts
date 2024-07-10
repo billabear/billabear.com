@@ -274,6 +274,19 @@ let ENGLISH_TRANSLATIONS = {
             },
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of subscription overview page with cancel modal"
+        },
+        plan_creation: {
+            title: "Manage Plans With Ease",
+            paragraph: "With the ability to manage subscription plans via a GUI you're able to allow sales people to craft and sell custom subscription plans.",
+            manage: {
+                title: "Manage the following:",
+                trial_details: "Trial Details",
+                features: "Features",
+                limits: "Limits",
+                prices: "Prices"
+            },
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of subscription plan creation page"
         }
     }
 }
