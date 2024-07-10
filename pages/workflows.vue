@@ -1,6 +1,6 @@
 
 <script setup lang="ts">
-import WorkflowList from "~/components/features/WorkflowList.vue";
+import WorkflowList from "~/components/features/Workflow/WorkflowList.vue";
 
 const { locale, setLocale, t } = useI18n()
 useHead({

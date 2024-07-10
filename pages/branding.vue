@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
-import DocTemplates from "~/components/features/DocTemplates.vue";
-import EmailTemplates from "~/components/features/EmailTemplates.vue";
+import DocTemplates from "~/components/features/Templates/DocTemplates.vue";
+import EmailTemplates from "~/components/features/Templates/EmailTemplates.vue";
 
 const { locale, setLocale, t } = useI18n()
 useHead({

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import DocTemplates from "~/components/features/DocTemplates.vue";
+import DocTemplates from "~/components/features/Templates/DocTemplates.vue";
 const { locale, setLocale, t } = useI18n()
 useHead({
   title: t('index.browser_title'),
