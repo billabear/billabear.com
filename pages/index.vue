@@ -198,14 +198,13 @@ useHead({
 
     <!-- CTA Section -->
     <div class="bg-white">
-      <div class="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
-        <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+      <div class="max-w-4xl mx-auto pt-16 px-4 sm:px-6 sm:pt-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
+        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           <span class="block">{{ $t('index.last_cta.title') }}</span>
           <span class="-mb-1 pb-1 block bg-gradient-to-r from-cyan-600 to-teal-600 bg-clip-text text-transparent">{{ $t('index.last_cta.subtitle') }}</span>
         </h2>
         <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
           <a href="https://app.sessions.us/book/950e63e2-billabear---demo" class="flex items-center justify-center bg-gradient-to-r from-cyan-600 to-teal-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-cyan-700 hover:to-teal-700">{{ $t('index.last_cta.demo_cta') }}</a>
-          <a href="https://cloud.billabear.com" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-teal-800 bg-teal-50 hover:bg-teal-100">{{ $t('index.last_cta.free_trial_cta') }}</a>
         </div>
       </div>
     </div>
