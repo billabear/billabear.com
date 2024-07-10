@@ -1,6 +1,6 @@
 
 <script setup lang="ts">
-import WorkflowList from "~/components/features/Workflow/WorkflowList.vue";
+import WorkflowOverall from "~/components/features/Workflow/WorkflowOverall.vue";
 
 const { locale, setLocale, t } = useI18n()
 useHead({
@@ -14,7 +14,7 @@ useHead({
 
     <div class="relative pt-16 pb-32 overflow-hidden">
       <div class="relative">
-        <WorkflowList />
+        <WorkflowOverall />
       </div>
     </div>
   </section>
