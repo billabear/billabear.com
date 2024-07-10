@@ -208,30 +208,13 @@ useHead({
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
         <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
           <h2 class="text-sm font-semibold tracking-wide uppercase">
-            <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">Valuable Metrics</span>
+            <span class="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">{{  $t('index.self_hostable.title') }}</span>
           </h2>
-          <p class="mt-3 text-3xl font-extrabold text-white">Get actionable data that will help grow your business</p>
-          <p class="mt-5 text-lg text-gray-300">Rhoncus sagittis risus arcu erat lectus bibendum. Ut in adipiscing quis in viverra tristique sem. Ornare feugiat viverra eleifend fusce orci in quis amet. Sit in et vitae tortor, massa. Dapibus laoreet amet lacus nibh integer quis. Eu vulputate diam sit tellus quis at.</p>
-          <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
-            <p>
-              <span class="block text-2xl font-bold text-white">8K+</span>
-              <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Companies</span> use laoreet amet lacus nibh integer quis.</span>
-            </p>
+          <p class="mt-3 text-3xl font-extrabold text-white">{{  $t('index.self_hostable.subtitle') }}</p>
+          <p class="mt-5 text-lg text-gray-300">{{ $t('index.self_hostable.paragraph') }}</p>
 
-            <p>
-              <span class="block text-2xl font-bold text-white">25K+</span>
-              <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Countries around the globe</span> lacus nibh integer quis.</span>
-            </p>
-
-            <p>
-              <span class="block text-2xl font-bold text-white">98%</span>
-              <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Customer satisfaction</span> laoreet amet lacus nibh integer quis.</span>
-            </p>
-
-            <p>
-              <span class="block text-2xl font-bold text-white">12M+</span>
-              <span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Issues resolved</span> lacus nibh integer quis.</span>
-            </p>
+          <div class="mt-6">
+            <a href="https://github.com/billabear" target="_blank" class="inline-flex bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">{{ $t('index.self_hostable.cta_button') }}</a>
           </div>
         </div>
       </div>
@@ -241,12 +224,12 @@ useHead({
     <div class="bg-white">
       <div class="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
         <h2 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          <span class="block">Ready to get started?</span>
-          <span class="-mb-1 pb-1 block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">Get in touch or create an account.</span>
+          <span class="block">{{ $t('index.last_cta.title') }}</span>
+          <span class="-mb-1 pb-1 block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">{{ $t('index.last_cta.subtitle') }}</span>
         </h2>
         <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
-          <a href="#" class="flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"> Learn more </a>
-          <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100"> Get started </a>
+          <a href="https://app.sessions.us/book/950e63e2-billabear---demo" class="flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700">{{ $t('index.last_cta.demo_cta') }}</a>
+          <a href="https://cloud.billabear.com" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100">{{ $t('index.last_cta.free_trial_cta') }}</a>
         </div>
       </div>
     </div>

@@ -49,6 +49,18 @@ let ENGLISH_TRANSLATIONS = {
                 description: "Ability to create workflows that trigger actions for billing events",
             }
         },
+        self_hostable: {
+            title: "Self-Hostable",
+            subtitle: "Be in complete control and host BillaBear yourself!",
+            paragraph: "With the ability to self-host, you'll be able to be in complete control. From being able to allow your data teams to have complete access to be able to create custom functionality by extending BillaBear. You'll be free and in control of your BillaBear setup.",
+            cta_button: "Checkout GitHub"
+        },
+        last_cta: {
+            title: "Ready to take control?",
+            subtitle: "You can get started via a Free Trial or by booking a demo!",
+            demo_cta: "Book A Demo!",
+            free_trial_cta: "Start Your Free Trial"
+        }
     },
     templates: {
         browser_title: "BillaBear - Control Your Branding",
