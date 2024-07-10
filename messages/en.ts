@@ -13,6 +13,9 @@ let ENGLISH_TRANSLATIONS = {
             get_demo: "Get Demo",
             start_trial: "Start Free Trial"
         },
+        social_proof: {
+            title: "As seen on",
+        },
         features: {
             title: "Built to go to Scale from years of experience",
             description: "Be in complete control while being able to avoid vendor lock-in.",
