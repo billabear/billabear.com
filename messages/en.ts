@@ -257,6 +257,23 @@ let ENGLISH_TRANSLATIONS = {
             paragraph_two: "With the ability to export affected customers you'll be able to send an email blast to affected customers with ease.",
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of subscription mass change page"
+        },
+        subscription_cancel: {
+            title: "Extensive Cancel Options",
+            time: {
+                options: "Time Options",
+                current: "At the end of the current billing period",
+                instantly: "Instantly",
+                scheduled: "Scheduled for a specific date",
+            },
+            refund: {
+                options: "Refund Options",
+                full: "Full Refund",
+                prorata: "Prorata based on usage",
+                none: "No Refund"
+            },
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of subscription overview page with cancel modal"
         }
     }
 }

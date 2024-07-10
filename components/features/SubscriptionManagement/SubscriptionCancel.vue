@@ -13,9 +13,19 @@
         <div class="mt-6">
           <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">{{ $t('features.subscription_cancel.title') }}</h2>
           <p class="mt-4 text-lg text-gray-500">
-            {{ $t('features.subscription_cancel.paragraph') }}
-          </p><p class="mt-4 text-lg text-gray-500">
-          {{ $t('features.subscription_cancel.paragraph_two') }}
+            <h3 class="font-bold text-teal-600">{{ $t('features.subscription_cancel.time.options') }}</h3>
+            <ul class="list-disc">
+              <li class="p-1">{{ $t('features.subscription_cancel.time.instantly') }}</li>
+              <li class="p-1">{{ $t('features.subscription_cancel.time.current') }}</li>
+              <li class="p-1">{{ $t('features.subscription_cancel.time.scheduled') }}</li>
+            </ul>
+          </p>          <p class="mt-4 text-lg text-gray-500">
+          <h3 class="font-bold text-teal-600">{{ $t('features.subscription_cancel.refund.options') }}</h3>
+          <ul class="list-disc">
+            <li class="p-1">{{ $t('features.subscription_cancel.refund.full') }}</li>
+            <li class="p-1">{{ $t('features.subscription_cancel.refund.prorata') }}</li>
+            <li class="p-1">{{ $t('features.subscription_cancel.refund.none') }}</li>
+          </ul>
         </p>
           <div class="mt-6">
             <a href="https://cloud.billabear.com" target="_blank" class="inline-flex bg-gradient-to-r from-cyan-600 to-teal-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-cyan-700 hover:to-teal-700">{{ $t('features.subscription_cancel.cta_button') }}</a>
