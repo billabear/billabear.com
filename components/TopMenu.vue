@@ -68,7 +68,7 @@ function responseMenu() {
                   class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                   aria-expanded="true"
                   aria-controls="feature_menu"  @click="featureMenu">
-            <span>{{ $t('menu.features.title') }}</span>
+            <span>{{ $t('menu.solutions.title') }}</span>
             <!--
               Heroicon name: solid/chevron-down
 
@@ -92,7 +92,7 @@ function responseMenu() {
           <div class="absolute z-50 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2" id="feature_menu" v-if="showFeatureMenu">
             <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
-                <NuxtLink to="/branding" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/solutions/branding" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/chart-bar -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -101,12 +101,12 @@ function responseMenu() {
 
                   </div>
                   <div class="ml-4">
-                    <p class="text-base font-medium text-gray-900">{{ $t('menu.features.branding.title') }}</p>
-                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.features.branding.description') }}</p>
+                    <p class="text-base font-medium text-gray-900">{{ $t('menu.solutions.branding.title') }}</p>
+                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.solutions.branding.description') }}</p>
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/tax" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/solutions/tax" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/cursor-click -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -115,24 +115,24 @@ function responseMenu() {
 
                   </div>
                   <div class="ml-4">
-                    <p class="text-base font-medium text-gray-900">{{ $t('menu.features.tax.title') }}</p>
-                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.features.tax.description') }}</p>
+                    <p class="text-base font-medium text-gray-900">{{ $t('menu.solutions.tax.title') }}</p>
+                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.solutions.tax.description') }}</p>
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/workflows" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/solutions/workflows" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
                     </svg>
                   </div>
                   <div class="ml-4">
-                    <p class="text-base font-medium text-gray-900">{{ $t('menu.features.workflows.title') }}</p>
-                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.features.workflows.description') }}</p>
+                    <p class="text-base font-medium text-gray-900">{{ $t('menu.solutions.workflows.title') }}</p>
+                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.solutions.workflows.description') }}</p>
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/integrations" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/solutions/integrations" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/view-grid -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -140,12 +140,12 @@ function responseMenu() {
                     </svg>
                   </div>
                   <div class="ml-4">
-                    <p class="text-base font-medium text-gray-900">{{ $t('menu.features.integrations.title') }}</p>
-                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.features.integrations.description') }}</p>
+                    <p class="text-base font-medium text-gray-900">{{ $t('menu.solutions.integrations.title') }}</p>
+                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.solutions.integrations.description') }}</p>
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/subscriptions" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/solutions/subscription-management" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/refresh -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -153,12 +153,12 @@ function responseMenu() {
                     </svg>
                   </div>
                   <div class="ml-4">
-                    <p class="text-base font-medium text-gray-900">{{ $t('menu.features.subscription_management.title') }}</p>
-                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.features.subscription_management.description') }}</p>
+                    <p class="text-base font-medium text-gray-900">{{ $t('menu.solutions.subscription_management.title') }}</p>
+                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.solutions.subscription_management.description') }}</p>
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/reports" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink to="/solutions/reports" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/document-report -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -166,8 +166,8 @@ function responseMenu() {
                     </svg>
                   </div>
                   <div class="ml-4">
-                    <p class="text-base font-medium text-gray-900">{{ $t('menu.features.reports.title') }}</p>
-                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.features.reports.description') }}</p>
+                    <p class="text-base font-medium text-gray-900">{{ $t('menu.solutions.reports.title') }}</p>
+                    <p class="mt-1 text-sm text-gray-500">{{ $t('menu.solutions.reports.description') }}</p>
                   </div>
                 </NuxtLink>
               </div>

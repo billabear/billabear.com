@@ -85,8 +85,8 @@ let ENGLISH_TRANSLATIONS = {
     },
     menu: {
         home: "Home",
-        features: {
-            title: "Features",
+        solutions: {
+            title: "Solutions",
             branding: {
                 title: "Branding",
                 description: "Ensure your customers get a consistent branding"
@@ -153,6 +153,29 @@ let ENGLISH_TRANSLATIONS = {
         exist_customer: "Existing customer?"
     },
     footer: {
+        paragraph: "Giving you full control over your billing and subscriptions",
+        solutions:  {
+            title: "Solutions",
+            branding: "Branding",
+            tax: "Tax",
+            workflows: "Workflows",
+            subscription_management: "Subscription Management",
+            reports: "Reports"
+        },
+        support: {
+            title: "Support",
+            pricing: "Pricing",
+            documentation: "Documentation",
+            swagger_docs: "Swagger Docs",
+            github: "GitHub"
+        },
+        company: {
+            title: "Company",
+            about: "About",
+            blog: "Blog",
+            jobs: "Jobs",
+            imprint: "Imprint"
+        },
         legal: {
             title: "Legal",
             privacy_policy: "Privacy Policy",
