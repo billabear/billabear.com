@@ -216,7 +216,10 @@ let ENGLISH_TRANSLATIONS = {
     pages: {
         workflow: {
             browser_title: "BillaBear - Workflows to ensure that everything is done in order"
-        }
+        },
+        subscription_management: {
+            browser_title: "BillaBear - Manage subscriptions with ease"
+        },
     },
     features: {
         doc_templates: {

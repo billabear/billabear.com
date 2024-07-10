@@ -3,6 +3,11 @@
 import SubscriptionManagementOverall
   from "~/components/features/SubscriptionManagement/SubscriptionManagementOverall.vue";
 import SubscriptionMassChange from "~/components/features/SubscriptionManagement/SubscriptionMassChange.vue";
+
+const { locale, setLocale, t } = useI18n()
+useHead({
+  title: t('pages.subscription_management.browser_title'),
+});
 </script>
 
 <template>
