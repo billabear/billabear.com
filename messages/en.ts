@@ -313,7 +313,13 @@ let ENGLISH_TRANSLATIONS = {
             },
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of tax report page"
-
+        },
+        tax_rules: {
+            title: "Manage Your Taxes With Dynamic Rules",
+            paragraph_one: "With the ability to create tax rules via the UI you're able to quickly and easily control which tax rates are being applied.",
+            paragraph_two: "Tax laws don't change often but when they do they cause companies a lot of pain. With the ability to create new rules with validity dates you can be prepared for tax changes without a lot of drama and work.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of country overview page"
         }
     }
 }

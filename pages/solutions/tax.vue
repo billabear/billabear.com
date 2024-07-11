@@ -7,6 +7,7 @@ useHead({
 });
 
 import TaxReport from "~/components/features/Tax/TaxReport.vue";
+import TaxRules from "~/components/features/Tax/TaxRules.vue";
 </script>
 
 <template>
@@ -14,7 +15,7 @@ import TaxReport from "~/components/features/Tax/TaxReport.vue";
     <TaxOverall />
   </div>
   <div>
-    <!-- Tax Rules --->
+    <TaxRules />
   </div>
   <div class="mt-24">
     <TaxReport />
