@@ -5,6 +5,7 @@ import SubscriptionManagementOverall
 import SubscriptionMassChange from "~/components/features/SubscriptionManagement/SubscriptionMassChange.vue";
 import SubscriptionCancel from "~/components/features/SubscriptionManagement/SubscriptionCancel.vue";
 import SubscriptionPlanCreation from "~/components/features/SubscriptionManagement/SubscriptionPlanCreation.vue";
+import SubscriptionAddons from "~/components/features/SubscriptionManagement/SubscriptionAddons.vue";
 
 const { locale, setLocale, t } = useI18n()
 useHead({
@@ -39,6 +40,9 @@ useHead({
   </div>
   <div class="mt-24">
     <SubscriptionPlanCreation />
+  </div>
+  <div class="mt-24">
+    <SubscriptionAddons />
   </div>
   <div class="bg-white">
     <div class="max-w-4xl mx-auto pt-16 px-4 sm:px-6 sm:pt-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">

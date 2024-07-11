@@ -265,6 +265,12 @@ let ENGLISH_TRANSLATIONS = {
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of subscription mass change page"
         },
+        subscription_addons: {
+            title: "Upsell with Ease",
+            paragraph: "With the ability to create multiple subscriptions that all work together to define what a customer's abilities are, add-ons are just a matter of a few clicks.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of subscription create page"
+        },
         subscription_cancel: {
             title: "Extensive Cancel Options",
             time: {
