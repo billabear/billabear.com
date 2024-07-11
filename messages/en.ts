@@ -320,6 +320,12 @@ let ENGLISH_TRANSLATIONS = {
             paragraph_two: "Tax laws don't change often but when they do they cause companies a lot of pain. With the ability to create new rules with validity dates you can be prepared for tax changes without a lot of drama and work.",
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of country overview page"
+        },
+        tax_export: {
+            title: "Quick And Easy Exports",
+            paragraph_one: "Easily export your payment information with a click of a button. You'll be able to easily provide your finance experts with the data they need within minutes.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of tax export sample"
         }
     }
 }

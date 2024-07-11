@@ -8,6 +8,7 @@ useHead({
 
 import TaxReport from "~/components/features/Tax/TaxReport.vue";
 import TaxRules from "~/components/features/Tax/TaxRules.vue";
+import TaxExport from "~/components/features/Tax/TaxExport.vue";
 </script>
 
 <template>
@@ -19,6 +20,9 @@ import TaxRules from "~/components/features/Tax/TaxRules.vue";
   </div>
   <div class="mt-24">
     <TaxReport />
+  </div>
+  <div class="mt-24">
+    <TaxExport />
   </div>
 </template>
 
