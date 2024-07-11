@@ -308,7 +308,7 @@ let ENGLISH_TRANSLATIONS = {
                 per_customer: "Control the tax rate on a customer level",
                 per_product: "Control the tax rate on a product level",
                 per_country: "Control the tax rate on a country level",
-                per_state: "Control the tax rate on a state",
+                per_state: "Control the tax rate on a state level",
                 eu_rules: "Handle EU tax rules such as OSS and reverse charge."
             },
             cta_button: "Start Free Trial",
