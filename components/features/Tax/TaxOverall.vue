@@ -11,7 +11,7 @@
         <div class="mt-6">
           <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">{{ $t('features.tax_overall.title') }}</h2>
           <p class="mt-4 text-lg text-gray-500">{{ $t('features.tax_overall.paragraph') }}</p>
-          <ul class="list-disc mt-5">
+          <ul class="list-disc mt-4 text-lg text-gray-500">
             <li>{{ $t('features.tax_overall.features.per_customer') }}</li>
             <li>{{ $t('features.tax_overall.features.per_product') }}</li>
             <li>{{ $t('features.tax_overall.features.per_country') }}</li>
