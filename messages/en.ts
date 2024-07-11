@@ -224,6 +224,9 @@ let ENGLISH_TRANSLATIONS = {
             ,free_trial: "Start A Free Trial",
             demo: "Book A Demo"
         },
+        tax: {
+            browser_title: "BillaBear - Manage Your Taxes With Ease",
+        }
     },
     features: {
         doc_templates: {
@@ -291,6 +294,12 @@ let ENGLISH_TRANSLATIONS = {
             },
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of subscription plan creation page"
+        },
+        tax_report: {
+            title: "See Your Tax Collection At A Glance",
+            paragraph: "With a quick glance at the tax report map, you're able to see which countries you've collected taxes for and how much. See how close you are to reaching tax thresholds for countries with the threshold amount and the transacted amount listed out for each country where you've had a transaction from.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of tax report page"
         }
     }
 }
