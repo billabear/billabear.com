@@ -300,6 +300,20 @@ let ENGLISH_TRANSLATIONS = {
             paragraph: "With a quick glance at the tax report map, you're able to see which countries you've collected taxes for and how much. See how close you are to reaching tax thresholds for countries with the threshold amount and the transacted amount listed out for each country where you've had a transaction from.",
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of tax report page"
+        },
+        tax_overall: {
+            title: "Control How You Handle Taxes",
+            paragraph: "With a powerful tax system, you'll be able to control how you handle taxes on every level.",
+            features: {
+                per_customer: "Control the tax rate on a customer level",
+                per_product: "Control the tax rate on a product level",
+                per_country: "Control the tax rate on a country level",
+                per_state: "Control the tax rate on a state",
+                eu_rules: "Handle EU tax rules such as OSS and reverse charge."
+            },
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of tax report page"
+
         }
     }
 }

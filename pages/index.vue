@@ -3,6 +3,7 @@ import DocTemplates from "~/components/features/Templates/DocTemplates.vue";
 import WorkflowOverall from "~/components/features/Workflow/WorkflowOverall.vue";
 import SubscriptionManagementOverall
   from "~/components/features/SubscriptionManagement/SubscriptionManagementOverall.vue";
+import TaxOverall from "~/components/features/Tax/TaxOverall.vue";
 const { locale, setLocale, t } = useI18n()
 useHead({
   title: t('index.browser_title'),
@@ -42,7 +43,7 @@ useHead({
     <div class="relative pt-16 pb-32 overflow-hidden">
       <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"></div>
       <div class="relative">
-        <WorkflowOverall />
+        <TaxOverall />
       </div>
       <div class="mt-24">
         <SubscriptionManagementOverall />

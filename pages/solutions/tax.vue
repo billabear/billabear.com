@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import TaxOverall from "~/components/features/Tax/TaxOverall.vue";
+
 const { locale, setLocale, t } = useI18n()
 useHead({
   title: t('pages.tax.browser_title'),
@@ -9,7 +11,7 @@ import TaxReport from "~/components/features/Tax/TaxReport.vue";
 
 <template>
   <div>
-    <!-- Tax Overall -->
+    <TaxOverall />
   </div>
   <div>
     <!-- Tax Rules --->
