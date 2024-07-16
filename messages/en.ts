@@ -249,7 +249,12 @@ let ENGLISH_TRANSLATIONS = {
             paragraph: "With Workflows, you're able to ensure important billing and subscription processes are completed fully. No more, finding out a subscription cancellation didn't go through a month later when the customer complains they got rebilled.",
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of workflow list page"
-
+        },
+        edit_workflow: {
+            title: "Control Your Billing Workflows",
+            paragraph: "With the ability to create custom steps in your workflow from both a code point of view and from the webui you'll be able to ensure your billing and subscription workflows match how your business works.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of workflow list page"
         },
         subscription_management_overall: {
             title: "Manage Subscriptions With Ease",
