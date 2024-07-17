@@ -364,8 +364,13 @@ let ENGLISH_TRANSLATIONS = {
             paragraph: "With API integrations to SendGrid, MailGun, Postmark, etc you're able to use the templating system that they provide to give you complete control over how emails are sent.",
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of configuring email settings"
-        }
-
+        },
+        integrations_pdfs: {
+            title: "Control how your PDFS are displayed",
+            paragraph: "The look of PDFs can often depend on how you're generating them. Some PDF rendering tools support a lot more features than others. Some are missing features, some just don't work how you want. With the ability to choose the rendering tools, you control how your pdfs look.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of configuring pdf settings"
+        },
     }
 }
 export { ENGLISH_TRANSLATIONS }

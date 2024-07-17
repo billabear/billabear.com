@@ -3,6 +3,7 @@
 import IntegrationsOverall from "~/components/features/Integrations/IntegrationsOverall.vue";
 import IntegrationsSlack from "~/components/features/Integrations/IntegrationsSlack.vue";
 import IntegrationsEmail from "~/components/features/Integrations/IntegrationsEmail.vue";
+import IntegrationsPdf from "~/components/features/Integrations/IntegrationsPdf.vue";
 const { locale, setLocale, t } = useI18n()
 useHead({
   title: t('pages.integrations.browser_title'),
@@ -26,6 +27,9 @@ useHead({
   </div>
   <div class="mt-24">
     <IntegrationsSlack />
+  </div>
+  <div class="mt-24">
+    <IntegrationsPdf />
   </div>
 </template>
 
