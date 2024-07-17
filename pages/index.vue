@@ -1,9 +1,13 @@
 <script setup lang="ts">
-import DocTemplates from "~/components/features/Templates/DocTemplates.vue";
+import DocTemplates from "~/components/features/Branding/DocTemplates.vue";
 import WorkflowOverall from "~/components/features/Workflow/WorkflowOverall.vue";
 import SubscriptionManagementOverall
   from "~/components/features/SubscriptionManagement/SubscriptionManagementOverall.vue";
 import TaxOverall from "~/components/features/Tax/TaxOverall.vue";
+import ReportsOverall from "~/components/features/Reports/ReportsOverall.vue";
+import IntegrationsOverall from "~/components/features/Integrations/IntegrationsOverall.vue";
+import Branding from "~/pages/solutions/branding.vue";
+import BrandingOverall from "~/components/features/Branding/BrandingOverall.vue";
 const { locale, setLocale, t } = useI18n()
 useHead({
   title: t('index.browser_title'),
@@ -47,6 +51,18 @@ useHead({
       </div>
       <div class="mt-24">
         <SubscriptionManagementOverall />
+      </div>
+      <div class="mt-24">
+        <WorkflowOverall />
+      </div>
+      <div class="mt-24">
+        <IntegrationsOverall />
+      </div>
+      <div class="mt-24">
+        <BrandingOverall />
+      </div>
+      <div class="mt-24">
+        <ReportsOverall />
       </div>
     </div>
 

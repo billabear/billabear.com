@@ -227,13 +227,29 @@ let ENGLISH_TRANSLATIONS = {
         integrations: {
             browser_title: "BillaBear - Integrate Your Billing To Your Business",
             title: "Integrate Your Billing To Your Business",
-            subtitle: "With a powerful and customisable subscription management system enable your teams to support your customers",
+            subtitle: "Ensure your business is able to operate with the tools you already use.",
+        },
+        reports: {
+            browser_title: "BillaBear - Get Insights Into Your Business",
+            title: "Get Insights Into Your Business",
+            subtitle: "With powerful reports you'll be able to get deep insights.",
         },
         tax: {
             browser_title: "BillaBear - Manage Your Taxes With Ease",
         }
     },
     features: {
+        branding_overall: {
+            title: "Control Your Branding" ,
+            paragraph: "Billing can be an important area where your branding and how you're represented can be important.",
+            features: {
+                multiple_brands: "With the ability of having multiple brands you can have white-label resellers or different brands in different countries",
+                pdf_templates: "With the ability to have full control over PDF templates, you can ensure your receipts and invoices represent you correctly",
+                email_templates: "With the ability to have full control over email templates, you can ensure your email communications are tip-top."
+            },
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of PDF template edit page"
+        },
         doc_templates: {
             title: "Control Your Documents Look",
             paragraph: "From quotes to invoices, you control how your documents are presented. Using the powerful Twig templating language you're able to ensure your template looks how you want it. And with a choice of PDF renders from wkhtmltopdf to Docraptor integration you can ensure that the PDF is generated how you need it to be.",
@@ -370,6 +386,17 @@ let ENGLISH_TRANSLATIONS = {
             paragraph: "The look of PDFs can often depend on how you're generating them. Some PDF rendering tools support a lot more features than others. Some are missing features, some just don't work how you want. With the ability to choose the rendering tools, you control how your pdfs look.",
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of configuring pdf settings"
+        },
+        reports_overall: {
+            title: "Get Insights Into Your Business",
+            features: {
+                lifetime_value: "Find out the lifetime value of your subscription cohorts",
+                churn_reports: "Monitor your subscription churn",
+                subscription_reports: "See which subscriptions are the most popular",
+                tax_reports: "See where your company has collected tax"
+            },
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of lifetime value"
         },
     }
 }
