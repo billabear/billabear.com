@@ -16,12 +16,20 @@
   <div class="mt-24">
     <TaxOverall />
   </div>
+  <div class="mt-24">
+    <WorkflowEdit />
+  </div>
+  <div class="mt-24">
+    <SubscriptionMassChange />
+  </div>
 </template>
 
 <script setup lang="ts">
 import WorkflowOverall from "~/components/features/Workflow/WorkflowOverall.vue";
 import TaxOverall from "~/components/features/Tax/TaxOverall.vue";
 import IntegrationsOverall from "~/components/features/Integrations/IntegrationsOverall.vue";
+import SubscriptionMassChange from "~/components/features/SubscriptionManagement/SubscriptionMassChange.vue";
+import WorkflowEdit from "~/components/features/Workflow/WorkflowEdit.vue";
 
 const { locale, setLocale, t } = useI18n()
 useHead({

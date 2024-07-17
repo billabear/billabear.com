@@ -100,6 +100,7 @@ let ENGLISH_TRANSLATIONS = {
     },
     menu: {
         home: "Home",
+        open_menu: "Open Menu",
         solutions: {
             title: "Solutions",
             branding: {
@@ -262,6 +263,11 @@ let ENGLISH_TRANSLATIONS = {
             browser_title: "BillaBear - Support Your Customers",
             title: "Support Your Customers",
             subtitle: "With an easy to use UI you'll be able to focus on your customer's support needs.",
+        },
+        finance: {
+            browser_title: "BillaBear - Understand Your Finances",
+            title: "Understand Your Finances",
+            subtitle: "With interactive reports and a powerful tax system you'll be able to understand how your business is operating",
         }
     },
     features: {
