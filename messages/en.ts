@@ -252,6 +252,11 @@ let ENGLISH_TRANSLATIONS = {
             browser_title: "BillaBear - Let Your Tech Department Focus",
             title: "Let Your Tech Department Focus",
             subtitle: "You'll be able to allow other departments to do work without Tech intervention",
+        },
+        marketing: {
+            browser_title: "BillaBear - Control Your Branding",
+            title: "Control Your Branding",
+            subtitle: "You'll be able to have a lot of control over how your branding is implemented",
         }
     },
     features: {
