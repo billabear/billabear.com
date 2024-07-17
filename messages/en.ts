@@ -257,6 +257,11 @@ let ENGLISH_TRANSLATIONS = {
             browser_title: "BillaBear - Control Your Branding",
             title: "Control Your Branding",
             subtitle: "You'll be able to have a lot of control over how your branding is implemented",
+        },
+        customer_support: {
+            browser_title: "BillaBear - Support Your Customers",
+            title: "Support Your Customers",
+            subtitle: "With an easy to use UI you'll be able to focus on your customer's support needs.",
         }
     },
     features: {
