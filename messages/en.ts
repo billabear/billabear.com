@@ -268,6 +268,11 @@ let ENGLISH_TRANSLATIONS = {
             browser_title: "BillaBear - Understand Your Finances",
             title: "Understand Your Finances",
             subtitle: "With interactive reports and a powerful tax system you'll be able to understand how your business is operating",
+        },
+        sales: {
+            browser_title: "BillaBear - Just Worry About Closing",
+            title: "Just Worry About Closing",
+            subtitle: "With the powerful features of BillaBear you'll be able to focus on closing deals",
         }
     },
     features: {
@@ -430,6 +435,12 @@ let ENGLISH_TRANSLATIONS = {
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of lifetime value"
         },
+        quote_create: {
+            title: "Easily Create Quotes",
+            paragraph: "With the ability to create custom quotes for customers, you'll be able to give time-sensitive offers that create urgency to help close deals.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of configuring pdf settings"
+        }
     }
 }
 export { ENGLISH_TRANSLATIONS }

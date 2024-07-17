@@ -1,16 +1,34 @@
 <template>
-  <div>
-    sjfjd
+  <PageHero>
+    <template v-slot:title>
+      {{ $t('departments.sales.title') }}
+    </template>
+    <template v-slot:subtitle>
+      {{ $t('departments.sales.subtitle') }}
+    </template>
+  </PageHero>
+  <div class="mt-24">
+    <SubscriptionPlanCreation />
+  </div>
+  <div class="mt-24">
+    <SubscriptionAddons />
+  </div>
+  <div class="mt-24">
+    <QuoteCreate />
   </div>
 </template>
 
-<script lang="ts">
-import {defineComponent} from 'vue'
+<script setup lang="ts">
+import SubscriptionAddons from "~/components/features/SubscriptionManagement/SubscriptionAddons.vue";
+import SubscriptionPlanCreation from "~/components/features/SubscriptionManagement/SubscriptionPlanCreation.vue";
+import QuoteCreate from "~/components/features/Invoices/QuoteCreate.vue";
 
-export default defineComponent({
-  name: "sales"
-})
+const { locale, setLocale, t } = useI18n()
+useHead({
+  title: t('departments.sales.browser_title'),
+});
 </script>
+
 
 <style scoped>
 
