@@ -224,6 +224,11 @@ let ENGLISH_TRANSLATIONS = {
             free_trial: "Start A Free Trial",
             demo: "Book A Demo"
         },
+        branding: {
+            browser_title: "BillaBear - Control Your Branding",
+            title: "Control Your Branding",
+            subtitle: "Ensure your business is able to operate with the tools you already use.",
+        },
         integrations: {
             browser_title: "BillaBear - Integrate Your Billing To Your Business",
             title: "Integrate Your Billing To Your Business",

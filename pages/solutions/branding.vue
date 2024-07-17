@@ -2,6 +2,9 @@
 
 import DocTemplates from "~/components/features/Branding/DocTemplates.vue";
 import EmailTemplates from "~/components/features/Branding/EmailTemplates.vue";
+import SubscriptionManagementOverall
+  from "~/components/features/SubscriptionManagement/SubscriptionManagementOverall.vue";
+import BrandingOverall from "~/components/features/Branding/BrandingOverall.vue";
 
 const { locale, setLocale, t } = useI18n()
 useHead({
@@ -10,17 +13,25 @@ useHead({
 </script>
 
 <template>
-  <section class="">
-
+    <PageHero>
+      <template v-slot:title>
+        {{ $t('pages.branding.title') }}
+      </template>
+      <template v-slot:subtitle>
+        {{ $t('pages.branding.subtitle') }}
+      </template>
+    </PageHero>
     <div class="relative pt-16 pb-32 overflow-hidden">
-      <div class="relative">
-        <DocTemplates />
+      <div class="mt-24">
+        <BrandingOverall />
       </div>
       <div class="mt-24">
         <EmailTemplates />
       </div>
+      <div class="mt-24 relative">
+        <DocTemplates />
+      </div>
     </div>
-  </section>
 </template>
 
 <style scoped>

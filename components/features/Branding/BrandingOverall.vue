@@ -17,9 +17,9 @@
           </p>
           <p class="mt-4 text-lg text-gray-500">
             <ul class="list-disc">
-              <li>{{ $t('features.branding_overall.features.multiple_brands') }}</li>
-              <li>{{ $t('features.branding_overall.features.pdf_templates') }}</li>
-              <li>{{ $t('features.branding_overall.features.email_templates') }}</li>
+              <li class="p-1">{{ $t('features.branding_overall.features.multiple_brands') }}</li>
+              <li class="p-1">{{ $t('features.branding_overall.features.pdf_templates') }}</li>
+              <li class="p-1">{{ $t('features.branding_overall.features.email_templates') }}</li>
             </ul>
           </p>
           <div class="mt-6">
