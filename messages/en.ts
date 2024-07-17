@@ -247,6 +247,13 @@ let ENGLISH_TRANSLATIONS = {
             subtitle: "Control how taxes are applied",
         }
     },
+    departments: {
+        tech: {
+            browser_title: "BillaBear - Let Your Tech Department Focus",
+            title: "Let Your Tech Department Focus",
+            subtitle: "You'll be able to allow other departments to do work without Tech intervention",
+        }
+    },
     features: {
         branding_overall: {
             title: "Control Your Branding" ,
