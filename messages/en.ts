@@ -352,7 +352,13 @@ let ENGLISH_TRANSLATIONS = {
             },
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of tax export sample"
-        }
+        },
+        integrations_slack: {
+            title: "Get Notified Of Important Things You Care About",
+            paragraph: "With the ability to choose which events send a notification to Slack, control the notification template with variables from the event, and to which webhook you're in control of what and how you're notified of important events you care about.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of create slack notification"
+        },
     }
 }
 export { ENGLISH_TRANSLATIONS }
