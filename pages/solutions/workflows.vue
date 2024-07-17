@@ -11,9 +11,15 @@ useHead({
 
 
 <template>
-  <section class="">
-
-    <div class="relative pt-16 pb-32 overflow-hidden">
+  <PageHero>
+    <template v-slot:title>
+      {{ $t('pages.workflow.title') }}
+    </template>
+    <template v-slot:subtitle>
+      {{ $t('pages.workflow.subtitle') }}
+    </template>
+  </PageHero>
+    <div class="relative mt-24 overflow-hidden">
       <div class="relative">
         <WorkflowOverall />
       </div>
@@ -21,7 +27,6 @@ useHead({
         <WorkflowEdit />
       </div>
     </div>
-  </section>
 </template>
 
 <style scoped>

@@ -12,11 +12,11 @@
           <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">{{ $t('features.tax_overall.title') }}</h2>
           <p class="mt-4 text-lg text-gray-500">{{ $t('features.tax_overall.paragraph') }}</p>
           <ul class="list-disc mt-4 text-lg text-gray-500">
-            <li>{{ $t('features.tax_overall.features.per_customer') }}</li>
-            <li>{{ $t('features.tax_overall.features.per_product') }}</li>
-            <li>{{ $t('features.tax_overall.features.per_country') }}</li>
-            <li>{{ $t('features.tax_overall.features.per_state') }}</li>
-            <li>{{ $t('features.tax_overall.features.eu_rules') }}</li>
+            <li class="p-1">{{ $t('features.tax_overall.features.per_customer') }}</li>
+            <li class="p-1">{{ $t('features.tax_overall.features.per_product') }}</li>
+            <li class="p-1">{{ $t('features.tax_overall.features.per_country') }}</li>
+            <li class="p-1">{{ $t('features.tax_overall.features.per_state') }}</li>
+            <li class="p-1">{{ $t('features.tax_overall.features.eu_rules') }}</li>
           </ul>
           <div class="mt-6">
             <a href="https://cloud.billabear.com" target="_blank" class="inline-flex bg-gradient-to-r from-cyan-600 to-teal-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-cyan-700 hover:to-teal-700">{{ $t('features.tax_report.cta_button') }}</a>

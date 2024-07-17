@@ -12,10 +12,18 @@ import TaxExport from "~/components/features/Tax/TaxExport.vue";
 </script>
 
 <template>
-  <div>
+  <PageHero>
+    <template v-slot:title>
+      {{ $t('pages.tax.title') }}
+    </template>
+    <template v-slot:subtitle>
+      {{ $t('pages.tax.subtitle') }}
+    </template>
+  </PageHero>
+  <div class="mt-24">
     <TaxOverall />
   </div>
-  <div>
+  <div class="mt-24">
     <TaxRules />
   </div>
   <div class="mt-24">

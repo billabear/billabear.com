@@ -5,7 +5,7 @@
       <h1 class="text-center text-4xl text-white">
         <slot name="title"></slot>
       </h1>
-      <h2 class="text-2xl text-center mt-3 text-slate-800" >
+      <h2 class="text-2xl text-center mt-3 text-slate-300" >
         <slot name="subtitle"></slot>
       </h2>
       <div class="mt-12 text-center">

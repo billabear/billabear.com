@@ -215,7 +215,9 @@ let ENGLISH_TRANSLATIONS = {
     },
     pages: {
         workflow: {
-            browser_title: "BillaBear - Workflows to ensure that everything is done in order"
+            browser_title: "BillaBear - Workflows to ensure that everything is done in order",
+            title: "Workflows to ensure that everything is done in order",
+            subtitle: "Don't let intermittent failures delay important feature work",
         },
         subscription_management: {
             browser_title: "BillaBear - Manage subscriptions with ease",
@@ -241,6 +243,8 @@ let ENGLISH_TRANSLATIONS = {
         },
         tax: {
             browser_title: "BillaBear - Manage Your Taxes With Ease",
+            title: "Manage Your Taxes With Ease",
+            subtitle: "Control how taxes are applied",
         }
     },
     features: {
