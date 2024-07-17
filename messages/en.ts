@@ -220,9 +220,14 @@ let ENGLISH_TRANSLATIONS = {
         subscription_management: {
             browser_title: "BillaBear - Manage subscriptions with ease",
             title: "Manage Subscriptions With Ease",
-            subtitle: "With a powerful and customisable subscription management system enable your teams to support your customers"
-            ,free_trial: "Start A Free Trial",
+            subtitle: "With a powerful and customisable subscription management system enable your teams to support your customers",
+            free_trial: "Start A Free Trial",
             demo: "Book A Demo"
+        },
+        integrations: {
+            browser_title: "BillaBear - Integrate Your Billing To Your Business",
+            title: "Integrate Your Billing To Your Business",
+            subtitle: "With a powerful and customisable subscription management system enable your teams to support your customers",
         },
         tax: {
             browser_title: "BillaBear - Manage Your Taxes With Ease",
@@ -335,6 +340,16 @@ let ENGLISH_TRANSLATIONS = {
         tax_export: {
             title: "Quick And Easy Exports",
             paragraph_one: "Easily export your payment information with a click of a button. You'll be able to easily provide your finance experts with the data they need within minutes.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of tax export sample"
+        },
+        integrations_overall: {
+            title: "Integrate With Tools You Use",
+            features: {
+                slack: "Get notifications about the things you care about in Slack",
+                email_providers: "With API integrations with email providers such as SendGrid, Postmark, MailGun, etc.",
+                pdf_generators: "Choose how PDFs are generated so you're in control of how your pdfs look."
+            },
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of tax export sample"
         }
