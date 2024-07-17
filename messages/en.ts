@@ -359,6 +359,13 @@ let ENGLISH_TRANSLATIONS = {
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of create slack notification"
         },
+        integrations_emails: {
+            title: "Integrate With Your Email Service Provider",
+            paragraph: "With API integrations to SendGrid, MailGun, Postmark, etc you're able to use the templating system that they provide to give you complete control over how emails are sent.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of configuring email settings"
+        }
+
     }
 }
 export { ENGLISH_TRANSLATIONS }
