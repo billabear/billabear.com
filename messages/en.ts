@@ -135,7 +135,7 @@ let ENGLISH_TRANSLATIONS = {
             },
             tech: {
                 title: "Tech",
-                description: "Remove repetitive tasks"
+                description: "Remove repetitive tasks and focus on feature work."
             },
             sales: {
                 title: "Sales",

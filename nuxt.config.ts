@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      script: [{src: 'https://stats.ha-infra.xyz/info.js', async: true, defer: 'true', referrerpolicy: 'unsafe-url', 'data-domain': 'billabear.com'}],
+    }
+  },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   modules: [
