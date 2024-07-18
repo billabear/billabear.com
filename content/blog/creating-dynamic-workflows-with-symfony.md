@@ -2,7 +2,7 @@
 title: "Creating Dynamic Workflows With Symfony"
 slug: "creating-dynamic-workflows-with-symfony"
 date: 2024-01-18T01:56:07+02:00
-draft: false
+_draft: true
 author:
   display_name: Iain Cambridge
 meta:

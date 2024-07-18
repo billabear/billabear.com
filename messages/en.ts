@@ -74,6 +74,8 @@ let ENGLISH_TRANSLATIONS = {
         title: "Pricing",
         description: "The right price for you, whoever you are",
         sub_description: "Professional level integration with Stripe without the cost",
+        coming_soon: "Coming Soon",
+        get_started: "Get Started",
         features: {
             tax_reports: "Tax Reports",
             slack_integrations: "Slack Integration",
@@ -89,6 +91,12 @@ let ENGLISH_TRANSLATIONS = {
         professional: {
             title: "Professional",
             cost: "$250",
+            cost_extra: "/mo",
+            description: "All the features at a set monthly fee."
+        },
+        enterprise: {
+            title: "Enterprise",
+            cost: "$1000",
             cost_extra: "/mo",
             description: "All the features at a set monthly fee."
         },
