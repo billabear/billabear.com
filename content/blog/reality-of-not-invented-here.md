@@ -1,6 +1,6 @@
 ---
 title: "The Reality of Not Invented Here"
-slug: 'the-reality-of-not-invented-here'
+slug: "the-reality-of-not-invented-here"
 date: 2023-09-04T15:22:32+02:00
 draft: false
 author:

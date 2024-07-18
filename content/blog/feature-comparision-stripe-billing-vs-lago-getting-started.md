@@ -1,6 +1,6 @@
 ---
 title: "Feature Comparision: Stripe Billing Vs. Lago Billing - Getting Started"
-slug: 'feature-comparision-stripe-billing-vs-lago-getting-started'
+slug: "feature-comparision-stripe-billing-vs-lago-getting-started"
 date: 2023-09-15T15:22:32+02:00
 draft: false
 author:

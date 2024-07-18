@@ -8,12 +8,19 @@
       <h2 class="text-2xl text-center mt-3 text-slate-300" >
         <slot name="subtitle"></slot>
       </h2>
+      <p class="text-center text-white text-xl">Written by {{author}} on {{formattedDate  }}</p>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-
+import { defineProps } from 'vue'
+import moment from "moment";
+const props = defineProps({
+  date: String,
+  author: String
+})
+const formattedDate =moment(props.date).format('LL')
 </script>
 
 <style scoped>

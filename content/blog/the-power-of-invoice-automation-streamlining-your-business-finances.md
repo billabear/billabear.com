@@ -1,6 +1,6 @@
 ---
 title: "The Power of Invoice Automation: Streamlining Your Business Finances"
-slug: 'the-power-of-invoice-automation-streamlining-your-business-finances'
+slug: "the-power-of-invoice-automation-streamlining-your-business-finances"
 date: 2023-08-26T11:08:22+02:00
 draft: false
 author:

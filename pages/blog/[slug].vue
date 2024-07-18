@@ -1,5 +1,5 @@
 <template>
-  <BlogHero>
+  <BlogHero :author="article.author.display_name" :date="article.date">
 
     <template v-slot:title>
       {{ article.title }}

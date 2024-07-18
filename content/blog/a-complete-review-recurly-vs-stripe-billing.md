@@ -2,7 +2,7 @@
 title: "A Complete Review: Recurly vs. Stripe Billing"
 date: 2023-09-13T12:56:07+02:00
 draft: false
-slug: 'a-complete-review-recurly-vs-stripe-billing'
+slug: "a-complete-review-recurly-vs-stripe-billing"
 author:
   display_name: Mimi H.
 meta:
