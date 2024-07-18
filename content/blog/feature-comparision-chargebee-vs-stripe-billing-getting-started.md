@@ -1,5 +1,6 @@
 ---
 title: "Feature Comparision: ChargeBee Vs. Stripe Billing - Getting Started"
+slug: 'feature-comparision-chargebee-vs-stripe-billing-getting-started'
 date: 2023-09-14T15:22:32+02:00
 draft: false
 author:

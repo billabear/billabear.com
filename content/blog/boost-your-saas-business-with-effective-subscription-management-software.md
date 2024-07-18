@@ -1,5 +1,6 @@
 ---
 title: "Boost Your SaaS Business with Effective Subscription Management Software!"
+slug: 'boost-your-saas-business-with-effective-subscription-management-software'
 date: 2023-08-24T23:56:07+02:00
 draft: false
 author:

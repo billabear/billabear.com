@@ -1,5 +1,6 @@
 ---
 title: "Design Decision Separate Dtos"
+slug: 'design-decision-separate-dtos'
 date: 2023-08-28T11:04:50+02:00
 draft: false
 author:
