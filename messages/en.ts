@@ -424,6 +424,16 @@ let ENGLISH_TRANSLATIONS = {
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of configuring pdf settings"
         },
+        integrations_stripe: {
+            title: "Deep Integration With Stripe",
+            features: {
+                import: "Import all your Stripe Billing subscriptions with a click of a button",
+                disable: "Disable Stripe Billing with a click of a button and let BillaBear take over and save you money.",
+                webhook: "Register and deregister your webhook with ease"
+            },
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of configuring pdf settings"
+        },
         reports_overall: {
             title: "Get Insights Into Your Business",
             features: {

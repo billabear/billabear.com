@@ -8,6 +8,7 @@ import ReportsOverall from "~/components/features/Reports/ReportsOverall.vue";
 import IntegrationsOverall from "~/components/features/Integrations/IntegrationsOverall.vue";
 import Branding from "~/pages/solutions/branding.vue";
 import BrandingOverall from "~/components/features/Branding/BrandingOverall.vue";
+import IntegrationsStripe from "~/components/features/Integrations/IntegrationsStripe.vue";
 const { locale, setLocale, t } = useI18n()
 useHead({
   title: t('index.browser_title'),
@@ -63,6 +64,9 @@ useHead({
       </div>
       <div class="mt-24">
         <ReportsOverall />
+      </div>
+      <div class="mt-24">
+        <IntegrationsStripe />
       </div>
     </div>
 
