@@ -66,7 +66,7 @@
               </li>
 
               <li>
-                <a href="#" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.company.blog') }}</a>
+                <NuxtLink to="/blog" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.company.blog') }}</NuxtLink>
               </li>
               <li>
                 <a href="#" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.company.jobs') }}</a>

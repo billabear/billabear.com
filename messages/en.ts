@@ -159,9 +159,9 @@ let ENGLISH_TRANSLATIONS = {
                 title: "GitHub",
                 description: "See the code on GitHub"
             },
-            startup_guide: {
-                title: "SaaS Startup Guide",
-                description: "A fortnightly newsletter focused on building a SaaS"
+            blog: {
+                title: "Blog",
+                description: "Our company blog"
             }
         },
         signup: "Signup",
