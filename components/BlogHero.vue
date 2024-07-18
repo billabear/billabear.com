@@ -8,7 +8,7 @@
       <h2 class="text-2xl text-center mt-3 text-slate-300" >
         <slot name="subtitle"></slot>
       </h2>
-      <p class="text-center text-white text-xl">Written by {{author}} on {{formattedDate  }}</p>
+      <p class="text-center text-white text-xl">Written by {{author}} on {{ formattedDate }}</p>
     </div>
   </div>
 </template>

@@ -95,4 +95,7 @@ tbody td:nth-child(1) {
 tbody td {
   @apply p-2 border border-teal-500;
 }
+pre {
+  @apply my-5 bg-black p-3 overflow-auto;
+}
 </style>

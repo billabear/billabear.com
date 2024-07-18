@@ -20,4 +20,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  content: {
+    highlight: {
+      langs: ['php', 'js', 'vue'],
+      theme: 'github-dark',
+    }
+  }
 })
