@@ -197,7 +197,7 @@ let ENGLISH_TRANSLATIONS = {
             title: "Company",
             about: "About",
             blog: "Blog",
-            jobs: "Jobs",
+            roadmap: "Roadmap",
             imprint: "Imprint"
         },
         legal: {
