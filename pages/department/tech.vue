@@ -22,6 +22,9 @@
   <div class="mt-24">
     <SubscriptionMassChange />
   </div>
+  <div class="mt-24">
+    <TechSdk />
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -30,6 +33,7 @@ import TaxOverall from "~/components/features/Tax/TaxOverall.vue";
 import IntegrationsOverall from "~/components/features/Integrations/IntegrationsOverall.vue";
 import SubscriptionMassChange from "~/components/features/SubscriptionManagement/SubscriptionMassChange.vue";
 import WorkflowEdit from "~/components/features/Workflow/WorkflowEdit.vue";
+import TechSdk from "~/components/features/Tech/TechSdk.vue";
 
 const { locale, setLocale, t } = useI18n()
 useHead({

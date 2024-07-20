@@ -458,6 +458,12 @@ let ENGLISH_TRANSLATIONS = {
             paragraph: "With the ability to create custom quotes for customers, you'll be able to give time-sensitive offers that create urgency to help close deals.",
             cta_button: "Start Free Trial",
             image_alt: "Screenshot of configuring pdf settings"
+        },
+        tech_sdk: {
+            title: "With out of the box SDKs integration is easy",
+            paragraph: "You'll be able to get up and running in no time with SDKs provided for many major languages.",
+            cta_button: "Start Free Trial",
+            image_alt: "Screenshot of configuring pdf settings"
         }
     }
 }
