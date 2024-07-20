@@ -27,7 +27,14 @@
 
 import type {QueryBuilderParams} from "@nuxt/content";
 
-const query: QueryBuilderParams = { path: '/blog', where: [{ _draft: false }], limit: 5, sort: [{ date: -1 }] }
+// Define the number of posts per page
+const postsPerPage = 5;
+
+// Create reactive variables for current page and total pages
+const page = ref(1);
+const totalPages = ref(1);
+
+const query: QueryBuilderParams = { path: '/blog', where: [{ _draft: false }], limit: postsPerPage, sort: [{ date: -1 }] }
 </script>
 
 <style scoped>
