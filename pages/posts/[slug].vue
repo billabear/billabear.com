@@ -18,8 +18,25 @@
       </ContentRenderer>
     </div>
     <div>
-      <BlogLatest />
-      <BlogTop />
+      <div class="bg-teal-500 text-white font-bold p-5 text-xl">Latest Posts</div>
+      <div class="my-5">
+
+        <ContentList :query="query" >
+          <template #default="{ list }">
+
+            <ul class="list-disc">
+            <li class="ml-5 my-2 relative clear-both" v-for="article in list" :key="article._path">
+              <NuxtLink :to="article._path" class="mb-5 font-medium hover:underline">{{ article.title }}</NuxtLink>
+            </li>
+            </ul>
+          </template>
+
+          <template #not-found>
+            <p>No articles found.</p>
+          </template>
+
+        </ContentList>
+      </div>
     </div>
   </div>
 </template>

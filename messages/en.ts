@@ -222,6 +222,19 @@ let ENGLISH_TRANSLATIONS = {
             browser_title: "BillaBear - Privacy Policy",
         }
     },
+    blog: {
+        list: {
+            title: "BillaBear's Blog",
+            subtitle: "Here we share: announcements, technical posts, and more",
+            read_more: "Read More",
+        },
+        top: {
+            title: "Top Blog Posts"
+        },
+        latest: {
+            title: "Latest Blog Posts"
+        }
+    },
     pages: {
         workflow: {
             browser_title: "BillaBear - Workflows to ensure that everything is done in order",
