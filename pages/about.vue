@@ -1,5 +1,4 @@
 <template>
-  <div>
     <PageHero>
 
       <template v-slot:title>
@@ -9,6 +8,8 @@
         {{ $t('about.subtitle') }}
       </template>
     </PageHero>
+  <div class="mt-24 max-w-7xl mx-auto">
+    {{ $t('about.paragraph') }}
   </div>
 
 </template>

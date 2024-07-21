@@ -133,7 +133,8 @@ let ENGLISH_TRANSLATIONS = {
     about: {
         browser_title: "BillaBear - Imprint",
         title: "About BillaBear",
-        subtitle: "How it all got started"
+        subtitle: "How it all got started",
+        paragraph: "BillaBear was started by our founder Iain Cambridge after he spent over a decade working on billing systems are companies of varying sizes. Seeing that this was the most painful problem that company after company had. He decided to work on creating a self-hostable and extendable billing system that companies could pick up and get to work the way they needed instead of being given constraint after constraint from providers."
     },
     "menu": {
         "home": "Home",
