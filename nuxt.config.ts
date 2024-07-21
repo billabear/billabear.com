@@ -23,7 +23,11 @@ export default defineNuxtConfig({
       {code: 'it', name: 'Italiano'},
       {code: 'nl', name: 'Nederlands'}
     ],
-    detectBrowserLanguage: false
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root' // recommended
+    }
   },
   postcss: {
     plugins: {
