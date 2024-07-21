@@ -43,7 +43,6 @@ if (!article) {
 useHead({
   title: 'BillaBear - Blog - ' + article.title,
 });
-defineI18nRoute(false)
 
 
 import type {QueryBuilderParams} from "@nuxt/content";
