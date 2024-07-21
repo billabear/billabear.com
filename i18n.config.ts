@@ -9,4 +9,5 @@ export default defineI18nConfig(() => ({
         de: GERMAN_TRANSLATIONS,
     },
     fallbackLocale: 'en',
+
 }))
