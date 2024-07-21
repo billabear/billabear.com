@@ -8,7 +8,7 @@
       </template>
     </PageHero>
     <div class="relative mt-32 mx-auto max-w-7xl">
-      <h1 class="my-12 text-4xl">Humbly Arrogant Limited</h1>
+      <h1 class="my-12 text-4xl">Humbly Arrogant Software Limited</h1>
       <strong>Director: Iain Cambridge</strong>
       <h2 class="mb-3 font-bold">Address</h2>
       <p>
