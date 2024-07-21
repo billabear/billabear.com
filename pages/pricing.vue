@@ -129,7 +129,7 @@ useHead({
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                       </svg>
                     </div>
-                    <p class="ml-3 text-base text-gray-700">{{ $t('pricing.features.addons') }}</p>
+                    <span class="ml-3 text-base text-gray-700">{{ $t('pricing.features.addons') }}</span>
                   </li>
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
@@ -195,7 +195,7 @@ useHead({
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                       </svg>
                     </div>
-                    <p class="ml-3 text-base text-gray-700">{{ $t('pricing.features.paylinks') }}</p>
+                    <span class="ml-3 text-base text-gray-700">{{ $t('pricing.features.paylinks') }}</span>
                   </li>
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
@@ -205,7 +205,7 @@ useHead({
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                       </svg>
                     </div>
-                    <p class="ml-3 text-base text-gray-700">{{ $t('pricing.features.reports') }}</p>
+                    <span class="ml-3 text-base text-gray-700">{{ $t('pricing.features.reports') }}</span>
                   </li>
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
@@ -215,7 +215,7 @@ useHead({
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                       </svg>
                     </div>
-                    <p class="ml-3 text-base text-gray-700">{{ $t('pricing.features.more') }}</p>
+                    <span class="ml-3 text-base text-gray-700">{{ $t('pricing.features.more') }}</span>
                   </li>
                 </ul>
                 <div class="rounded-md shadow">
@@ -327,7 +327,7 @@ useHead({
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                       </svg>
                     </div>
-                    <p class="ml-3 text-base text-gray-700">{{ $t('pricing.features.addons') }}</p>
+                    <span class="ml-3 text-base text-gray-700">{{ $t('pricing.features.addons') }}</span>
                   </li>
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
@@ -393,7 +393,7 @@ useHead({
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                       </svg>
                     </div>
-                    <p class="ml-3 text-base text-gray-700">{{ $t('pricing.features.paylinks') }}</p>
+                    <span class="ml-3 text-base text-gray-700">{{ $t('pricing.features.paylinks') }}</span>
                   </li>
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
@@ -403,7 +403,7 @@ useHead({
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                       </svg>
                     </div>
-                    <p class="ml-3 text-base text-gray-700">{{ $t('pricing.features.reports') }}</p>
+                    <span class="ml-3 text-base text-gray-700">{{ $t('pricing.features.reports') }}</span>
                   </li>
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
@@ -413,7 +413,7 @@ useHead({
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                       </svg>
                     </div>
-                    <p class="ml-3 text-base text-gray-700">{{ $t('pricing.features.more') }}</p>
+                    <span class="ml-3 text-base text-gray-700">{{ $t('pricing.features.more') }}</span>
                   </li>
                 </ul>
                 <div class="rounded-md shadow">
@@ -445,7 +445,7 @@ useHead({
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                       </svg>
                     </div>
-                    <p class="ml-3 text-base text-gray-700">{{ $t('pricing.features.everything') }}</p>
+                    <span class="ml-3 text-base text-gray-700">{{ $t('pricing.features.everything') }}</span>
                   </li>
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
@@ -477,7 +477,7 @@ useHead({
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
                       </svg>
                     </div>
-                    <p class="ml-3 text-base text-gray-700">{{ $t('pricing.features.slas') }}</p>
+                    <span class="ml-3 text-base text-gray-700">{{ $t('pricing.features.slas') }}</span>
                   </li>
                 </ul>
                 <div class="rounded-md shadow">
