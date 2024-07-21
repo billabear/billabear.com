@@ -58,6 +58,7 @@
 
 import { ref, watch } from 'vue';
 import type { QueryBuilderParams } from "@nuxt/content";
+defineI18nRoute(false)
 
 useHead({
   title: 'BillaBear - Blog',

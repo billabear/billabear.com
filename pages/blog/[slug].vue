@@ -43,6 +43,7 @@ if (!article) {
 useHead({
   title: 'BillaBear - Blog - ' + article.title,
 });
+defineI18nRoute(false)
 
 
 import type {QueryBuilderParams} from "@nuxt/content";
@@ -66,6 +67,9 @@ h4 {
 }
 ul {
   @apply list-disc;
+}
+ol {
+  @apply list-decimal;
 }
 li {
   @apply p-1 ml-5;
