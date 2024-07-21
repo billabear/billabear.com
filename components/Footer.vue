@@ -16,7 +16,7 @@ const availableLocales = computed(() => {
         <img class="h-28" src="/images/footer-logo.png" alt="BillaBear">
         <p class="text-gray-500 text-base">{{ $t('footer.paragraph') }}</p>
       </div>
-      <div class="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2">
+      <div class="mt-12 grid grid-cols-1 gap-8 xl:mt-0 xl:grid-cols-2 xl:col-span-2">
         <div class="md:grid md:grid-cols-2 md:gap-8">
           <div>
             <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">{{ $t('footer.solutions.title') }}</h3>

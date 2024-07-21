@@ -29,19 +29,19 @@ useHead({
       </div>
     </div>
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <SubscriptionManagementOverall />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <SubscriptionMassChange />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <SubscriptionCancel />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <SubscriptionPlanCreation />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <SubscriptionAddons />
   </div>
   <div class="bg-white">

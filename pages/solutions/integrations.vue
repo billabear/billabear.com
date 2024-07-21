@@ -23,16 +23,16 @@ useHead({
   <div class="mt-24 relative">
     <IntegrationsOverall />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <IntegrationsEmail />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <IntegrationsSlack />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <IntegrationsStripe />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <IntegrationsPdf />
   </div>
 </template>

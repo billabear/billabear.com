@@ -23,7 +23,7 @@ useHead({
       <div class="relative">
         <WorkflowOverall />
       </div>
-      <div class="mt-24">
+      <div class="mt-24 overflow-hidden">
         <WorkflowEdit />
       </div>
     </div>

@@ -7,22 +7,22 @@
       {{ $t('departments.tech.subtitle') }}
     </template>
   </PageHero>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <WorkflowOverall />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <IntegrationsOverall />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <TaxOverall />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <WorkflowEdit />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <SubscriptionMassChange />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <TechSdk />
   </div>
 </template>

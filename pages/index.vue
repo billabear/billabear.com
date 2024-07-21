@@ -51,25 +51,25 @@ useHead({
       <div class="relative">
         <TaxOverall />
       </div>
-      <div class="mt-24">
+      <div class="mt-24 overflow-hidden">
         <SubscriptionManagementOverall />
       </div>
-      <div class="mt-24">
+      <div class="mt-24 overflow-hidden">
         <WorkflowOverall />
       </div>
-      <div class="mt-24">
+      <div class="mt-24 overflow-hidden">
         <IntegrationsOverall />
       </div>
-      <div class="mt-24">
+      <div class="mt-24 overflow-hidden">
         <BrandingOverall />
       </div>
-      <div class="mt-24">
+      <div class="mt-24 overflow-hidden">
         <ReportsOverall />
       </div>
-      <div class="mt-24">
+      <div class="mt-24 overflow-hidden">
         <IntegrationsStripe />
       </div>
-      <div class="mt-24">
+      <div class="mt-24 overflow-hidden">
         <TechSdk />
       </div>
     </div>

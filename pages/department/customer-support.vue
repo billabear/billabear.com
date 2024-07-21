@@ -7,13 +7,13 @@
       {{ $t('departments.customer_support.subtitle') }}
     </template>
   </PageHero>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <SubscriptionManagementOverall />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <IntegrationsEmail />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <SubscriptionCancel />
   </div>
 </template>

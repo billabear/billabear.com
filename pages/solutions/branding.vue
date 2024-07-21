@@ -22,10 +22,10 @@ useHead({
       </template>
     </PageHero>
     <div class="relative pt-16 pb-32 overflow-hidden">
-      <div class="mt-24">
+      <div class="mt-24 overflow-hidden">
         <BrandingOverall />
       </div>
-      <div class="mt-24">
+      <div class="mt-24 overflow-hidden">
         <EmailTemplates />
       </div>
       <div class="mt-24 relative">

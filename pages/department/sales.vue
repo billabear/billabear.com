@@ -7,13 +7,13 @@
       {{ $t('departments.sales.subtitle') }}
     </template>
   </PageHero>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <SubscriptionPlanCreation />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <SubscriptionAddons />
   </div>
-  <div class="mt-24">
+  <div class="mt-24 overflow-hidden">
     <QuoteCreate />
   </div>
 </template>
