@@ -16,12 +16,7 @@ export default defineNuxtConfig({
     defaultLocale: 'en',
     vueI18n: './i18n.config.ts',
     locales: ['en', 'de'],
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-      alwaysRedirect: true,
-      redirectOn: 'root' // recommended
-    }
+    detectBrowserLanguage: false
   },
   postcss: {
     plugins: {
