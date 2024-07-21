@@ -1,6 +1,7 @@
 let GERMAN_TRANSLATIONS = {
     "global": {
-        "logo_alt": "BillaBear"
+        "logo_alt": "BillaBear",
+        "lifetime_deal": "Um den Start von BillaBear cloud zu feiern, bieten wir ein lebenslanges Angebot an!"
     },
     "index": {
         "browser_title": "BillaBear - Übernehmen Sie die Kontrolle über Ihre Rechnungen",
@@ -75,17 +76,35 @@ let GERMAN_TRANSLATIONS = {
         "description": "Der richtige Preis für Sie, egal wer Sie sind",
         "sub_description": "Professionelle Integration mit Stripe ohne Kosten",
         "coming_soon": "Demnächst verfügbar",
-        "get_started": "Los geht's",
+        "get_started": "Starten Sie Ihre kostenlose Testversion",
+        "lifetime_deal": "Melden Sie sich jetzt an und sichern Sie sich diesen günstigen Preis für immer!",
         "features": {
             "tax_reports": "Steuerberichte",
             "slack_integrations": "Slack-Integration",
             "mass_subscription_management": "Verwaltung von Massenabonnements",
-            "workflow_management": "Arbeitsablauf-Management"
+            "workflow_management": "Arbeitsablauf-Management",
+            "subscription_management": "Verwaltung von Abonnements",
+            "custom_plans": "Individuelle Pläne",
+            "multi_brands": "Unterstützung mehrerer Marken",
+            "email_support": "Unterstützung mehrerer E-Mail-Anbieter",
+            "multi_language_support": "Unterstützung mehrerer Sprachen",
+            "multi_currency": "Unterstützung mehrerer Währungen",
+            "template_management": "Vorlagenverwaltung",
+            "addons": "Abonnement-Zusatzmodule",
+            "tax_management": "Steuerverwaltung",
+            "hosted_checkouts": "Gehostete Checkouts",
+            "paylinks": "Paylinks",
+            "reports": "Berichte",
+            "contact_person": "Zugewiesene Kontaktperson",
+            "custom_envs": "Benutzerdefinierte Umgebungen",
+            "slas": "SLAs",
+            "everything": "Alles von Professional",
+            "more": "Und mehr..."
         },
         "free": {
             "title": "Starter",
             "cost": "5%",
-            "cost_extra": "aller Transaktionen",
+            "cost_extra": "der Einnahmen",
             "description": "Alle Funktionen ohne Vorabzahlung"
         },
         "professional": {
@@ -96,7 +115,7 @@ let GERMAN_TRANSLATIONS = {
         },
         "enterprise": {
             "title": "Unternehmen",
-            "cost": "$1000",
+            "cost": "Benutzerdefiniert",
             "cost_extra": "/mo",
             "description": "Alle Funktionen zu einer festen monatlichen Gebühr."
         },
@@ -104,7 +123,18 @@ let GERMAN_TRANSLATIONS = {
             "title": "Selbstgehostete Unterstützung",
             "description": "Erhalten Sie alle Unterstützung, die Sie für Ihre selbst gehostete Version von BillaBear benötigen.",
             "button": "Kontakt"
-        }
+        },
+        "contact_sales": "Kontakt Vertrieb"
+    },
+    "imprint": {
+        "browser_title": "BillaBear - Impressum",
+        "title": "Impressum"
+    },
+    "about": {
+        "browser_title": "BillaBear - Impressum",
+        "title": "Über BillaBear",
+        "subtitle": "Wie alles anfing",
+        "paragraph": "BillaBear wurde von unserem Gründer Iain Cambridge ins Leben gerufen, nachdem er über ein Jahrzehnt lang an Abrechnungssystemen für Unternehmen unterschiedlicher Größe gearbeitet hatte. Er erkannte, dass dies das schmerzhafteste Problem war, das Unternehmen für Unternehmen hatten. Er beschloss, ein selbst-hostbares und erweiterbares Abrechnungssystem zu entwickeln, das Unternehmen übernehmen und so einsetzen können, wie sie es brauchen, anstatt von den Anbietern mit immer neuen Einschränkungen konfrontiert zu werden."
     },
     "menu": {
         "home": "Startseite",
@@ -173,7 +203,7 @@ let GERMAN_TRANSLATIONS = {
             }
         },
         "signup": "Anmeldung",
-        "login": "Anmeldung",
+        "login": "Einloggen",
         "exist_customer": "Bestehender Kunde?"
     },
     "footer": {

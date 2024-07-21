@@ -20,12 +20,9 @@
       </p>
     </div>
   </div>
-
-
 </template>
 
 <script setup lang="ts">
-
 const {locale, setLocale, t} = useI18n()
 useHead({
   title: t('imprint.browser_title'),
