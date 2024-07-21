@@ -96,7 +96,7 @@ let ENGLISH_TRANSLATIONS = {
             "paylinks": "Paylinks",
             "reports": "Reports",
             "contact_person": "Assigned Contact Person",
-            "custom_envs": "Custom Enviorments",
+            "custom_envs": "Custom Environments",
             "slas": "SLAs",
             "everything": "Everything from Professional",
             "more": "And more.."

@@ -61,6 +61,15 @@ h2 {
 h3 {
   @apply text-2xl font-bold my-5;
 }
+h4 {
+  @apply text-2xl font-bold my-5;
+}
+ul {
+  @apply list-disc;
+}
+li {
+  @apply p-1 ml-5;
+}
 p{
   @apply my-3;
 }
