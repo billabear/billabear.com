@@ -1,6 +1,7 @@
 let ENGLISH_TRANSLATIONS = {
     "global": {
-        "logo_alt": "BillaBear"
+        "logo_alt": "BillaBear",
+        "lifetime_deal": "For a short time we're offering a lifetime deal!",
     },
     "index": {
         "browser_title": "BillaBear - Take Control Of Your Billing",
@@ -75,17 +76,35 @@ let ENGLISH_TRANSLATIONS = {
         "description": "The right price for you, whoever you are",
         "sub_description": "Professional level integration with Stripe without the cost",
         "coming_soon": "Coming Soon",
-        "get_started": "Get Started",
+        "get_started": "Start Your Free Trial",
+        "lifetime_deal": "Sign up now to lock-in this low price forever!",
         "features": {
             "tax_reports": "Tax Reports",
             "slack_integrations": "Slack Integration",
             "mass_subscription_management": "Mass Subscription Management",
             "workflow_management": "Workflow Management",
+            "subscription_management": "Subscription Management",
+            "custom_plans": "Custom Plans",
+            "multi_brands": "Multiple Brand Support",
+            "email_support": "Multiple email provider support",
+            "multi_language_support": "Multiple Language Support",
+            "multi_currency": "Multiple Currency Support",
+            "template_management": "Template Management",
+            "addons": "Subscription Add-ons",
+            "tax_management": "Tax Management",
+            "hosted_checkouts": "Hosted Checkouts",
+            "paylinks": "Paylinks",
+            "reports": "Reports",
+            "contact_person": "Assigned Contact Person",
+            "custom_envs": "Custom Enviorments",
+            "slas": "SLAs",
+            "everything": "Everything from Professional",
+            "more": "And more.."
         },
         "free": {
             "title": "Starter",
             "cost": "5%",
-            "cost_extra": "of all transactions",
+            "cost_extra": "of revenue",
             "description": "All the features with no upfront fee"
         },
         "professional": {
@@ -96,7 +115,7 @@ let ENGLISH_TRANSLATIONS = {
         },
         "enterprise": {
             "title": "Enterprise",
-            "cost": "$1000",
+            "cost": "Custom",
             "cost_extra": "/mo",
             "description": "All the features at a set monthly fee."
         },
@@ -104,7 +123,8 @@ let ENGLISH_TRANSLATIONS = {
             "title": "Self-hosted Support",
             "description": "Get all the support you could need for your self-hosted version of BillaBear.",
             "button": "Contact Us"
-        }
+        },
+        contact_sales: "Contact Sales",
     },
     "menu": {
         "home": "Home",

@@ -22,23 +22,23 @@ const availableLocales = computed(() => {
             <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">{{ $t('footer.solutions.title') }}</h3>
             <ul role="list" class="mt-4 space-y-4">
               <li>
-                <NuxtLink to="/solutions/branding" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.solutions.branding') }}</NuxtLink>
+                <NuxtLink :to="localePath('/solutions/branding')" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.solutions.branding') }}</NuxtLink>
               </li>
 
               <li>
-                <NuxtLink to="/solutions/tax" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.solutions.tax') }}</NuxtLink>
+                <NuxtLink :to="localePath('/solutions/tax')" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.solutions.tax') }}</NuxtLink>
               </li>
 
               <li>
-                <NuxtLink to="/solutions/workflows" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.solutions.workflows') }}</NuxtLink>
+                <NuxtLink :to="localePath('/solutions/workflows')" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.solutions.workflows') }}</NuxtLink>
               </li>
 
               <li>
-                <NuxtLink to="/solutions/subscription-management" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.solutions.subscription_management') }}</NuxtLink>
+                <NuxtLink :to="localePath('/solutions/subscription-management')" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.solutions.subscription_management') }}</NuxtLink>
               </li>
 
               <li>
-                <NuxtLink to="/solutions/reports" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.solutions.reports') }}</NuxtLink>
+                <NuxtLink :to="localePath('/solutions/reports')" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.solutions.reports') }}</NuxtLink>
               </li>
             </ul>
           </div>
@@ -46,7 +46,7 @@ const availableLocales = computed(() => {
             <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">{{ $t('footer.support.title') }}</h3>
             <ul role="list" class="mt-4 space-y-4">
               <li>
-                <NuxtLink to="/pricing" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.support.pricing') }}</NuxtLink>
+                <NuxtLink :to="localePath('/pricing')" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.support.pricing') }}</NuxtLink>
               </li>
 
               <li>
@@ -72,7 +72,7 @@ const availableLocales = computed(() => {
               </li>
 
               <li>
-                <NuxtLink to="/blog" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.company.blog') }}</NuxtLink>
+                <NuxtLink :to="localePath('/blog')" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.company.blog') }}</NuxtLink>
               </li>
               <li>
                 <a href="https://github.com/orgs/billabear/projects/2/views/3" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.company.roadmap') }}</a>
@@ -87,25 +87,25 @@ const availableLocales = computed(() => {
             <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">{{ $t('footer.legal.title') }}</h3>
             <ul role="list" class="mt-4 space-y-4">
               <li>
-                <NuxtLink to="/legal/terms-of-sale" class="text-base text-gray-500 hover:text-gray-900">
+                <NuxtLink :to="localePath('/legal/terms-of-sale')" class="text-base text-gray-500 hover:text-gray-900">
                   {{ $t('footer.legal.terms_of_sale') }}
                 </NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/legal/terms-of-use" class="text-base text-gray-500 hover:text-gray-900">
+                <NuxtLink :to="localePath('/legal/terms-of-use')" class="text-base text-gray-500 hover:text-gray-900">
                   {{ $t('footer.legal.terms_of_use') }}
                 </NuxtLink>
               </li>
 
               <li>
-                <NuxtLink to="/legal/privacy-policy" class="text-base text-gray-500 hover:text-gray-900">
+                <NuxtLink :to="localePath('/legal/privacy-policy')" class="text-base text-gray-500 hover:text-gray-900">
                   {{ $t('footer.legal.privacy_policy') }}
                 </NuxtLink>
               </li>
 
 
               <li>
-                <NuxtLink to="/legal/data-processing-agreement-dpa" class="text-base text-gray-500 hover:text-gray-900">
+                <NuxtLink :to="localePath('/legal/data-processing-agreement-dpa')" class="text-base text-gray-500 hover:text-gray-900">
                   {{ $t('footer.legal.data_processing_agreement') }}
                 </NuxtLink>
               </li>

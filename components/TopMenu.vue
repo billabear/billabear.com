@@ -1,5 +1,8 @@
 <script setup lang="ts">
 
+const localePath = useLocalePath()
+
+
 let showFeatureMenu = ref(false);
 let showDepartmentMenu = ref(false);
 let showMoreMenu = ref(false);
@@ -42,10 +45,13 @@ function responseMenu() {
 </script>
 
 <template>
+  <div class="relative bg-teal-500 p-2 text-center text-white font-bold underline">
+    <NuxtLink :to="localePath('/pricing')">{{  $t('global.lifetime_deal') }}</NuxtLink>
+  </div>
   <div class="relative bg-white">
     <div class="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
       <div class="flex justify-start lg:w-0 lg:flex-1">
-        <NuxtLink to="/">
+        <NuxtLink :to="localePath('/')">
           <span class="sr-only">{{  $t('global.logo_alt') }}</span>
           <img class="h-8 w-auto sm:h-10" src="/images/app-logo.png" :alt="$t('global.logo_alt')" />
         </NuxtLink>
@@ -92,7 +98,7 @@ function responseMenu() {
           <div class="absolute z-50 -ml-4 mt-3 transform w-screen max-w-md lg:max-w-2xl lg:ml-0 lg:left-1/2 lg:-translate-x-1/2" id="feature_menu" v-if="showFeatureMenu">
             <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
-                <NuxtLink to="/solutions/branding" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink :to="localePath('/solutions/branding')" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/chart-bar -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -106,7 +112,7 @@ function responseMenu() {
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/solutions/tax" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink :to="localePath('/solutions/tax')" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/cursor-click -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -120,7 +126,7 @@ function responseMenu() {
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/solutions/workflows" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink :to="localePath('/solutions/workflows')" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -132,7 +138,7 @@ function responseMenu() {
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/solutions/integrations" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink :to="localePath('/solutions/integrations')" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/view-grid -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -145,7 +151,7 @@ function responseMenu() {
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/solutions/subscription-management" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink :to="localePath('/solutions/subscription-management')" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/refresh -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -158,7 +164,7 @@ function responseMenu() {
                   </div>
                 </NuxtLink>
 
-                <NuxtLink to="/solutions/reports" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink :to="localePath('/solutions/reports')" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/document-report -->
                     <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -192,7 +198,7 @@ function responseMenu() {
               <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8 lg:grid-cols-2">
 
 
-                <NuxtLink to="/department/finance" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink :to="localePath('/department/finance')" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/chart-bar -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -205,7 +211,7 @@ function responseMenu() {
                     <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.finance.description') }}</p>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/department/tech" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink :to="localePath('/department/tech')" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/chart-bar -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -218,7 +224,7 @@ function responseMenu() {
                     <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.tech.description') }}</p>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/department/customer-support" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink :to="localePath('/department/customer-support')" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/chart-bar -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -231,7 +237,7 @@ function responseMenu() {
                     <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.customer_support.description') }}</p>
                   </div>
                 </NuxtLink>
-                <NuxtLink to="/department/sales" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                <NuxtLink :to="localePath('/department/sales')" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                   <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                     <!-- Heroicon name: outline/chart-bar -->
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -243,7 +249,7 @@ function responseMenu() {
                     <p class="text-base font-medium text-gray-900">{{ $t('menu.departments.sales.title') }}</p>
                     <p class="mt-1 text-sm text-gray-500">{{ $t('menu.departments.sales.description') }}</p>
                   </div>
-                </NuxtLink><NuxtLink to="/department/marketing" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                </NuxtLink><NuxtLink :to="localePath('/department/marketing')" @click="hideMenus" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white sm:h-12 sm:w-12">
                   <!-- Heroicon name: outline/chart-bar -->
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6" >
@@ -261,7 +267,7 @@ function responseMenu() {
           </div>
 
         </div>
-        <NuxtLink to="/pricing" class="text-base font-medium text-gray-500 hover:text-gray-900"> {{ $t('menu.pricing') }} </NuxtLink>
+        <NuxtLink :to="localePath('/pricing')" class="text-base font-medium text-gray-500 hover:text-gray-900"> {{ $t('menu.pricing') }} </NuxtLink>
         <a href="https://docs.billabear.com" target="_blank" class="text-base font-medium text-gray-500 hover:text-gray-900"> {{ $t('menu.docs') }} </a>
 
         <div class="relative">
@@ -296,7 +302,7 @@ function responseMenu() {
                   <p class="mt-1 text-sm text-gray-500">{{ $t('menu.more.github.description') }}</p>
                 </a>
 
-                <NuxtLink to="/blog" class="-m-3 p-3 block rounded-md hover:bg-gray-50">
+                <NuxtLink :to="localePath('/blog')" class="-m-3 p-3 block rounded-md hover:bg-gray-50">
                   <p class="text-base font-medium text-gray-900">{{ $t('menu.more.blog.title') }}</p>
                   <p class="mt-1 text-sm text-gray-500">{{ $t('menu.more.blog.description') }}</p>
                 </NuxtLink>
@@ -340,7 +346,7 @@ function responseMenu() {
           </div>
           <div class="mt-6">
             <nav class="grid grid-cols-1 gap-7">
-              <NuxtLink to="/branding" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+              <NuxtLink :to="localePath('/branding')" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white">
                   <!-- Heroicon name: outline/chart-bar -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -350,7 +356,7 @@ function responseMenu() {
                 <div class="ml-4 text-base font-medium text-gray-900">{{ $t('menu.solutions.branding.title') }}</div>
               </NuxtLink>
 
-              <NuxtLink to="/tax" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+              <NuxtLink :to="localePath('/tax')" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white">
                   <!-- Heroicon name: outline/cursor-click -->
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -361,7 +367,7 @@ function responseMenu() {
                 <div class="ml-4 text-base font-medium text-gray-900">{{ $t('menu.solutions.tax.title') }}</div>
               </NuxtLink>
 
-              <NuxtLink to="/workflows" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+              <NuxtLink :to="localePath('/workflows')" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white">
                   <!-- Heroicon name: outline/shield-check -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -371,7 +377,7 @@ function responseMenu() {
                 <div class="ml-4 text-base font-medium text-gray-900">{{ $t('menu.solutions.workflows.title') }}</div>
               </NuxtLink>
 
-              <NuxtLink to="/integrations" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+              <NuxtLink :to="localePath('/integrations')" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white">
                   <!-- Heroicon name: outline/view-grid -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -381,7 +387,7 @@ function responseMenu() {
                 <div class="ml-4 text-base font-medium text-gray-900">{{ $t('menu.solutions.integrations.title') }}</div>
               </NuxtLink>
 
-              <NuxtLink to="/subscriptions" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+              <NuxtLink :to="localePath('/subscriptions')" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white">
                   <!-- Heroicon name: outline/refresh -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -391,7 +397,7 @@ function responseMenu() {
                 <div class="ml-4 text-base font-medium text-gray-900">{{ $t('menu.solutions.subscription_management.title') }}</div>
               </NuxtLink>
 
-              <NuxtLink to="/reports" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+              <NuxtLink :to="localePath('/reports')" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white">
                   <!-- Heroicon name: outline/document-report -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -405,13 +411,13 @@ function responseMenu() {
         </div>
         <div class="py-6 px-5">
           <div class="grid grid-cols-2 gap-4">
-            <NuxtLink to="/pricing"  class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.pricing') }} </NuxtLink>
+            <NuxtLink :to="localePath('/pricing')"  class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.pricing') }} </NuxtLink>
 
             <a href="https://docs.billabear.com" target="_blank" class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.docs') }} </a>
 
             <a href="https://github.com/billabear/billabear" target="_blank" class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.more.github.title') }} </a>
 
-            <NuxtLink to="/blog" class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.more.blog.title') }} </NuxtLink>
+            <NuxtLink :to="localePath('/blog')" class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.more.blog.title') }} </NuxtLink>
           </div>
           <div class="mt-6">
             <a href="https://cloud.billabear.com/signup" target="_blank"  class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-teal-600 hover:bg-teal-700"> {{ $t('menu.signup') }} </a>
