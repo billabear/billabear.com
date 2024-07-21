@@ -43,7 +43,7 @@ useHead({
                 <p class="mt-5 text-lg text-gray-500">{{ $t('pricing.free.description') }}</p>
               </div>
               <div class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
-                <ul role="list" class="space-y-4">
+                <ul role="list" class="space-y-1">
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
                       <!-- Heroicon name: outline/check -->
@@ -241,7 +241,7 @@ useHead({
                 <p class="mt-5 text-lg text-gray-500">{{ $t('pricing.professional.description') }}</p>
               </div>
               <div class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
-                <ul role="list" class="space-y-4">
+                <ul role="list" class="space-y-1">
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
                       <!-- Heroicon name: outline/check -->
@@ -436,7 +436,7 @@ useHead({
                 <p class="mt-5 text-lg text-gray-500">{{ $t('pricing.enterprise.description') }}</p>
               </div>
               <div class="flex-1 flex flex-col justify-between px-6 pt-6 pb-8 bg-gray-50 space-y-6 sm:p-10 sm:pt-6">
-                <ul role="list" class="space-y-4">
+                <ul role="list" class="space-y-1">
                   <li class="flex items-start">
                     <div class="flex-shrink-0">
                       <!-- Heroicon name: outline/check -->
