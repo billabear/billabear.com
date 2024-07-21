@@ -347,7 +347,7 @@ function responseMenu() {
           </div>
           <div class="mt-6">
             <nav class="grid grid-cols-1 gap-7">
-              <NuxtLink :to="localePath('/solutions/branding')" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+              <NuxtLink :to="localePath('/solutions/branding')"  @click="showResponseMenu = !showResponseMenu" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white">
                   <!-- Heroicon name: outline/chart-bar -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -357,7 +357,7 @@ function responseMenu() {
                 <div class="ml-4 text-base font-medium text-gray-900">{{ $t('menu.solutions.branding.title') }}</div>
               </NuxtLink>
 
-              <NuxtLink :to="localePath('/solutions/tax')" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+              <NuxtLink :to="localePath('/solutions/tax')"   @click="showResponseMenu = !showResponseMenu" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white">
                   <!-- Heroicon name: outline/cursor-click -->
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
@@ -368,7 +368,7 @@ function responseMenu() {
                 <div class="ml-4 text-base font-medium text-gray-900">{{ $t('menu.solutions.tax.title') }}</div>
               </NuxtLink>
 
-              <NuxtLink :to="localePath('/solutions/workflows')" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+              <NuxtLink :to="localePath('/solutions/workflows')"   @click="showResponseMenu = !showResponseMenu" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white">
                   <!-- Heroicon name: outline/shield-check -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -378,7 +378,7 @@ function responseMenu() {
                 <div class="ml-4 text-base font-medium text-gray-900">{{ $t('menu.solutions.workflows.title') }}</div>
               </NuxtLink>
 
-              <NuxtLink :to="localePath('/solutions/integrations')" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+              <NuxtLink :to="localePath('/solutions/integrations')"  @click="showResponseMenu = !showResponseMenu"  class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white">
                   <!-- Heroicon name: outline/view-grid -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -388,7 +388,7 @@ function responseMenu() {
                 <div class="ml-4 text-base font-medium text-gray-900">{{ $t('menu.solutions.integrations.title') }}</div>
               </NuxtLink>
 
-              <NuxtLink :to="localePath('/solutions/subscription-management')" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+              <NuxtLink :to="localePath('/solutions/subscription-management')"   @click="showResponseMenu = !showResponseMenu" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white">
                   <!-- Heroicon name: outline/refresh -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -398,7 +398,7 @@ function responseMenu() {
                 <div class="ml-4 text-base font-medium text-gray-900">{{ $t('menu.solutions.subscription_management.title') }}</div>
               </NuxtLink>
 
-              <NuxtLink :to="localePath('/solutions/reports')" class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
+              <NuxtLink :to="localePath('/solutions/reports')"  @click="showResponseMenu = !showResponseMenu"  class="-m-3 p-3 flex items-center rounded-lg hover:bg-gray-50">
                 <div class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-teal-500 text-white">
                   <!-- Heroicon name: outline/document-report -->
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
@@ -412,13 +412,13 @@ function responseMenu() {
         </div>
         <div class="py-6 px-5">
           <div class="grid grid-cols-2 gap-4">
-            <NuxtLink :to="localePath('/pricing')"  class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.pricing') }} </NuxtLink>
+            <NuxtLink :to="localePath('/pricing')"   @click="showResponseMenu = !showResponseMenu"  class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.pricing') }} </NuxtLink>
 
             <a href="https://docs.billabear.com" target="_blank" class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.docs') }} </a>
 
             <a href="https://github.com/billabear/billabear" target="_blank" class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.more.github.title') }} </a>
 
-            <NuxtLink :to="localePath('/blog')" class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.more.blog.title') }} </NuxtLink>
+            <NuxtLink :to="localePath('/blog')"   @click="showResponseMenu = !showResponseMenu"  class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.more.blog.title') }} </NuxtLink>
           </div>
           <div class="mt-6">
             <LocaleSwitcher class="w-full mb-4" />
