@@ -26,7 +26,6 @@
 <script setup lang="ts">
 
 import type {QueryBuilderParams} from "@nuxt/content";
-
 // Define the number of posts per page
 const postsPerPage = 5;
 

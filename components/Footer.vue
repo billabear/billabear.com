@@ -1,5 +1,11 @@
 <script setup lang="ts">
 
+const { locale, locales } = useI18n()
+const switchLocalePath = useSwitchLocalePath()
+
+const availableLocales = computed(() => {
+  return locales.value.filter(i => i.code !== locale.value)
+})
 </script>
 
 <template> <footer class="bg-gray-50 mt-24" aria-labelledby="footer-heading">
@@ -110,6 +116,12 @@
     </div>
     <div class="mt-12 border-t border-gray-200 py-8">
       <p class="text-base text-gray-400 xl:text-center">&copy; 2024 Humbly Arrogant Software Limited. All rights reserved.</p>
+    </div>
+    <div>
+
+      <NuxtLink v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">
+        {{ locale.name }}
+      </NuxtLink>
     </div>
   </div>
 </footer>

@@ -12,7 +12,15 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   modules: ["@nuxtjs/i18n", "@nuxt/content", "@nuxt/image"],
   i18n: {
-    vueI18n: './i18n.config.ts' // if you are using custom path, default
+    strategy: 'prefix_except_default',
+    defaultLocale: 'en',
+    vueI18n: './i18n.config.ts',
+
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      redirectOn: 'root' // recommended
+    }
   },
   postcss: {
     plugins: {
