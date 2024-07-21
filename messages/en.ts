@@ -1,7 +1,7 @@
 let ENGLISH_TRANSLATIONS = {
     "global": {
         "logo_alt": "BillaBear",
-        "lifetime_deal": "For a short time we're offering a lifetime deal!",
+        "lifetime_deal": "To celebrate the launch of BillaBear cloud we're offering a lifetime deal!",
     },
     "index": {
         "browser_title": "BillaBear - Take Control Of Your Billing",
@@ -125,6 +125,15 @@ let ENGLISH_TRANSLATIONS = {
             "button": "Contact Us"
         },
         contact_sales: "Contact Sales",
+    },
+    imprint: {
+        browser_title: "BillaBear - Imprint",
+        title: "Imprint"
+    },
+    about: {
+        browser_title: "BillaBear - Imprint",
+        title: "About BillaBear",
+        subtitle: "How it all got started"
     },
     "menu": {
         "home": "Home",

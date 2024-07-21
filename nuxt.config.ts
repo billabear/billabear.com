@@ -15,7 +15,14 @@ export default defineNuxtConfig({
     strategy: 'prefix_except_default',
     defaultLocale: 'en',
     vueI18n: './i18n.config.ts',
-    locales: ['en', 'de'],
+    locales: [
+      {code: 'en', name: 'English'},
+      {code: 'es', name: 'Español'},
+      {code: 'fr', name: 'Français'},
+      {code: 'de', name: 'Deustch'},
+      {code: 'it', name: 'Italiano'},
+      {code: 'nl', name: 'Nederlands'}
+    ],
     detectBrowserLanguage: false
   },
   postcss: {

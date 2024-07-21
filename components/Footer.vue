@@ -68,7 +68,7 @@ const availableLocales = computed(() => {
             <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">{{ $t('footer.company.title') }}</h3>
             <ul role="list" class="mt-4 space-y-4">
               <li>
-                <a href="#" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.company.about') }}</a>
+                <NuxtLink :to="localePath('/about')" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.company.about') }}</NuxtLink>
               </li>
 
               <li>
@@ -78,7 +78,7 @@ const availableLocales = computed(() => {
                 <a href="https://github.com/orgs/billabear/projects/2/views/3" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.company.roadmap') }}</a>
               </li>
               <li>
-                <a href="#" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.company.imprint') }}</a>
+                <NuxtLink :to="localePath('/imprint')" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.company.imprint') }}</NuxtLink>
               </li>
 
             </ul>
@@ -116,12 +116,6 @@ const availableLocales = computed(() => {
     </div>
     <div class="mt-12 border-t border-gray-200 py-8">
       <p class="text-base text-gray-400 xl:text-center">&copy; 2024 Humbly Arrogant Software Limited. All rights reserved.</p>
-    </div>
-    <div>
-
-      <NuxtLink v-for="locale in availableLocales" :key="locale.code" :to="switchLocalePath(locale.code)">
-        {{ locale.name }}
-      </NuxtLink>
     </div>
   </div>
 </footer>

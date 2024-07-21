@@ -312,7 +312,8 @@ function responseMenu() {
         </div>
       </nav>
       <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-        <a href="https://cloud.billabear.com/signup" target="_blank" class="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> {{ $t('menu.signup') }} </a>
+        <LocaleSwitcher />
+        <a href="https://cloud.billabear.com/signup" target="_blank" class="ml-4 whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> {{ $t('menu.signup') }} </a>
         <a href="https://cloud.billabear.com/login" target="_blank" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-teal-600 hover:bg-teal-700"> {{ $t('menu.login') }} </a>
       </div>
     </div>
@@ -420,6 +421,8 @@ function responseMenu() {
             <NuxtLink :to="localePath('/blog')" class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.more.blog.title') }} </NuxtLink>
           </div>
           <div class="mt-6">
+            <LocaleSwitcher />
+
             <a href="https://cloud.billabear.com/signup" target="_blank"  class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-teal-600 hover:bg-teal-700"> {{ $t('menu.signup') }} </a>
             <p class="mt-6 text-center text-base font-medium text-gray-500">
               {{ $t('menu.exist_customer') }}
