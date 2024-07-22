@@ -488,7 +488,7 @@ let GERMAN_TRANSLATIONS = {
         "reports_overall": {
             "title": "Erhalten Sie Einblicke in Ihr Unternehmen",
             "features": {
-                "lifetime_value": "Ermitteln Sie den Lebenszeitwert Ihrer Abonnementkohorten",
+                "lifetime_value": "Ermitteln Sie den Lebenszeitwert Ihrer Abonnentgruppen",
                 "churn_reports": "Überwachen Sie Ihre Abonnementabwanderung",
                 "subscription_reports": "Sehen Sie, welche Abonnements am beliebtesten sind",
                 "tax_reports": "Sehen Sie, wo Ihr Unternehmen Steuern erhoben hat"
