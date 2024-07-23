@@ -227,7 +227,7 @@ let GERMAN_TRANSLATIONS = {
             "title": "Unternehmen",
             "about": "Über",
             "blog": "Blog",
-            "roadmap": "Straßenkarte",
+            "roadmap": "Roadmap",
             "imprint": "Impressum"
         },
         "legal": {
