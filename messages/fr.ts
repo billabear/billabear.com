@@ -227,7 +227,7 @@ export const FRENCH_TRANSLATIONS = {
             "title": "Entreprise",
             "about": "A propos de",
             "blog": "Blog",
-            "roadmap": "Feuille de route",
+            "roadmap": "Roadmap",
             "imprint": "Impression"
         },
         "legal": {
