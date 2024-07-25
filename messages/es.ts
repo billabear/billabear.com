@@ -64,6 +64,28 @@ export const SPAINISH_TRANSLATIONS = {
             "subtitle": "Puede empezar con una prueba gratuita o reservando una demostración",
             "demo_cta": "Reserve una demostración",
             "free_trial_cta": "Comience su prueba gratuita"
+        },
+        "faq": {
+            "gdpr_compliant": {
+                "question": "¿Cumple BillaBear el GDPR?",
+                "answer": "Sí, BillaBear está gestionado por una empresa británica y utiliza Hetzner, una empresa alemana, para gestionar sus servidores. No se comparten datos con empresas con sede en EE.UU. a menos que usted así lo decida."
+            },
+            "migrate_from_stripe": {
+                "question": "Ya utilizo Stripe Billing ¿puedo cambiar?",
+                "answer": "Sí, BillaBear dispone de una función de importación desde Stripe Billing que te permite importar tus suscripciones actuales con sólo pulsar un botón y, a continuación, desactivar Stripe Billing."
+            },
+            "germany_invoice_requirements": {
+                "question": "¿Admite BillaBear los requisitos de facturación alemanes?",
+                "answer": "Sí y no. Admite cosas como los números de factura incrementales. Sin embargo, el requisito de facturación electrónica no es compatible, pero lo será antes de 2025. Esta función es una de nuestras prioridades."
+            },
+            "update_frequency": {
+                "question": "¿Con qué frecuencia se actualiza BillaBear?",
+                "answer": "Nosotros desplegamos los cambios en la versión alojada en la nube una vez que un cambio está listo para ser desplegado. La versión alojada en la nube se actualiza dos veces al año y corrige errores cuando es necesario."
+            },
+            "payment_options": {
+                "question": "¿Cómo puedo pagar BillaBear?",
+                "answer": "Con el sistema de autoservicio de gestión en la nube puede pagar con tarjeta. Si desea pagar con factura, puede ponerse en contacto con sales@billabear.com y se lo gestionaremos."
+            }
         }
     },
     "templates": {
@@ -227,7 +249,7 @@ export const SPAINISH_TRANSLATIONS = {
             "title": "Empresa",
             "about": "Acerca de",
             "blog": "Blog",
-            "roadmap": "Mapa de carreteras",
+            "roadmap": "Roadmap",
             "imprint": "Pie de imprenta"
         },
         "legal": {

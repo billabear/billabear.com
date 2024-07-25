@@ -64,7 +64,29 @@ let ENGLISH_TRANSLATIONS = {
             "subtitle": "You can get started via a Free Trial or by booking a demo!",
             "demo_cta": "Book A Demo!",
             "free_trial_cta": "Start Your Free Trial"
-        }
+        },
+        "faq": {
+            "gdpr_compliant": {
+                "question": "Is BillaBear GDPR Compliant?",
+                "answer": "Yes! BillaBear is operated by a UK company and uses Hetzner, which is a German based company, to operate its servers. No data is shared with US-based companies unless you choose to."
+            },
+            "migrate_from_stripe": {
+                "question": "I already use Stripe Billing can I switch?",
+                "answer": "Yes! BillaBear has an import from Stripe Billing functionality where you can import your current subscriptions at a click of a button and then disable Stripe Billing."
+            },
+            "germany_invoice_requirements": {
+                "question": "Does BillaBear support the German invoice requirements?",
+                "answer": "Yes and no. It supports things such as incremental invoice numbers. However the eBilling requirement is not supported but it will be before 2025. This feature is at the top of our todo list."
+            },
+            "update_frequency": {
+                "question": "How often is BillaBear updated?",
+                "answer": "We deploy changes to the Cloud hosted version once a change is ready to be deployed. The self-hosted version has a feature release twice a year and bug-fix releases when needed."
+            },
+            "payment_options": {
+                "question": "How can I pay for BillaBear?",
+                "answer": "With the self-service cloud management system you can pay by card. If you wish to pay by invoice you can contact sales@billabear.com and we can arrange that for you."
+            }
+        },
     },
     "templates": {
         "browser_title": "BillaBear - Control Your Branding",

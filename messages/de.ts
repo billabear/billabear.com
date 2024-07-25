@@ -64,6 +64,28 @@ let GERMAN_TRANSLATIONS = {
             "subtitle": "Sie können mit einer kostenlosen Testversion beginnen oder eine Demo buchen!",
             "demo_cta": "Buchen Sie eine Demo!",
             "free_trial_cta": "Starten Sie Ihre kostenlose Testversion"
+        },
+        "faq": {
+            "gdpr_compliant": {
+                "question": "Ist BillaBear GDPR-konform?",
+                "answer": "Ja! BillaBear wird von einem britischen Unternehmen betrieben und nutzt Hetzner, ein in Deutschland ansässiges Unternehmen, um seine Server zu betreiben. Es werden keine Daten an in den USA ansässige Unternehmen weitergegeben, es sei denn, Sie wünschen dies."
+            },
+            "migrate_from_stripe": {
+                "question": "Ich verwende bereits Stripe Billing, kann ich wechseln?",
+                "answer": "Ja! BillaBear hat eine Importfunktion von Stripe Billing, mit der Sie Ihre aktuellen Abonnements mit einem Klick importieren und dann Stripe Billing deaktivieren können."
+            },
+            "germany_invoice_requirements": {
+                "question": "Unterstützt BillaBear die deutschen Rechnungsanforderungen?",
+                "answer": "Ja und nein. Es werden Dinge wie inkrementelle Rechnungsnummern unterstützt. Die Anforderung der elektronischen Rechnungsstellung wird jedoch nicht unterstützt, aber das wird vor 2025 der Fall sein. Diese Funktion steht ganz oben auf unserer ToDo-Liste."
+            },
+            "update_frequency": {
+                "question": "Wie oft wird BillaBear aktualisiert?",
+                "answer": "Wir stellen Änderungen für die in der Cloud gehostete Version bereit, sobald eine Änderung einsatzbereit ist. Für die selbst gehostete Version gibt es zweimal im Jahr ein Feature-Release und bei Bedarf Bugfix-Releases."
+            },
+            "payment_options": {
+                "question": "Wie kann ich für BillaBear bezahlen?",
+                "answer": "Mit dem Selbstbedienungs-Cloud-Management-System können Sie per Karte bezahlen. Wenn Sie per Rechnung bezahlen möchten, können Sie sich an sales@billabear.com wenden und wir können das für Sie arrangieren."
+            }
         }
     },
     "templates": {

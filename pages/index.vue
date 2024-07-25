@@ -221,6 +221,9 @@ useHead({
       </div>
     </div>
 
+    <div>
+      <Faq />
+    </div>
     <!-- CTA Section -->
     <div class="bg-white">
       <div class="max-w-4xl mx-auto pt-16 px-4 sm:px-6 sm:pt-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">

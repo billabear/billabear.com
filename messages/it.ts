@@ -64,6 +64,28 @@ export const ITALIEN_TRANSLATIONS = {
             "subtitle": "Potete iniziare con una prova gratuita o prenotando una demo!",
             "demo_cta": "Prenota una dimostrazione!",
             "free_trial_cta": "Inizia la tua prova gratuita"
+        },
+        "faq": {
+            "gdpr_compliant": {
+                "question": "BillaBear è conforme al GDPR?",
+                "answer": "Sì, BillaBear è gestito da una società del Regno Unito e utilizza Hetzner, una società con sede in Germania, per gestire i propri server. Non vengono condivisi dati con società con sede negli Stati Uniti, a meno che non si scelga di farlo."
+            },
+            "migrate_from_stripe": {
+                "question": "Utilizzo già Stripe Billing, posso cambiare?",
+                "answer": "Sì! BillaBear dispone di una funzionalità di importazione da Stripe Billing che consente di importare gli abbonamenti attuali con un semplice clic e di disattivare Stripe Billing."
+            },
+            "germany_invoice_requirements": {
+                "question": "BillaBear supporta i requisiti di fatturazione tedeschi?",
+                "answer": "Sì e no. Supporta elementi come i numeri di fattura incrementali. Tuttavia, il requisito della fatturazione elettronica non è supportato, ma lo sarà prima del 2025. Questa funzione è in cima alla nostra lista di cose da fare."
+            },
+            "update_frequency": {
+                "question": "Ogni quanto viene aggiornato BillaBear?",
+                "answer": "Distribuiamo le modifiche alla versione ospitata su Cloud una volta che una modifica è pronta per essere distribuita. La versione self-hosted ha un rilascio di funzionalità due volte l'anno e rilasci di bug-fix quando necessario."
+            },
+            "payment_options": {
+                "question": "Come posso pagare BillaBear?",
+                "answer": "Con il sistema di gestione cloud self-service è possibile pagare con carta. Se si desidera pagare con fattura, è possibile contattare sales@billabear.com e organizzare il tutto."
+            }
         }
     },
     "templates": {
@@ -227,7 +249,7 @@ export const ITALIEN_TRANSLATIONS = {
             "title": "Azienda",
             "about": "Circa",
             "blog": "Blog",
-            "roadmap": "Mappa stradale",
+            "roadmap": "Roadmap",
             "imprint": "Impronta"
         },
         "legal": {

@@ -64,6 +64,28 @@ export const FRENCH_TRANSLATIONS = {
             "subtitle": "Vous pouvez commencer par un essai gratuit ou en réservant une démonstration !",
             "demo_cta": "Réservez une démonstration !",
             "free_trial_cta": "Commencez votre essai gratuit"
+        },
+        "faq": {
+            "gdpr_compliant": {
+                "question": "BillaBear est-il conforme au GDPR ?",
+                "answer": "BillaBear est géré par une société britannique et utilise Hetzner, une société allemande, pour gérer ses serveurs. Aucune donnée n'est partagée avec des sociétés basées aux Etats-Unis, sauf si vous le souhaitez."
+            },
+            "migrate_from_stripe": {
+                "question": "J'utilise déjà Stripe Billing, puis-je changer ?",
+                "answer": "Oui, BillaBear dispose d'une fonctionnalité d'importation à partir de Stripe Billing qui vous permet d'importer vos abonnements actuels d'un simple clic et de désactiver Stripe Billing."
+            },
+            "germany_invoice_requirements": {
+                "question": "BillaBear prend-il en charge les exigences allemandes en matière de facturation ?",
+                "answer": "Oui et non. Il prend en charge des éléments tels que les numéros de facture incrémentiels. Cependant, l'exigence de facturation électronique n'est pas prise en charge, mais elle le sera avant 2025. Cette fonctionnalité est en tête de notre liste de choses à faire."
+            },
+            "update_frequency": {
+                "question": "A quelle fréquence BillaBear est-il mis à jour ?",
+                "answer": "Nous déployons les modifications dans la version hébergée dans le nuage dès qu'elles sont prêtes à être déployées. La version auto-hébergée bénéficie d'une mise à jour des fonctionnalités deux fois par an et d'une mise à jour des corrections de bogues lorsque cela s'avère nécessaire."
+            },
+            "payment_options": {
+                "question": "Comment puis-je payer BillaBear ?",
+                "answer": "Le système de gestion en nuage en libre-service vous permet de payer par carte. Si vous souhaitez payer par facture, vous pouvez contacter sales@billabear.com et nous pourrons arranger cela pour vous."
+            }
         }
     },
     "templates": {

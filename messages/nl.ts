@@ -64,6 +64,28 @@ export const DUTCH_TRANSLATIONS = {
             "subtitle": "Je kunt aan de slag via een Gratis Proefabonnement of door een demo te boeken!",
             "demo_cta": "Boek een demo!",
             "free_trial_cta": "Start uw gratis proefabonnement"
+        },
+        "faq": {
+            "gdpr_compliant": {
+                "question": "Is BillaBear GDPR-compliant?",
+                "answer": "Ja! BillaBear wordt beheerd door een Brits bedrijf en gebruikt Hetzner, een Duits bedrijf, om zijn servers te beheren. Er worden geen gegevens gedeeld met in de VS gevestigde bedrijven, tenzij u daarvoor kiest."
+            },
+            "migrate_from_stripe": {
+                "question": "Ik gebruik Stripe Billing al, kan ik overstappen?",
+                "answer": "Ja! BillaBear heeft een functie voor importeren vanuit Stripe Billing waarmee u met één klik op de knop uw huidige abonnementen kunt importeren en vervolgens Stripe Billing kunt uitschakelen."
+            },
+            "germany_invoice_requirements": {
+                "question": "Ondersteunt BillaBear de Duitse factuurvereisten?",
+                "answer": "Ja en nee. Het ondersteunt zaken zoals oplopende factuurnummers. De eBilling-vereiste wordt echter nog niet ondersteund, maar dat zal wel gebeuren voor 2025. Deze functie staat bovenaan onze todo-lijst."
+            },
+            "update_frequency": {
+                "question": "Hoe vaak wordt BillaBear bijgewerkt?",
+                "answer": "We implementeren wijzigingen in de Cloud gehoste versie zodra een wijziging klaar is om te worden geïmplementeerd. De zelf gehoste versie heeft twee keer per jaar een functie release en bug-fix releases wanneer dat nodig is."
+            },
+            "payment_options": {
+                "question": "Hoe kan ik voor BillaBear betalen?",
+                "answer": "Met het zelfbedieningssysteem in de cloud kun je per kaart betalen. Als je per factuur wilt betalen, kun je contact opnemen met sales@billabear.com en kunnen we dat voor je regelen."
+            }
         }
     },
     "templates": {
@@ -227,7 +249,7 @@ export const DUTCH_TRANSLATIONS = {
             "title": "Bedrijf",
             "about": "Over",
             "blog": "Blog",
-            "roadmap": "Wegenkaart",
+            "roadmap": "Roadmap",
             "imprint": "Afdruk"
         },
         "legal": {
