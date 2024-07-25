@@ -84,11 +84,11 @@ let ENGLISH_TRANSLATIONS = {
             },
             "payment_options": {
                 "question": "How can I pay for BillaBear?",
-                "answer": "With the self-service cloud management system you can pay by card. If you wish to pay by invoice you can contact sales@billabear.com and we can arrange that for you."
+                "answer": "With the self-service cloud management system you can pay by card. If you wish to pay by invoice you can contact sales{'@'}billabear.com and we can arrange that for you."
             },
             "support": {
                 "question": "How does BillaBear handle support?",
-                "answer": "We offer support via email at support@billabear.com and upon request, at no extra cost, via Slack. If you need phone support please contact sales@billabear.com"
+                "answer": "We offer support via email at support{'@'}billabear.com and upon request, at no extra cost, via Slack. If you need phone support please contact sales{'@'}billabear.com"
             }
         },
     },

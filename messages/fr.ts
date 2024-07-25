@@ -84,11 +84,11 @@ export const FRENCH_TRANSLATIONS = {
             },
             "payment_options": {
                 "question": "Comment puis-je payer BillaBear ?",
-                "answer": "Le système de gestion en nuage en libre-service vous permet de payer par carte. Si vous souhaitez payer par facture, vous pouvez contacter sales@billabear.com et nous pourrons arranger cela pour vous."
+                "answer": "Le système de gestion en nuage en libre-service vous permet de payer par carte. Si vous souhaitez payer par facture, vous pouvez contacter sales{'@'}billabear.com et nous pourrons arranger cela pour vous."
             },
             "support": {
                 "question": "Comment BillaBear gère-t-il l'assistance ?",
-                "answer": "Nous offrons une assistance par courriel à support@billabear.com et sur demande, sans frais supplémentaires, par Slack. Si vous avez besoin d'une assistance téléphonique, veuillez contacter sales@billabear.com"
+                "answer": "Nous offrons une assistance par courriel à support{'@'}billabear.com et sur demande, sans frais supplémentaires, par Slack. Si vous avez besoin d'une assistance téléphonique, veuillez contacter sales{'@'}billabear.com"
             }
         }
     },

@@ -5,23 +5,26 @@
       <div class="max-w-3xl mx-auto divide-y-2 divide-gray-200">
         <h2 class="text-center text-3xl font-extrabold text-gray-900 sm:text-4xl">Frequently asked questions</h2>
         <dl class="mt-6 space-y-6 divide-y divide-gray-200">
-          <Disclosure as="div" v-for="faq in faqs" :key="faq.question" class="pt-6" v-slot="{ open }">
+          <div v-for="faq in faqs" :key="faq.question" class="pt-6" >
             <dt class="text-lg">
-              <DisclosureButton class="text-left w-full flex justify-between items-start text-gray-400">
+              <button class="text-left w-full flex justify-between items-start text-gray-400" @click="faq.open = !faq.open">
                 <span class="font-medium text-gray-900">
                   {{ faq.question }}
                 </span>
                 <span class="ml-6 h-7 flex items-center">
-                  <ChevronDownIcon :class="[open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform']" aria-hidden="true" />
+
+                <svg class="h-6 w-6 transform" :class="[faq.open ? '-rotate-180' : 'rotate-0', 'h-6 w-6 transform']"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
                 </span>
-              </DisclosureButton>
+              </button>
             </dt>
-            <DisclosurePanel as="dd" class="mt-2 pr-12">
+            <div as="dd" class="mt-2 pr-12" :class="[faq.open ? 'block' : 'hidden']">
               <p class="text-base text-gray-500">
                 {{ faq.answer }}
               </p>
-            </DisclosurePanel>
-          </Disclosure>
+            </div>
+          </div>
         </dl>
       </div>
     </div>
@@ -29,37 +32,40 @@
 </template>
 
 <script setup>
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
-import { ChevronDownIcon } from '@heroicons/vue/outline'
 
 const { locale, setLocale, t } = useI18n()
 
-const faqs = [
+const faqs = ref([
   {
     question: t('index.faq.gdpr_compliant.question'),
     answer: t('index.faq.gdpr_compliant.answer'),
+    open: false,
   },
   {
     question: t('index.faq.migrate_from_stripe.question'),
     answer: t('index.faq.migrate_from_stripe.answer'),
+    open: false,
   },
   {
     question: t('index.faq.germany_invoice_requirements.question'),
     answer: t('index.faq.germany_invoice_requirements.answer'),
+    open: false,
   },
   {
     question: t('index.faq.update_frequency.question'),
     answer: t('index.faq.update_frequency.answer'),
+    open: false,
   },
   {
     question: t('index.faq.payment_options.question'),
     answer: t('index.faq.payment_options.answer'),
+    open: false,
   },
   {
     question: t('index.faq.support.question'),
     answer: t('index.faq.support.answer'),
+    open: false,
   },
-
-]
+]);
 
 </script>

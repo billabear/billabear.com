@@ -84,11 +84,11 @@ export const ITALIEN_TRANSLATIONS = {
             },
             "payment_options": {
                 "question": "Come posso pagare BillaBear?",
-                "answer": "Con il sistema di gestione cloud self-service è possibile pagare con carta. Se si desidera pagare con fattura, è possibile contattare sales@billabear.com e organizzare il tutto."
+                "answer": "Con il sistema di gestione cloud self-service è possibile pagare con carta. Se si desidera pagare con fattura, è possibile contattare sales{'@'}billabear.com e organizzare il tutto."
             },
             "support": {
                 "question": "Come gestisce l'assistenza BillaBear?",
-                "answer": "Offriamo assistenza via e-mail all'indirizzo support@billabear.com e su richiesta, senza costi aggiuntivi, via Slack. Se avete bisogno di assistenza telefonica, contattate sales@billabear.com"
+                "answer": "Offriamo assistenza via e-mail all'indirizzo support{'@'}billabear.com e su richiesta, senza costi aggiuntivi, via Slack. Se avete bisogno di assistenza telefonica, contattate sales{'@'}billabear.com"
             }
         }
     },

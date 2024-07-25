@@ -10,7 +10,12 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  modules: ["@nuxtjs/i18n", "@nuxt/content", "@nuxt/image"],
+  modules: [
+    "@nuxtjs/i18n",
+    "@nuxt/content",
+    "@nuxt/image",
+    "nuxt-headlessui"
+  ],
   i18n: {
     strategy: 'prefix_except_default',
     defaultLocale: 'en',
