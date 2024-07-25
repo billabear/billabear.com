@@ -85,6 +85,10 @@ export const DUTCH_TRANSLATIONS = {
             "payment_options": {
                 "question": "Hoe kan ik voor BillaBear betalen?",
                 "answer": "Met het zelfbedieningssysteem in de cloud kun je per kaart betalen. Als je per factuur wilt betalen, kun je contact opnemen met sales@billabear.com en kunnen we dat voor je regelen."
+            },
+            "support": {
+                "question": "Hoe gaat BillaBear om met ondersteuning?",
+                "answer": "We bieden ondersteuning via e-mail op support@billabear.com en op verzoek, zonder extra kosten, via Slack. Als je telefonische ondersteuning nodig hebt, neem dan contact op met sales@billabear.com"
             }
         }
     },

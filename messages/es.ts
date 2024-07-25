@@ -85,6 +85,10 @@ export const SPAINISH_TRANSLATIONS = {
             "payment_options": {
                 "question": "¿Cómo puedo pagar BillaBear?",
                 "answer": "Con el sistema de autoservicio de gestión en la nube puede pagar con tarjeta. Si desea pagar con factura, puede ponerse en contacto con sales@billabear.com y se lo gestionaremos."
+            },
+            "support": {
+                "question": "¿Cómo gestiona BillaBear la asistencia?",
+                "answer": "Ofrecemos asistencia por correo electrónico en support@billabear.com y, previa solicitud, sin coste adicional, a través de Slack. Si necesita asistencia telefónica, póngase en contacto con sales@billabear.com"
             }
         }
     },

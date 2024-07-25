@@ -85,6 +85,10 @@ let GERMAN_TRANSLATIONS = {
             "payment_options": {
                 "question": "Wie kann ich für BillaBear bezahlen?",
                 "answer": "Mit dem Selbstbedienungs-Cloud-Management-System können Sie per Karte bezahlen. Wenn Sie per Rechnung bezahlen möchten, können Sie sich an sales@billabear.com wenden und wir können das für Sie arrangieren."
+            },
+            "support": {
+                "question": "Wie handhabt BillaBear den Support?",
+                "answer": "Wir bieten Support per E-Mail unter support@billabear.com und auf Anfrage und ohne zusätzliche Kosten über Slack. Wenn Sie telefonischen Support benötigen, wenden Sie sich bitte an sales@billabear.com"
             }
         }
     },

@@ -55,6 +55,10 @@ const faqs = [
     question: t('index.faq.payment_options.question'),
     answer: t('index.faq.payment_options.answer'),
   },
+  {
+    question: t('index.faq.support.question'),
+    answer: t('index.faq.support.answer'),
+  },
 
 ]
 
