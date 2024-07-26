@@ -7,13 +7,13 @@
       {{ $t('departments.marketing.subtitle') }}
     </template>
   </PageHero>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <BrandingOverall />
   </div>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <EmailTemplates />
   </div>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <IntegrationsEmail />
   </div>
 </template>

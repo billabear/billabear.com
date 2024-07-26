@@ -17,7 +17,7 @@ useHead({
       {{ $t('pages.reports.subtitle') }}
     </template>
   </PageHero>
-  <div class="mt-24 relative">
+  <div class="mt-12 relative">
     <ReportsOverall />
   </div>
 </template>

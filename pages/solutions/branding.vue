@@ -21,7 +21,7 @@ useHead({
         {{ $t('pages.branding.subtitle') }}
       </template>
     </PageHero>
-    <div class="relative pt-16 pb-32 overflow-hidden">
+    <div class="relative overflow-hidden">
       <div class="mt-24 overflow-hidden">
         <BrandingOverall />
       </div>

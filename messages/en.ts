@@ -38,11 +38,11 @@ let ENGLISH_TRANSLATIONS = {
             },
             "reports": {
                 "title": "LTV Reports",
-                "description": "With advance reports you can see LTV for cohort groups",
+                "description": "With advance reports, you can see LTV for cohort groups",
             },
             "quotes": {
                 "title": "Quotes",
-                "description": "Create quotes for potential customers that allows them to buy instantly.",
+                "description": "Create quotes for potential customers that allow them to buy instantly.",
             },
             "invoices": {
                 "title": "Invoices Or Card",
@@ -56,7 +56,7 @@ let ENGLISH_TRANSLATIONS = {
         "self_hostable": {
             "title": "Self-Hostable",
             "subtitle": "Be in complete control and host BillaBear yourself!",
-            "paragraph": "With the ability to self-host, you'll be able to be in complete control. From being able to allow your data teams to have complete access to be able to create custom functionality by extending BillaBear. You'll be free and in control of your BillaBear setup.",
+            "paragraph": "With the ability to self-host, you'll be able to be in complete control. From being able to allow your data teams to have complete access to being able to create custom functionality by extending BillaBear. You'll be free and in control of your BillaBear setup.",
             "cta_button": "Checkout GitHub"
         },
         "last_cta": {
@@ -68,15 +68,15 @@ let ENGLISH_TRANSLATIONS = {
         "faq": {
             "gdpr_compliant": {
                 "question": "Is BillaBear GDPR Compliant?",
-                "answer": "Yes! BillaBear is operated by a UK company and uses Hetzner, which is a German based company, to operate its servers. No data is shared with US-based companies unless you choose to."
+                "answer": "Yes! BillaBear is operated by a UK company and uses Hetzner, which is a German-based company, to operate its servers. No data is shared with US-based companies unless you choose to."
             },
             "migrate_from_stripe": {
                 "question": "I already use Stripe Billing can I switch?",
-                "answer": "Yes! BillaBear has an import from Stripe Billing functionality where you can import your current subscriptions at a click of a button and then disable Stripe Billing."
+                "answer": "Yes! BillaBear has an import from Stripe Billing functionality where you can import your current subscriptions at the click of a button and then disable Stripe Billing."
             },
             "germany_invoice_requirements": {
                 "question": "Does BillaBear support the German invoice requirements?",
-                "answer": "Yes and no. It supports things such as incremental invoice numbers. However the eBilling requirement is not supported but it will be before 2025. This feature is at the top of our todo list."
+                "answer": "Yes and no. It supports things such as incremental invoice numbers. However, the eBilling requirement is not supported but it will be before 2025. This feature is at the top of our todo list."
             },
             "update_frequency": {
                 "question": "How often is BillaBear updated?",
@@ -103,7 +103,7 @@ let ENGLISH_TRANSLATIONS = {
         "sub_description": "Professional level integration with Stripe without the cost",
         "coming_soon": "Coming Soon",
         "get_started": "Start Your Free Trial",
-        "lifetime_deal": "Sign up now to lock-in this low price forever!",
+        "lifetime_deal": "Sign up now to lock in this low price forever!",
         "features": {
             "tax_reports": "Tax Reports",
             "slack_integrations": "Slack Integration",
@@ -317,7 +317,7 @@ let ENGLISH_TRANSLATIONS = {
         "reports": {
             "browser_title": "BillaBear - Get Insights Into Your Business",
             "title": "Get Insights Into Your Business",
-            "subtitle": "With powerful reports you'll be able to get deep insights.",
+            "subtitle": "With powerful reports, you'll be able to get deep insights.",
         },
         "tax": {
             "browser_title": "BillaBear - Manage Your Taxes With Ease",
@@ -339,7 +339,7 @@ let ENGLISH_TRANSLATIONS = {
         "customer_support": {
             "browser_title": "BillaBear - Support Your Customers",
             "title": "Support Your Customers",
-            "subtitle": "With an easy to use UI you'll be able to focus on your customer's support needs.",
+            "subtitle": "With an easy-to-use UI you'll be able to focus on your customer's support needs.",
         },
         "finance": {
             "browser_title": "BillaBear - Understand Your Finances",
@@ -357,7 +357,7 @@ let ENGLISH_TRANSLATIONS = {
             "title": "Control Your Branding" ,
             "paragraph": "Billing can be an important area where your branding and how you're represented can be important.",
             "features": {
-                "multiple_brands": "With the ability of having multiple brands you can have white-label resellers or different brands in different countries",
+                "multiple_brands": "With the ability to have multiple brands you can have white-label resellers or different brands in different countries",
                 "pdf_templates": "With the ability to have full control over PDF templates, you can ensure your receipts and invoices represent you correctly",
                 "email_templates": "With the ability to have full control over email templates, you can ensure your email communications are tip-top."
             },
@@ -430,7 +430,7 @@ let ENGLISH_TRANSLATIONS = {
         },
         "plan_creation": {
             "title": "Manage Plans With Ease",
-            "paragraph": "With the ability to manage subscription plans via a GUI you're able to allow sales people to craft and sell custom subscription plans.",
+            "paragraph": "With the ability to manage subscription plans via a GUI you're able to allow salespeople to craft and sell custom subscription plans.",
             "manage": {
                 "title": "Manage the following:",
                 "trial_details": "Trial Details",
@@ -463,7 +463,7 @@ let ENGLISH_TRANSLATIONS = {
         "tax_rules": {
             "title": "Manage Your Taxes With Dynamic Rules",
             "paragraph_one": "With the ability to create tax rules via the UI you're able to quickly and easily control which tax rates are being applied.",
-            "paragraph_two": "Tax laws don't change often but when they do they cause companies a lot of pain. With the ability to create new rules with validity dates you can be prepared for tax changes without a lot of drama and work.",
+            "paragraph_two": "Tax laws don't change often but when they do they cause companies a lot of pain. With the ability to create new rules with validity dates, you can be prepared for tax changes without a lot of drama and work.",
             "cta_button": "Start Free Trial",
             "image_alt": "Screenshot of country overview page"
         },

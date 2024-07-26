@@ -8,7 +8,7 @@
         {{ $t('about.subtitle') }}
       </template>
     </PageHero>
-  <div class="mt-24 max-w-7xl mx-auto">
+  <div class="mt-12 max-w-7xl mx-auto">
     {{ $t('about.paragraph') }}
   </div>
 

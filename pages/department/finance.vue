@@ -7,13 +7,13 @@
       {{ $t('departments.finance.subtitle') }}
     </template>
   </PageHero>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <TaxOverall />
   </div>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <ReportsOverall />
   </div>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <SubscriptionMassChange />
   </div>
 </template>

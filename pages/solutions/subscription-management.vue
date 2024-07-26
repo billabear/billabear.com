@@ -14,34 +14,28 @@ useHead({
 </script>
 
 <template>
-  <div class="py-28 bg-gradient-to-r from-cyan-600 to-teal-600">
-    <div class="mx-auto max-w-4xl">
-      <h1 class="text-center text-4xl text-white">
-        {{ $t('pages.subscription_management.title') }}
-      </h1>
-      <h2 class="text-2xl text-center mt-3 text-slate-800" >
-        {{ $t('pages.subscription_management.subtitle') }}
-      </h2>
-      <div class="mt-12 text-center">
-        <a href="https://app.sessions.us/book/950e63e2-billabear---demo" target="_blank" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-teal-600 bg-white hover:bg-slate-100">{{ $t('pages.subscription_management.demo') }}</a>
-        <a href="https://cloud.billabear.com/signup" target="_blank" class="border border-white ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-teal-600 hover:bg-teal-700"> {{ $t('pages.subscription_management.free_trial') }} </a>
 
-      </div>
-    </div>
-  </div>
-  <div class="mt-24 overflow-hidden">
+  <PageHero>
+    <template v-slot:title>
+      {{ $t('pages.subscription_management.title') }}
+    </template>
+    <template v-slot:subtitle>
+      {{ $t('pages.subscription_management.subtitle') }}
+    </template>
+  </PageHero>
+  <div class="mt-12 overflow-hidden">
     <SubscriptionManagementOverall />
   </div>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <SubscriptionMassChange />
   </div>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <SubscriptionCancel />
   </div>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <SubscriptionPlanCreation />
   </div>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <SubscriptionAddons />
   </div>
   <div class="bg-white">

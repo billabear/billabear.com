@@ -46,37 +46,37 @@ useHead({
     </div>
 
     <!-- Alternating Feature Sections -->
-    <div class="relative pt-16 pb-32 overflow-hidden">
+    <div class="relative pt-12 pb-12 overflow-hidden">
       <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"></div>
       <div class="relative">
         <TaxOverall />
       </div>
-      <div class="mt-24 overflow-hidden">
+      <div class="mt-12 overflow-hidden">
         <SubscriptionManagementOverall />
       </div>
-      <div class="mt-24 overflow-hidden">
+      <div class="mt-12 overflow-hidden">
         <WorkflowOverall />
       </div>
-      <div class="mt-24 overflow-hidden">
+      <div class="mt-12 overflow-hidden">
         <IntegrationsOverall />
       </div>
-      <div class="mt-24 overflow-hidden">
+      <div class="mt-12 overflow-hidden">
         <BrandingOverall />
       </div>
-      <div class="mt-24 overflow-hidden">
+      <div class="mt-12 overflow-hidden">
         <ReportsOverall />
       </div>
-      <div class="mt-24 overflow-hidden">
+      <div class="mt-12 overflow-hidden">
         <IntegrationsStripe />
       </div>
-      <div class="mt-24 overflow-hidden">
+      <div class="mt-12 overflow-hidden">
         <TechSdk />
       </div>
     </div>
 
     <!-- Gradient Feature Section -->
     <div class="bg-gradient-to-r from-cyan-800 to-teal-700">
-      <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
+      <div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-12 lg:px-8">
         <h2 class="text-3xl font-extrabold text-white tracking-tight">{{ $t('index.features.title') }}</h2>
         <p class="mt-4 max-w-3xl text-lg text-teal-200">{{ $t('index.features.description') }}</p>
         <div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-4 lg:gap-x-8 lg:gap-y-16">
@@ -226,7 +226,7 @@ useHead({
     </div>
     <!-- CTA Section -->
     <div class="bg-white">
-      <div class="max-w-4xl mx-auto pt-16 px-4 sm:px-6 sm:pt-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
+      <div class="max-w-4xl mx-auto pt-12 px-4 sm:px-6 sm:pt-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
         <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           <span class="block">{{ $t('index.last_cta.title') }}</span>
           <span class="-mb-1 pb-1 block bg-gradient-to-r from-cyan-600 to-teal-600 bg-clip-text text-transparent">{{ $t('index.last_cta.subtitle') }}</span>

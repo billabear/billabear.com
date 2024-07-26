@@ -20,19 +20,19 @@ useHead({
       {{ $t('pages.integrations.subtitle') }}
     </template>
   </PageHero>
-  <div class="mt-24 relative">
+  <div class="mt-12 relative">
     <IntegrationsOverall />
   </div>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <IntegrationsEmail />
   </div>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <IntegrationsSlack />
   </div>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <IntegrationsStripe />
   </div>
-  <div class="mt-24 overflow-hidden">
+  <div class="mt-12 overflow-hidden">
     <IntegrationsPdf />
   </div>
 </template>

@@ -19,11 +19,11 @@ useHead({
       {{ $t('pages.workflow.subtitle') }}
     </template>
   </PageHero>
-    <div class="relative mt-24 overflow-hidden">
+    <div class="relative mt-12 overflow-hidden">
       <div class="relative">
         <WorkflowOverall />
       </div>
-      <div class="mt-24 overflow-hidden">
+      <div class="mt-12 overflow-hidden">
         <WorkflowEdit />
       </div>
     </div>
