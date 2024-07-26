@@ -451,10 +451,10 @@ export const FRENCH_TRANSLATIONS = {
             "title": "Contrôlez la façon dont vous gérez vos impôts",
             "paragraph": "Grâce à un système fiscal puissant, vous pourrez contrôler la façon dont vous gérez les impôts à tous les niveaux.",
             "features": {
-                "per_customer": "Contrôler le taux d'imposition au niveau du client",
-                "per_product": "Contrôler le taux d'imposition au niveau du produit",
-                "per_country": "Contrôler le taux d'imposition au niveau national",
-                "per_state": "Contrôler le taux d'imposition au niveau de l'État",
+                "per_customer": "Contrôler le taux de taxe au niveau du client",
+                "per_product": "Contrôler le taux de taxe au niveau du produit",
+                "per_country": "Contrôler le taux de taxe au niveau national",
+                "per_state": "Contrôler le taux de taxe au niveau de l'État",
                 "eu_rules": "Gérer les règles fiscales de l'UE telles que l'OSS et l'autoliquidation."
             },
             "cta_button": "Démarrer l'essai gratuit",
@@ -462,7 +462,7 @@ export const FRENCH_TRANSLATIONS = {
         },
         "tax_rules": {
             "title": "Gérer vos impôts avec des règles dynamiques",
-            "paragraph_one": "La possibilité de créer des règles fiscales via l'interface utilisateur permet de contrôler rapidement et facilement les taux d'imposition appliqués.",
+            "paragraph_one": "La possibilité de créer des règles fiscales via l'interface utilisateur permet de contrôler rapidement et facilement les taux de taxe appliqués.",
             "paragraph_two": "Les lois fiscales ne changent pas souvent, mais lorsqu'elles le font, elles causent beaucoup de soucis aux entreprises. Grâce à la possibilité de créer de nouvelles règles avec des dates de validité, vous pouvez vous préparer aux changements fiscaux sans trop de problèmes et de travail.",
             "cta_button": "Démarrer l'essai gratuit",
             "image_alt": "Capture d'écran de la page de présentation du pays"
