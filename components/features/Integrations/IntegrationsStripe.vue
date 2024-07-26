@@ -12,7 +12,7 @@
         <div class="mt-6">
           <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">{{ $t('features.integrations_stripe.title') }}</h2>
           <p class="mt-4 text-lg text-gray-500">
-            <ul class="list-disc">
+            <ul class="list-disc ml-5">
               <li class="p-1">{{ $t('features.integrations_stripe.features.import') }}</li>
               <li class="p-1">{{ $t('features.integrations_stripe.features.disable') }}</li>
               <li class="p-1">{{ $t('features.integrations_stripe.features.webhook') }}</li>

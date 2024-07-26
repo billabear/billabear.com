@@ -15,7 +15,7 @@
 
           <p class="mt-4 text-lg text-gray-500">{{ $t('features.tech_sdk.paragraph') }}
           </p>
-          <ul class="list-disc">
+          <ul class="list-disc ml-5 text-gray-500">
             <li class="p-1">PHP</li>
             <li class="p-1">Java</li>
             <li class="p-1">Go</li>

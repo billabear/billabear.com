@@ -16,7 +16,7 @@
             {{ $t('features.branding_overall.paragraph') }}
           </p>
           <p class="mt-4 text-lg text-gray-500">
-            <ul class="list-disc">
+            <ul class="list-disc ml-5">
               <li class="p-1">{{ $t('features.branding_overall.features.multiple_brands') }}</li>
               <li class="p-1">{{ $t('features.branding_overall.features.pdf_templates') }}</li>
               <li class="p-1">{{ $t('features.branding_overall.features.email_templates') }}</li>

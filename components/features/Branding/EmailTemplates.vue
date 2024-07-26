@@ -13,7 +13,7 @@
         <div class="mt-6">
           <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">{{ $t('features.email_templates.title') }}</h2>
           <p class="mt-4 text-lg text-gray-500">
-            <ul class="list-disc">
+            <ul class="list-disc ml-5">
               <li class="p-1">{{ $t('features.email_templates.line_one') }}</li>
               <li class="p-1">{{ $t('features.email_templates.line_two') }}</li>
               <li class="p-1">{{ $t('features.email_templates.line_three') }}</li>

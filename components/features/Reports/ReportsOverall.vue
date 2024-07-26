@@ -13,7 +13,7 @@
         <div class="mt-6">
           <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">{{ $t('features.reports_overall.title') }}</h2>
           <p class="mt-4 text-lg text-gray-500">
-            <ul class="list-disc">
+            <ul class="list-disc ml-5">
               <li>{{ $t('features.reports_overall.features.lifetime_value') }}</li>
               <li>{{ $t('features.reports_overall.features.churn_reports') }}</li>
               <li>{{ $t('features.reports_overall.features.subscription_reports') }}</li>

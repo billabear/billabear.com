@@ -13,7 +13,7 @@
         <div class="mt-6">
           <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">{{ $t('features.integrations_overall.title') }}</h2>
           <p class="mt-4 text-lg text-gray-500">
-            <ul class="list-disc">
+            <ul class="list-disc ml-5">
               <li>{{ $t('features.integrations_overall.features.slack') }}</li>
               <li>{{ $t('features.integrations_overall.features.email_providers') }}</li>
               <li>{{ $t('features.integrations_overall.features.pdf_generators') }}</li>
