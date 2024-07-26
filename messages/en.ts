@@ -387,7 +387,7 @@ let ENGLISH_TRANSLATIONS = {
         },
         "edit_workflow": {
             "title": "Control Your Billing Workflows",
-            "paragraph": "With the ability to create custom steps in your workflow from both a code point of view and from the webui you'll be able to ensure your billing and subscription workflows match how your business works.",
+            "paragraph": "With the ability to create custom steps in your workflow from both a code point of view and from the WebUI you'll be able to ensure your billing and subscription workflows match how your business works.",
             "cta_button": "Start Free Trial",
             "image_alt": "Screenshot of workflow list page"
         },
@@ -400,7 +400,7 @@ let ENGLISH_TRANSLATIONS = {
         },
         "subscription_mass_change": {
             "title": "Mass Changes To Your Subscription Plans",
-            "paragraph": "Ensure you maximise your revenue with ease when you increase your prices. No need to plan and align with tech to apply a mass change to existing subscription to new prices or new plans. With a click of a few buttons you can select which subscriptions to change and see the potential change in revenue caused by the change.",
+            "paragraph": "Ensure you maximise your revenue with ease when you increase your prices. No need to plan and align with tech to apply a mass change to existing subscriptions to new prices or new plans. With a click of a few buttons you can select which subscriptions to change and see the potential change in revenue caused by the change.",
             "paragraph_two": "With the ability to export affected customers you'll be able to send an email blast to affected customers with ease.",
             "cta_button": "Start Free Trial",
             "image_alt": "Screenshot of subscription mass change page"
@@ -422,7 +422,7 @@ let ENGLISH_TRANSLATIONS = {
             "refund": {
                 "options": "Refund Options",
                 "full": "Full Refund",
-                "prorata": "Prorata based on usage",
+                "pro rata": "Prorata based on usage",
                 "none": "No Refund"
             },
             "cta_button": "Start Free Trial",
@@ -478,7 +478,7 @@ let ENGLISH_TRANSLATIONS = {
             "features": {
                 "slack": "Get notifications about the things you care about in Slack",
                 "email_providers": "With API integrations with email providers such as SendGrid, Postmark, MailGun, etc.",
-                "pdf_generators": "Choose how PDFs are generated so you're in control of how your pdfs look."
+                "pdf_generators": "Choose how PDFs are generated so you're in control of how your PDFs look."
             },
             "cta_button": "Start Free Trial",
             "image_alt": "Screenshot of tax export sample"
@@ -497,7 +497,7 @@ let ENGLISH_TRANSLATIONS = {
         },
         "integrations_pdfs": {
             "title": "Control how your PDFS are displayed",
-            "paragraph": "The look of PDFs can often depend on how you're generating them. Some PDF rendering tools support a lot more features than others. Some are missing features, some just don't work how you want. With the ability to choose the rendering tools, you control how your pdfs look.",
+            "paragraph": "The look of PDFs can often depend on how you're generating them. Some PDF rendering tools support a lot more features than others. Some are missing features, some just don't work how you want. With the ability to choose the rendering tools, you control how your PDFs look.",
             "cta_button": "Start Free Trial",
             "image_alt": "Screenshot of configuring pdf settings"
         },
@@ -529,7 +529,7 @@ let ENGLISH_TRANSLATIONS = {
             "image_alt": "Screenshot of configuring pdf settings"
         },
         "tech_sdk": {
-            "title": "With out of the box SDKs integration is easy",
+            "title": "With out-of-the-box SDKs integration is easy",
             "paragraph": "You'll be able to get up and running in no time with SDKs provided for many major languages.",
             "cta_button": "Start Free Trial",
             "image_alt": "Screenshot of configuring pdf settings"
