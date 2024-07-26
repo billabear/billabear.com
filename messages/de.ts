@@ -41,7 +41,7 @@ let GERMAN_TRANSLATIONS = {
                 "description": "Mit Vorabberichten können Sie den LTV für Kohortengruppen anzeigen"
             },
             "quotes": {
-                "title": "Zitate",
+                "title": "Angebot",
                 "description": "Erstellen Sie Angebote für potenzielle Kunden, mit denen sie sofort kaufen können."
             },
             "invoices": {
@@ -523,7 +523,7 @@ let GERMAN_TRANSLATIONS = {
             "image_alt": "Screenshot des Lebenszeitwerts"
         },
         "quote_create": {
-            "title": "Einfaches Erstellen von Zitaten",
+            "title": "Einfaches Erstellen von Angebote",
             "paragraph": "Mit der Möglichkeit, benutzerdefinierte Angebote für Kunden zu erstellen, können Sie zeitabhängige Angebote unterbreiten, die Dringlichkeit erzeugen und den Abschluss von Geschäften unterstützen.",
             "cta_button": "Kostenlose Testversion starten",
             "image_alt": "Screenshot der Konfiguration der pdf-Einstellungen"
