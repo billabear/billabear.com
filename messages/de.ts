@@ -10,7 +10,7 @@ let GERMAN_TRANSLATIONS = {
                 "line_one": "Übernehmen Sie die Kontrolle über Ihr",
                 "line_two": "Rechnungsstellung"
             },
-            "paragraph": "Mit der tiefen Integration von Stripe, einem leistungsstarken Steuersystem, automatisierten Workflow-Prozessen und vielem mehr haben Sie die volle Kontrolle",
+            "paragraph": "Mit der tiefen Integration von Stripe, einem leistungsstarken Steuersystem, automatisierten Workflow-Prozessen und vielem mehr, haben Sie die volle Kontrolle",
             "get_demo": "Demo anfordern",
             "start_trial": "Kostenlose Testversion starten"
         },
@@ -42,7 +42,7 @@ let GERMAN_TRANSLATIONS = {
             },
             "quotes": {
                 "title": "Angebot",
-                "description": "Erstellen Sie Angebote für potenzielle Kunden, mit denen sie sofort kaufen können."
+                "description": "Erstellen Sie Angebote für potenzielle Kunden, mit denen Sie umgehend den Kauf abschliessen können" 
             },
             "invoices": {
                 "title": "Rechnungen oder Karte",
@@ -50,7 +50,7 @@ let GERMAN_TRANSLATIONS = {
             },
             "workflows": {
                 "title": "Arbeitsabläufe",
-                "description": "Möglichkeit, Workflows zu erstellen, die Aktionen für Abrechnungsereignisse auslösen"
+                "description": "Möglichkeit, Workflows zu erstellen und die Aktionen für Abrechnungsereignisse auslösen"
             }
         },
         "self_hostable": {
@@ -375,7 +375,7 @@ let GERMAN_TRANSLATIONS = {
             "line_one": "Dank der Integrationen mit SendGrid, MailGun, Postmark usw. können Sie wählen, wie Ihre E-Mails zugestellt werden.",
             "line_two": "Sie haben die vollständige Kontrolle über die Vorlagen, indem Sie die Twig-Vorlagensprache oder die Vorlagensysteme der E-Mail-Anbieter verwenden.",
             "line_three": "Mit E-Mail-Vorlagen, die mit einer Marke verbunden sind, können Sie sicherstellen, dass jede Marke korrekt angezeigt wird.",
-            "line_four": "Wählen Sie, welche E-Mails pro Marke versendet werden.",
+            "line_four": "Wählen Sie, welche E-Mails für welche ihrer Marken versendet werden.",
             "cta_button": "Kostenlose Testversion starten",
             "image_alt": "Screenshot der Seite E-Mail-Vorlagenliste"
         },
