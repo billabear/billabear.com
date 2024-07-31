@@ -2,6 +2,7 @@
 
 const localePath = useLocalePath()
 
+import GithubButton from 'vue-github-button'
 
 let showFeatureMenu = ref(false);
 let showDepartmentMenu = ref(false);
@@ -311,7 +312,9 @@ function responseMenu() {
           </div>
         </div>
       </nav>
-      <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+      <div class="hidden md:flex items-center align-middle justify-end md:flex-1 lg:w-0">
+        <github-button class="mr-2" href="https://github.com/billabear/billabear" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star billabear/billabear on GitHub">Star</github-button>
+
         <LocaleSwitcher />
         <a href="https://cloud.billabear.com/signup" target="_blank" class="ml-4 whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"> {{ $t('menu.signup') }} </a>
         <a href="https://cloud.billabear.com/login" target="_blank" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-teal-600 hover:bg-teal-700"> {{ $t('menu.login') }} </a>
@@ -411,7 +414,7 @@ function responseMenu() {
           </div>
         </div>
         <div class="py-6 px-5">
-          <div class="grid grid-cols-2 gap-4">
+          <div class="grid grid-cols- gap-4">
             <NuxtLink :to="localePath('/pricing')"   @click="showResponseMenu = !showResponseMenu"  class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.pricing') }} </NuxtLink>
 
             <a href="https://docs.billabear.com" target="_blank" class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.docs') }} </a>
@@ -421,6 +424,8 @@ function responseMenu() {
             <NuxtLink :to="localePath('/blog')"   @click="showResponseMenu = !showResponseMenu"  class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.more.blog.title') }} </NuxtLink>
           </div>
           <div class="mt-6">
+            <github-button href="https://github.com/billabear/billabear" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star billabear/billabear on GitHub">Star</github-button>
+
             <LocaleSwitcher class="w-full mb-4" />
 
             <a href="https://cloud.billabear.com/signup" target="_blank"  class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-teal-600 hover:bg-teal-700"> {{ $t('menu.signup') }} </a>
