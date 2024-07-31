@@ -13,8 +13,14 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/i18n",
     "@nuxt/content",
-    "@nuxt/image"
+    "@nuxt/image",
+      'nuxt-rollbar'
   ],
+
+  rollbar: {
+    serverAccessToken: 'a057384b0e49477994ad8ae9acebde54',
+    clientAccessToken: 'd918ae46bc2443c88bc0d5871bb42ca8',
+  },
   i18n: {
     strategy: 'prefix_except_default',
     defaultLocale: 'en',

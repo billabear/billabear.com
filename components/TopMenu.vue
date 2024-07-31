@@ -312,7 +312,7 @@ function responseMenu() {
           </div>
         </div>
       </nav>
-      <div class="hidden md:flex items-center align-middle justify-end md:flex-1 lg:w-0">
+      <div class="hidden md:flex items-center content-center justify-end md:flex-1 lg:w-0">
         <github-button class="mr-2" href="https://github.com/billabear/billabear" data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large" data-show-count="true" aria-label="Star billabear/billabear on GitHub">Star</github-button>
 
         <LocaleSwitcher />
