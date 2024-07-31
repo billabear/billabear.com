@@ -13,8 +13,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/i18n",
     "@nuxt/content",
-    "@nuxt/image",
-    "nuxt-headlessui"
+    "@nuxt/image"
   ],
   i18n: {
     strategy: 'prefix_except_default',
