@@ -14,7 +14,6 @@ export default defineI18nConfig(() => ({
         es: SPAINISH_TRANSLATIONS,
         fr: FRENCH_TRANSLATIONS,
         it: ITALIEN_TRANSLATIONS,
-        nl: DUTCH_TRANSLATIONS,
     },
     fallbackLocale: 'en',
 
