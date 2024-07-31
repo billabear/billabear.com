@@ -36,8 +36,8 @@ useHead({
             <p class="mt-6 max-w-lg mx-auto text-center text-xl text-teal-200 sm:max-w-3xl">{{ $t('index.hero.paragraph') }}</p>
             <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-teal-700 bg-white hover:bg-teal-50 sm:px-8">{{ $t('index.hero.get_demo') }}</a>
-                <a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-teal-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8">{{ $t('index.hero.start_trial') }}</a>
+                <a href="https://app.sessions.us/book/950e63e2-billabear---demo" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-teal-700 bg-white hover:bg-teal-50 sm:px-8">{{ $t('index.hero.get_demo') }}</a>
+                <a href="https://cloud.billabear.com" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-teal-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8">{{ $t('index.hero.start_trial') }}</a>
               </div>
             </div>
           </div>
