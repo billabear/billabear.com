@@ -1,6 +1,7 @@
 ---
 feature: customers
 vendor: lago
+video: https://www.loom.com/embed/9a2b17d2daff46ab948f37ac8bb7e76e?sid=02913ac2-596e-4468-a50d-8c1d55f84f8e
 ---
 You start off with a very sleek list page which provides a basic overview of the customer with information such as their name, the "external id", and the number of subscriptions.
 
@@ -11,7 +12,6 @@ When creating a customer you need to provide the name and the "external id". I f
 The customer overview looks very sleek. However, it clear that focus has been given to looking good instead of being functional and providing a good user experience for customer support team. I think this is highlighted with the fact that active coupons is the first item that will appear on the customer overview. I struggle to understand why that would be one of the first things you would need to see when handling a customer.
 
 Overall I would say that because of how the customer functionality is Lago is unable to support sales and customer support teams with their billing solution. It also appears to be heavily focused on the technical side of things since the "external id" would often have to be requested from the tech team if a non-technical person was doing the creation.
-
 
 ## Customer Creation
 
