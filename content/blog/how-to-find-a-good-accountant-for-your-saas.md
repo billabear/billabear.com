@@ -5,6 +5,12 @@ date: 2024-08-07T23:56:07+02:00
 draft: false
 author:
   display_name: Rachel
+
+meta:
+  keywords: subscription management software, SaaS Business, Software as a Service, BillaBear
+  description: Find out what you need to know about fining a good accountant for your SaaS
+  title: How to Find a Good Accountant or CPA for your SaaS
+top: true
 ---
 Have you experienced business growth over the past few years? Are you trying to maximize your tax savings or ensure accurate financial reporting? If any of these situations describe your business, it might be time to enlist the help of an accountant or CPA.
 
