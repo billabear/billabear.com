@@ -14,7 +14,8 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "@nuxt/content",
     "@nuxt/image",
-      'nuxt-rollbar'
+    'nuxt-rollbar',
+    "@nuxtjs/sitemap"
   ],
 
   rollbar: {
