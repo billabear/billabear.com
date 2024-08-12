@@ -48,7 +48,7 @@ This class will allow you to define:
 
 It's possible to add extra places within the workflow via the admin system, this can be very useful for creating webhooks for adding steps to your processes.
 
-![Screenshot of BillaBear](/images/creating-dynamic-billing-workflows-with-symfony/create_screenshot.png)
+![Screenshot of BillaBear](/images/posts/creating-dynamic-billing-workflows-with-symfony/create_screenshot.png)
 
 Creating a place via this will allow you to:
 
