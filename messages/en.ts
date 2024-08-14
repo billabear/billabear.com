@@ -226,6 +226,10 @@ let ENGLISH_TRANSLATIONS = {
             "blog": {
                 "title": "Blog",
                 "description": "Our company blog"
+            },
+            "guides": {
+                "title": "Guides",
+                "description": "Some guides to help you achieve important tasks"
             }
         },
         "signup": "Signup",

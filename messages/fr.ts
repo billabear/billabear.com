@@ -226,6 +226,10 @@ export const FRENCH_TRANSLATIONS = {
             "blog": {
                 "title": "Blog",
                 "description": "Notre blog d'entreprise"
+            },
+            "guides": {
+                "title": "Guides",
+                "description": "Quelques guides pour vous aider à réaliser des tâches importantes"
             }
         },
         "signup": "S'inscrire",

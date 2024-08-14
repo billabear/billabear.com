@@ -426,6 +426,12 @@ function responseMenu() {
                       <p class="mt-1 text-sm text-gray-500">{{ $t('menu.more.blog.description') }}</p>
                     </NuxtLink>
                   </MenuItem>
+                  <MenuItem v-slot="{ active }">
+                    <NuxtLink :to="localePath('/guides')" class="-m-3 p-3 block rounded-md hover:bg-gray-50">
+                      <p class="text-base font-medium text-gray-900">{{ $t('menu.more.guides.title') }}</p>
+                      <p class="mt-1 text-sm text-gray-500">{{ $t('menu.more.guides.description') }}</p>
+                    </NuxtLink>
+                  </MenuItem>
                 </div>
               </div>
             </MenuItems>

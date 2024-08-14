@@ -226,6 +226,10 @@ export const SPAINISH_TRANSLATIONS = {
             "blog": {
                 "title": "Blog",
                 "description": "Blog de la empresa"
+            },
+            "guides": {
+                "title": "Anleitungen",
+                "description": "Einige Anleitungen, die Ihnen bei der Erledigung wichtiger Aufgaben helfen"
             }
         },
         "signup": "Regístrese en",

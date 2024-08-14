@@ -42,7 +42,7 @@ let GERMAN_TRANSLATIONS = {
             },
             "quotes": {
                 "title": "Angebot",
-                "description": "Erstellen Sie Angebote für potenzielle Kunden, mit denen Sie umgehend den Kauf abschliessen können" 
+                "description": "Erstellen Sie Angebote für potenzielle Kunden, mit denen Sie umgehend den Kauf abschliessen können"
             },
             "invoices": {
                 "title": "Rechnungen oder Karte",
@@ -226,7 +226,12 @@ let GERMAN_TRANSLATIONS = {
             "blog": {
                 "title": "Blog",
                 "description": "Unser Unternehmensblog"
+            },
+            "guides": {
+                "title": "Anleitungen",
+                "description": "Einige Anleitungen, die Ihnen bei der Erledigung wichtiger Aufgaben helfen"
             }
+
         },
         "signup": "Anmeldung",
         "login": "Einloggen",

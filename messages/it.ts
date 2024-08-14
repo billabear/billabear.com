@@ -226,6 +226,10 @@ export const ITALIEN_TRANSLATIONS = {
             "blog": {
                 "title": "Blog",
                 "description": "Il nostro blog aziendale"
+            },
+            "guides": {
+                "title": "Guide",
+                "description": "Alcune guide per aiutarti a realizzare compiti importanti"
             }
         },
         "signup": "Iscriviti",
