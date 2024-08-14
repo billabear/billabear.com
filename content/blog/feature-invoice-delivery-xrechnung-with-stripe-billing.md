@@ -30,3 +30,20 @@ By Default, every customer is created with an invoice delivery method of email t
 ## How it works
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uTiXC6PCyCw?si=nCUJY0b3gOCFi1qP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Create Invoice Delivery Method
+
+You go to the customer and scroll down to the bottom until you see the invoice delivery methods and then you click add new
+
+![Screenshot of BillaBear](/images/posts/feature-invoice-delivery-stripe-xrechnung/create-new-invoice-delivery.png)
+
+### Invoice Delivery
+
+Once an invoice is created during the customer notification part of the invoice creation workflow is when the invoice delivery methods are scheduled to be done. Invoice delivery is done in the background and it's failure does not affect the flow of the invoice creation.
+
+### Viewing Invoice Delivery Status
+
+To view the invoice delivery that apply to an invoice you just need to view the invoice and there will be a list at the bottom
+
+![Screenshot of BillaBear](/images/posts/feature-invoice-delivery-stripe-xrechnung/list-invoice-deliveries.png)
+
