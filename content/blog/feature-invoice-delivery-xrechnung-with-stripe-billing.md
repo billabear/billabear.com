@@ -14,13 +14,13 @@ top: true
 ---
 BillaBear now supports the ability to define Invoice Delivery methods for customers. This means you can choose how an invoice is delivered to your customer. This is useful in cases such as XRechung in Germany and Factur-X in France, as well as handling enterprise customers who have their own custom invoice flows you need to follow.
 
-By Default, every customer is created with an invoice delivery method of email to the billing email attached to the customer. This is removable and you can add more delivery methods.
+By default, every customer is created with an invoice delivery method of email to the billing email attached to the customer. This is removable and you can add more delivery methods.
 
 ## Supported Methods
 
 * SFTP - We upload to a SFTP server using the credentials supplied
 * Email - We send an email to the address
-* Webhook - We send a HTTP request to the URL supplied.
+* Webhook - We send an HTTP request to the URL supplied.
 
 ## Supported Formats
 
@@ -33,7 +33,7 @@ By Default, every customer is created with an invoice delivery method of email t
 
 ### Create Invoice Delivery Method
 
-You go to the customer and scroll down to the bottom until you see the invoice delivery methods and then you click add new
+You go to the customer and scroll down to the bottom until you see the invoice delivery methods and then you click "Add New"
 
 ![Screenshot of BillaBear](/images/posts/feature-invoice-delivery-stripe-xrechnung/create-new-invoice-delivery.png)
 
@@ -46,4 +46,3 @@ Once an invoice is created during the customer notification part of the invoice 
 To view the invoice delivery that apply to an invoice you just need to view the invoice and there will be a list at the bottom
 
 ![Screenshot of BillaBear](/images/posts/feature-invoice-delivery-stripe-xrechnung/list-invoice-deliveries.png)
-
