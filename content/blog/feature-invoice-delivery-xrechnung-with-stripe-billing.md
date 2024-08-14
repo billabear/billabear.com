@@ -3,9 +3,9 @@ title: "Feature: Invoice Delivery - Support XRechnung with Stripe Billing"
 slug: feature-invoice-delivery-xrechnung-with-stripe-billing
 date: 2024-08-14T14:56:07+02:00
 draft: false
+_draft: false
 author:
   display_name: Iain
-
 meta:
   keywords: subscription management software, SaaS Business, Software as a Service, BillaBear
   description: How the new feature Invoice Delivery works
