@@ -16,7 +16,7 @@ Today, we can announce that we've created a VAT Sense integration. VAT Sense is 
 
 With BillaBear's VAT Sense integration, you are now able to have your tax rules automatically sync and be up to date. This allows you to just focus on assigning the correct tax type and allowing BillaBear to take care of it.
 
-BillaBear is also able to validate tax numbers for EU countries and the UK. This means you can be sure that the tax numbers given to you are valid.
+BillaBear is also able to validate tax numbers for EU countries and the UK. This means you can be sure that the tax numbers given to you are valid. You can toggle this functionality so if you just want the tax sync functionality you can have it without this.
 
 You can sign up for a free account at [vatsense.com](https://vatsense.com/signup?referral=BILLABEA).
 
