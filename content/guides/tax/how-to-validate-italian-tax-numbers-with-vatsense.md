@@ -1,21 +1,21 @@
 ---
-title: "How to validate German tax numbers with VAT Sense"
-slug: "how-to-validate-german-tax-numbers-with-vatsense"
+title: "How to validate Italian tax numbers with VAT Sense"
+slug: "how-to-validate-italian-tax-numbers-with-vatsense"
 section: tax
 author:
   display_name: Iain
 meta:
   keywords: subscription management software, SaaS Business, Software as a Service, BillaBear
-  description: How to validate German VAT Numbers
-  title: "A walkthrough of how to use the VAT Sense API to validate German VAT numbers"
+  description: How to validate Italian VAT Numbers
+  title: "A walkthrough of how to use the VAT Sense API to validate Italian VAT numbers"
 ---
 For this guide you will need to have a VAT Sense API Key, you can get a free one at [vatsense.com](https://vatsense.com/signup?referral=BILLABEAR).
 
-VAT Sense is an API that allows you to fetch tax rates and validate tax numbers. Today we'll look at the tax validation functionality to validate German VAT Numbers.
+VAT Sense is an API that allows you to fetch tax rates and validate tax numbers. Today we'll look at the tax validation functionality to validate Italian VAT Numbers.
 
 ## VAT Number
 
-One of the important things to note is that the VAT number **MUST** be prefixed with the 2-letter country code. So for Germany that would be with a DE prefix. 
+One of the important things to note is that the VAT number **MUST** be prefixed with the 2-letter country code. So for Italy that would be with a IT prefix. 
 
 ## Consultation Number
 
