@@ -9,6 +9,7 @@ useHead({
 import TaxReport from "~/components/features/Tax/TaxReport.vue";
 import TaxRules from "~/components/features/Tax/TaxRules.vue";
 import TaxExport from "~/components/features/Tax/TaxExport.vue";
+import TaxVatsense from "~/components/features/Tax/TaxVatsense.vue";
 </script>
 
 <template>
@@ -31,6 +32,9 @@ import TaxExport from "~/components/features/Tax/TaxExport.vue";
   </div>
   <div class="mt-12 overflow-hidden">
     <TaxExport />
+  </div>
+  <div class="mt-12 overflow-hidden">
+    <TaxVatsense />
   </div>
 </template>
 

@@ -537,6 +537,12 @@ export const SPAINISH_TRANSLATIONS = {
             "paragraph": "Podrá empezar a trabajar en un abrir y cerrar de ojos gracias a los SDK disponibles para los principales idiomas.",
             "cta_button": "Iniciar prueba gratuita",
             "image_alt": "Captura de pantalla de la configuración de pdf"
+        },
+        "vatsense": {
+            "title": "Automatice las normas fiscales con VAT Sense",
+            "paragraph": "Automatice el mantenimiento de sus normas impositivas con VAT Sense. Con la integración de VAT Sense, BillaBear comprobará diariamente si las normas impositivas han cambiado y, en caso afirmativo, BillaBear creará automáticamente una nueva norma impositiva.",
+            "cta_button": "Iniciar prueba gratuita",
+            "image_alt": "Captura de pantalla de la vatsense"
         }
     }
 }

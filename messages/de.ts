@@ -538,6 +538,12 @@ let GERMAN_TRANSLATIONS = {
             "paragraph": "Mit den SDKs, die für viele wichtige Sprachen zur Verfügung stehen, können Sie im Handumdrehen loslegen.",
             "cta_button": "Kostenlose Testversion starten",
             "image_alt": "Screenshot der Konfiguration der pdf-Einstellungen"
+        },
+        "vatsense": {
+            "title": "Automatisieren Sie Steuerregeln mit VAT Sense",
+            "paragraph": "Automatisieren Sie die Pflege Ihrer Steuerregeln mit VAT Sense. Mit der VAT Sense-Integration prüft BillaBear täglich, ob sich die Steuerregeln geändert haben. Wenn dies der Fall ist, erstellt BillaBear automatisch eine neue Steuerregel.",
+            "cta_button": "Kostenlose Testversion starten",
+            "image_alt": "Screenshot der vatsense"
         }
     }
 }

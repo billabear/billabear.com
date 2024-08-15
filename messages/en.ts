@@ -537,6 +537,12 @@ let ENGLISH_TRANSLATIONS = {
             "paragraph": "You'll be able to get up and running in no time with SDKs provided for many major languages.",
             "cta_button": "Start Free Trial",
             "image_alt": "Screenshot of configuring pdf settings"
+        },
+        "vatsense": {
+            "title": "Automate Tax Rules With VAT Sense",
+            "paragraph": "Automate the maintenance of your tax rules with VAT Sense. With the VAT Sense integration, BillaBear will check daily if the tax rules have changed and if they have BillaBear will automatically create a new tax rule.",
+            "cta_button": "Start Free Trial",
+            "image_alt": "Screenshot of vatsense page"
         }
     }
 }

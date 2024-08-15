@@ -537,6 +537,12 @@ export const FRENCH_TRANSLATIONS = {
             "paragraph": "Vous pourrez être opérationnel en un rien de temps grâce aux kits de développement logiciel (SDK) fournis pour de nombreux langages majeurs.",
             "cta_button": "Démarrer l'essai gratuit",
             "image_alt": "Capture d'écran de la configuration des paramètres pdf"
+        },
+        "vatsense": {
+            "title": "Automatisez les règles fiscales avec VAT Sense",
+            "paragraph": "Automatisez la maintenance de vos règles fiscales avec VAT Sense. Grâce à l'intégration de VAT Sense, BillaBear vérifiera quotidiennement si les règles fiscales ont changé et si tel est le cas, BillaBear créera automatiquement une nouvelle règle fiscale.",
+            "cta_button": "Démarrer l'essai gratuit",
+            "image_alt": "Screenshot of vatsense page"
         }
     }
 };

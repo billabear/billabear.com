@@ -533,6 +533,12 @@ export const DUTCH_TRANSLATIONS = {
             "paragraph": "Je kunt in een mum van tijd aan de slag met SDK's voor veel belangrijke talen.",
             "cta_button": "Gratis proefabonnement starten",
             "image_alt": "Schermafbeelding van het configureren van pdf-instellingen"
+        },
+        "vatsense": {
+            "title": "Automatiseer belastingregels met VAT Sense",
+            "paragraph": "Automatiseer het onderhoud van uw belastingregels met VAT Sense. Met de VAT Sense-integratie controleert BillaBear dagelijks of de belastingregels zijn gewijzigd en als dat zo is, maakt BillaBear automatisch een nieuwe belastingregel aan.",
+            "cta_button": "Gratis proefabonnement starten",
+            "image_alt": "Screenshot van  vatsense"
         }
     }
 }
