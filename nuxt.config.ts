@@ -47,7 +47,7 @@ export default defineNuxtConfig({
   },
   content: {
     highlight: {
-      langs: ['php', 'js', 'vue'],
+      langs: ['php', 'js', 'json', 'shell', 'javascript', 'python', 'vue'],
       theme: 'github-dark',
     }
   }
