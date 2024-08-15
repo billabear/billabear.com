@@ -49,7 +49,6 @@ const slug = route.params.slug;
 const article = await queryContent('guides')
     .where({slug: slug[1], _draft: false})
     .findOne()
-console.log(slug);
 
 if (!article) {
   // Handle the case where no article is found with the slug
