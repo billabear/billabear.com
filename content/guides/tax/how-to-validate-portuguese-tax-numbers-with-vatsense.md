@@ -1,21 +1,21 @@
 ---
-title: "How to validate Spanish tax numbers with VAT Sense"
-slug: "how-to-validate-spanish-tax-numbers-with-vatsense"
+title: "How to validate Portuguese tax numbers with VAT Sense"
+slug: "how-to-validate-portuguese-tax-numbers-with-vatsense"
 section: tax
 author:
   display_name: Iain
 meta:
   keywords: subscription management software, SaaS Business, Software as a Service, BillaBear
-  description: How to validate Spanish VAT Numbers
+  description: How to validate Portuguese VAT Numbers
   title: "A walkthrough of how to use the VAT Sense API to validate German VAT numbers"
 ---
 For this guide you will need to have a VAT Sense API Key, you can get a free one at [vatsense.com](https://vatsense.com/signup?referral=BILLABEAR).
 
-VAT Sense is an API that allows you to fetch tax rates and validate tax numbers. Today we'll look at the tax validation functionality to validate Spanish VAT Numbers.
+VAT Sense is an API that allows you to fetch tax rates and validate tax numbers. Today we'll look at the tax validation functionality to validate Portuguese VAT Numbers.
 
 ## VAT Number
 
-One of the important things to note is that the VAT number **MUST** be prefixed with the 2-letter country code. So for Spain that would be with a ES prefix. 
+One of the important things to note is that the VAT number **MUST** be prefixed with the 2-letter country code. So for Portugal that would be with a PT prefix. 
 
 ## Consultation Number
 
