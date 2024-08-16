@@ -22,6 +22,9 @@ export default defineNuxtConfig({
     serverAccessToken: 'a057384b0e49477994ad8ae9acebde54',
     clientAccessToken: 'd918ae46bc2443c88bc0d5871bb42ca8',
   },
+  sitemap: {
+    strictNuxtContentPaths: true
+  },
   i18n: {
     strategy: 'prefix_except_default',
     defaultLocale: 'en',
