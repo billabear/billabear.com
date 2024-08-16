@@ -75,7 +75,7 @@ const query: QueryBuilderParams = {
 };
 
 // Calculate total pages based on total articles count (optional)
-const totalArticles = await queryContent('guides').where({_draft: false}).count();
+const totalArticles = await queryContent('guides').where({seo: false}).count();
 const totalPages = Math.ceil(totalArticles / postsPerPage);
 watch(page, (newValue, oldValue) => {
   window.location.search = '?page=' + newValue;

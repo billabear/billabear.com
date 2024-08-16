@@ -8,6 +8,7 @@ meta:
   keywords: subscription management software, SaaS Business, Software as a Service, BillaBear
   description: How the new feature Invoice Delivery works
   title: "A walkthrough of how to handle XRechnung with Stripe Billing"
+seo: false
 ---
 This guide is on how to handle XRechung with Stripe Billing with no code changes required using BillaBear.
 
