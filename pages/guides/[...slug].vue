@@ -47,7 +47,7 @@ const route = useRoute()
 const slug = route.params.slug;
 
 const article = await queryContent('guides')
-    .where({slug: slug[1], _draft: false})
+    .where({slug: slug[1]})
     .findOne()
 console.log(slug);
 
