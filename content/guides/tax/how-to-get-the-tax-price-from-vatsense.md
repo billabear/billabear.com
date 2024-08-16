@@ -8,6 +8,7 @@ meta:
   keywords: subscription management software, SaaS Business, Software as a Service, BillaBear
   description: How to get the tax price with VAT Sense
   title: "A walkthrough of how to use the VAT Sense API to fetch a tax price"
+seo: false
 ---
 For this guide you will need to have a VAT Sense API Key, you can get a free one at [vatsense.com](https://vatsense.com/signup?referral=BILLABEAR).
 
