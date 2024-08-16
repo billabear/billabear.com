@@ -1,21 +1,21 @@
 ---
-title: "How to validate Dutch tax numbers with VAT Sense"
-slug: "how-to-validate-dutch-tax-numbers-with-vatsense"
+title: "How to validate Belgian tax numbers with VAT Sense"
+slug: "how-to-validate-belgian-tax-numbers-with-vatsense"
 section: tax
 author:
   display_name: Iain
 meta:
   keywords: subscription management software, SaaS Business, Software as a Service, BillaBear
-  description: How to validate Dutch VAT Numbers
-  title: "A walkthrough of how to use the VAT Sense API to validate Dutch VAT numbers"
+  description: How to validate Belgian VAT Numbers
+  title: "A walkthrough of how to use the VAT Sense API to validate Belgian VAT numbers"
 ---
 For this guide you will need to have a VAT Sense API Key, you can get a free one at [vatsense.com](https://vatsense.com/signup?referral=BILLABEAR).
 
-VAT Sense is an API that allows you to fetch tax rates and validate tax numbers. Today we'll look at the tax validation functionality to validate Dutch VAT Numbers.
+VAT Sense is an API that allows you to fetch tax rates and validate tax numbers. Today we'll look at the tax validation functionality to validate Belgian VAT Numbers.
 
 ## VAT Number
 
-One of the important things to note is that the VAT number **MUST** be prefixed with the 2-letter country code. So for Holland that would be with a NL prefix. 
+One of the important things to note is that the VAT number **MUST** be prefixed with the 2-letter country code. So for Belgium that would be with a BE prefix. 
 
 ## Consultation Number
 
