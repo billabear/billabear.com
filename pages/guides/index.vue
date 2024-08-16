@@ -68,7 +68,7 @@ const page = ref(Number(useRoute().query.page) || 1); // Get page from route or 
 const skip = (page.value - 1) * postsPerPage; // Calculate skip based on page number
 const query: QueryBuilderParams = {
   path: '/guides',
-  where: [{_draft: false}],
+  where: [{seo: false}],
   limit: postsPerPage,
   sort: [{date: -1}],
   skip
