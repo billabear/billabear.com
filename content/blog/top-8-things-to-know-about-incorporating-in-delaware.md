@@ -47,8 +47,12 @@ Since Delaware does not disclose the identities of the owners and managing membe
 Unlike many other states that have a detailed and time-intensive application process, a Delaware incorporation is relatively simple and straightforward. Same-day business filings are normal, with the entire process taking less than one hour to complete. Here are the general steps you can expect when incorporating in Delaware:
 
 1. **Choose a Name** – The first step in the incorporation process is choosing a name. Your name must be unique and not taken by another company. Moreover, Delaware also has rules specific to corporations and LLCs on what names you can use and the words that must be included.
+
 2. **Appoint Members/Managers** – The next step is to list your members and managers if you are registering an LLC or your directors if you are incorporating. Corporations are required to have one or more directors, with no age or residency requirement. LLCs are also required to have one or more members or managers, with no age or residency requirements. The address of these individuals will be listed on the registration form.
+
+
 3. **Find a Registered Agent** – A registered agent is an individual or a business that you appoint to receive and process important legal and tax information. Delaware requires that all LLCs and corporations have a registered agent with an address in Delaware. PO boxes are not allowed.
+
 4. **File Paperwork and Pay the Fee** – All of the above information will need to be submitted to the state. LLCs will file a Certificate of Formation, while corporations will file a Certificate of Incorporation. Additionally, there is a fee associated with filing these forms. The minimum state fee is $89, which includes the county fee and filing fee tax. If you are using a registered agent, expect to pay more on top of the filing fee.
 
 In certain situations, Delaware can expedite your incorporation and process your filing in as little as two hours. Quick processing time is reserved for emergency situations. The general turnaround time is a few business days.
@@ -98,9 +102,12 @@ Understanding your foreign qualification requirements is essential to maintain c
 
 Although dissolving your newly formed Delaware corporation is probably one of your last concerns, it is important to know what the process entails. Here’s the steps you need to take:
 
-1 **Shareholders Vote to Dissolve** – You can dissolve your Delaware corporation in one of two ways: a majority vote by the board of directors or all shareholder’s consent in writing. If you only have one shareholder, it might be easier to consent to the dissolution in writing. Notice must be given to all shareholders about the vote 10 and 60 days prior to the meeting.
-2. **Pay Outstanding Franchise Fees** – Before you can close your Delaware corporation, you need to be sure all franchise fees are paid. You should also be sure that your annual report filings are current.
+1. **Shareholders Vote to Dissolve** – You can dissolve your Delaware corporation in one of two ways: a majority vote by the board of directors or all shareholder’s consent in writing. If you only have one shareholder, it might be easier to consent to the dissolution in writing. Notice must be given to all shareholders about the vote 10 and 60 days prior to the meeting.
+
+2**Pay Outstanding Franchise Fees** – Before you can close your Delaware corporation, you need to be sure all franchise fees are paid. You should also be sure that your annual report filings are current.
+
 3. **File Certificate of Dissolution** – Next, you will need to file a certificate of dissolution with Delaware. This does come with a fee. There are two form types: the short form and the standard form. Corporations can use the short form if they have no assets and stopped doing business, they have only been required to pay the minimum state franchise tax, and there is no outstanding franchise tax due. The standard form is required for corporations that don’t meet the short form criteria.
+ 
 4. **Wind Down Activities** – If operations have not already begun to wind down, now is the time. Notify creditors, employees, and customers of the business closure. Any remaining assets will be distributed to shareholders. Bank accounts will be closed, state licenses will be canceled, and out-of-state registrations will need to be terminated.
 
 If it does come time to close down your Delaware corporation, you need to be sure to work with a qualified accountant and attorney. Delaware has very specific guidelines on how businesses are dissolved.  
