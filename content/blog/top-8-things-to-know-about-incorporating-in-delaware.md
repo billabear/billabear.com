@@ -96,7 +96,7 @@ Many states require foreign companies that are doing business in their state to 
 
 Understanding your foreign qualification requirements is essential to maintain compliance when running a SaaS business. Failure to qualify a foreign LLC or corporation when you’ve been conducting business in the state can lead to fines, penalties, liability for back taxes, and loss of access to the state’s court system. The last point is crucial. If you lose your rights in the state’s court system, you are not able to defend lawsuits brought against you. It’s important to consult with a qualified attorney to determine your foreign qualification responsibilities.
 
-#8: Delaware Dissolution
+### 8: Delaware Dissolution
 
 
 
