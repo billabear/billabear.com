@@ -104,7 +104,7 @@ Although dissolving your newly formed Delaware corporation is probably one of yo
 
 1. **Shareholders Vote to Dissolve** – You can dissolve your Delaware corporation in one of two ways: a majority vote by the board of directors or all shareholder’s consent in writing. If you only have one shareholder, it might be easier to consent to the dissolution in writing. Notice must be given to all shareholders about the vote 10 and 60 days prior to the meeting.
 
-2**Pay Outstanding Franchise Fees** – Before you can close your Delaware corporation, you need to be sure all franchise fees are paid. You should also be sure that your annual report filings are current.
+2. **Pay Outstanding Franchise Fees** – Before you can close your Delaware corporation, you need to be sure all franchise fees are paid. You should also be sure that your annual report filings are current.
 
 3. **File Certificate of Dissolution** – Next, you will need to file a certificate of dissolution with Delaware. This does come with a fee. There are two form types: the short form and the standard form. Corporations can use the short form if they have no assets and stopped doing business, they have only been required to pay the minimum state franchise tax, and there is no outstanding franchise tax due. The standard form is required for corporations that don’t meet the short form criteria.
  
