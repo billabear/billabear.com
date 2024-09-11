@@ -1,5 +1,5 @@
 ---
-title: "How To Handle International Sales Tax/VAT" 
+title: "How To Handle International Sales Tax/VAT For SaaS" 
 slug: how-to-handle-international-sales-tax-vat
 _draft: false
 date: 2024-09-11T09:56:07+02:00
