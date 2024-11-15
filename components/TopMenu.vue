@@ -57,7 +57,7 @@ function responseMenu() {
       <div class="flex justify-start lg:w-0 lg:flex-1">
         <NuxtLink :to="localePath('/')">
           <span class="sr-only">{{ $t('global.logo_alt') }}</span>
-          <img class="h-8 w-auto sm:h-10" src="/images/billabear-logo.svg" :alt="$t('global.logo_alt')"/>
+          <img class="h-8 w-auto sm:h-10" src="/images/billabear-logo.png" :alt="$t('global.logo_alt')"/>
         </NuxtLink>
       </div>
       <div class="-mr-2 -my-2 md:hidden">

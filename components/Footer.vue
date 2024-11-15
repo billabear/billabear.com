@@ -13,7 +13,7 @@ const availableLocales = computed(() => {
   <div class="max-w-md mx-auto pt-12 px-4 sm:max-w-7xl sm:px-6 lg:pt-16 lg:px-8">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="space-y-8 xl:col-span-1">
-        <img class="h-28" src="/images/footer-logo.svg" alt="BillaBear">
+        <img class="h-28" src="/images/footer-logo.png" alt="BillaBear">
         <p class="text-gray-500 text-base">{{ $t('footer.paragraph') }}</p>
       </div>
       <div class="mt-12 grid grid-cols-1 gap-8 xl:mt-0 xl:grid-cols-2 xl:col-span-2">
