@@ -7,7 +7,7 @@ author:
   display_name: Rachel
 meta:
   keywords: chargebee, Lago, stripe, payments, getting started,
-  description: A feature comparision between ChargeBee and Lago on the getting started process
+  description: A guide to help SaaS businesses understand VAT report preparation
   title: "Everything SaaS Businesses Need to Know about VAT Report Preparation"
 ---
 As a SaaS business, you aren’t constrained to selling your products domestically. In fact, it’s not uncommon for SaaS businesses to have customers all over the world. The expansion opportunities SaaS businesses have access to are unmatched; however, selling globally does draw in other considerations, like value-added tax (VAT).
