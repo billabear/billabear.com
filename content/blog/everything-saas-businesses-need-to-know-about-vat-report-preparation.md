@@ -1,7 +1,7 @@
 ---
 title: "Everything SaaS Businesses Need to Know about VAT Report Preparation"
 slug: "everything-saas-businesses-need-to-know-about-vat-report-preparation"
-date: 2023-11-25T01:22:32+02:00
+date: 2024-11-25T01:22:32+02:00
 draft: false
 author:
   display_name: Rachel
