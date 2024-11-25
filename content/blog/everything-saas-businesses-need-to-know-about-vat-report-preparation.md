@@ -18,7 +18,7 @@ In this article, we’ll cover everything your SaaS business needs to know about
 
 ## What is Value-Added Tax?
 
-#[Tax Image](/images/posts/everything-saas-businesses-need-to-know-about-vat-report-preparation/1-tax.png)
+![Tax Image](/images/posts/everything-saas-businesses-need-to-know-about-vat-report-preparation/1-tax.png)
 
 Before we dive into how to prepare VAT reports for your accountant, we must first understand the basics of VAT. Value-added tax is a consumption tax charged on goods and services in each step of the supply chain where value has been added. Common items this tax applies to include labor, interest payments, materials, and profits.
 
@@ -28,7 +28,7 @@ It’s also important to differentiate between the Goods and Services Tax, known
 
 ## B2B vs B2C Sales
 
-#[Tax Image](/images/posts/everything-saas-businesses-need-to-know-about-vat-report-preparation/2-b2b.png)
+![Tax Image](/images/posts/everything-saas-businesses-need-to-know-about-vat-report-preparation/2-b2b.png)
 
 VAT is generally paid by the consumer who purchases the product. VAT can seem like double taxation since it’s imposed on both consumers and business owners, but this isn’t the case, as the tax is incremental. For one, VAT is calculated based on the location of the customer and if the transaction is B2B or B2C.
 
@@ -57,7 +57,7 @@ The primary test that SaaS business owners and managers will need to complete to
 
 ## The VAT Registration Process
 
-#[Tax Image](/images/posts/everything-saas-businesses-need-to-know-about-vat-report-preparation/3-registration.png)
+![Tax Image](/images/posts/everything-saas-businesses-need-to-know-about-vat-report-preparation/3-registration.png)
 
 Before you can start collecting VAT, you need to go through the proper registration processes. This includes obtaining a VAT number and registering your company with each country. However, countries in the European Union are considered “one” entity for VAT. You can choose which of these countries you register in, and your VAT number will be applicable to all other countries. When you register for the EU’s One-Stop-Shop, you can file and pay all of your VAT obligations in one country, even if the sales are sourced elsewhere in the EU. This makes the entire process simpler.
 
@@ -79,7 +79,7 @@ If you need to apply for VAT, start compiling these documents for your accountan
 
 ## 4 Steps to Prepare VAT Reports for Bookkeepers and Accountants
 
-#[Tax Image](/images/posts/everything-saas-businesses-need-to-know-about-vat-report-preparation/4-prepare.png)
+![Tax Image](/images/posts/everything-saas-businesses-need-to-know-about-vat-report-preparation/4-prepare.png)
 
 Passing the burden of VAT filing off to an accountant or bookkeeper doesn’t mean you don’t have any responsibilities. In fact, you play a crucial role in the accuracy of your VAT filings with your internal records. You will need to furnish a variety of reports to your accounting professional before they can submit your quarterly VAT. Here are four steps to implement to ensure a smooth VAT filing process for both you and your accountant:
 
