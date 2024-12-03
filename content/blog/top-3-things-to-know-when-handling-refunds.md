@@ -11,7 +11,7 @@ meta:
   title: Top 3 Things to Know When Handling Refunds
 top: true
 ---
-"It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, you'll do things differently." - Warren Buffett
+"*It takes 20 years to build a reputation and five minutes to ruin it. If you think about that, you'll do things differently.*" - **Warren Buffett**
 
 The truth in Warren Buffett's words becomes obvious when it comes to managing refunds. Refunds are important moments that can either build or erode the trust and satisfaction your customers place in your service.
 Managing refunds is a big deal in the SaaS world. It's not just about giving money back. It's about keeping trust and making sure customers are happy.
@@ -67,9 +67,9 @@ How do you get these two things to align? Here are some tips for managing refund
 
 Managing refunds isn't just about resolving a transaction — it's about creating trust and showing your commitment to customer happiness.
 
-Jeff Bezos once said, "We see our customers as invited guests to a party, and we are the hosts. It's our job every day to make every important aspect of the customer experience a little bit better." This philosophy stresses the importance of handling refunds gracefully. If they’re handled the right way, they can enhance the overall customer experience.
+**Jeff Bezos** once said, "*We see our customers as invited guests to a party, and we are the hosts. It's our job every day to make every important aspect of the customer experience a little bit better.*" This philosophy stresses the importance of handling refunds gracefully. If they’re handled the right way, they can enhance the overall customer experience.
 
-Peter Drucker also offers wisdom that applies to this topic: "Quality in a service or product is not what you put into it. It is what the client or customer gets out of it." A fair and transparent refund policy is evidence of the quality that your customers experience and value from your SaaS service.
+**Peter Drucker** also offers wisdom that applies to this topic: "*Quality in a service or product is not what you put into it. It is what the client or customer gets out of it.*" A fair and transparent refund policy is evidence of the quality that your customers experience and value from your SaaS service.
 
 So, here's a piece of advice: See each refund as an opportunity to demonstrate your dedication to customer satisfaction and quality. It's these moments that build a foundation of trust and can set your business apart in the crowded SaaS marketplace.
 
