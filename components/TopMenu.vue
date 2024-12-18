@@ -49,9 +49,6 @@ function responseMenu() {
 </script>
 
 <template>
-  <div class="relative bg-teal-500 p-2 text-center text-white font-bold underline">
-    <NuxtLink :to="localePath('/pricing')">{{ $t('global.lifetime_deal') }}</NuxtLink>
-  </div>
   <div class="relative bg-white">
     <div class="flex justify-between items-center px-4 py-6 sm:px-6 md:justify-start md:space-x-10">
       <div class="flex justify-start lg:w-0 lg:flex-1">
