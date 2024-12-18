@@ -129,14 +129,14 @@ export const ITALIEN_TRANSLATIONS = {
         },
         "free": {
             "title": "Avviamento",
-            "cost": "5%",
+            "cost": "1%",
             "cost_extra": "dei ricavi",
-            "description": "Tutte le funzionalità senza costi iniziali"
+            "description": "$ 50.000 di entrate gratuite"
         },
         "professional": {
             "title": "Professionale",
             "cost": "$250",
-            "cost_extra": "/mo",
+            "cost_extra": "per $200.000",
             "description": "Tutte le funzionalità a un canone mensile fisso."
         },
         "enterprise": {

@@ -129,14 +129,14 @@ export const SPAINISH_TRANSLATIONS = {
         },
         "free": {
             "title": "Inicio",
-            "cost": "5%",
+            "cost": "1%",
             "cost_extra": "de ingresos",
-            "description": "Todas las prestaciones sin cuota inicial"
+            "description": "$50,000 de ingresos gratis"
         },
         "professional": {
             "title": "Profesional",
             "cost": "$250",
-            "cost_extra": "/mo",
+            "cost_extra": "por cada $200,000",
             "description": "Todas las prestaciones por una cuota mensual fija."
         },
         "enterprise": {

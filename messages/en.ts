@@ -129,14 +129,14 @@ let ENGLISH_TRANSLATIONS = {
         },
         "free": {
             "title": "Starter",
-            "cost": "5%",
+            "cost": "1%",
             "cost_extra": "of revenue",
-            "description": "All the features with no upfront fee"
+            "description": "$50,000 of revenue free",
         },
         "professional": {
             "title": "Professional",
             "cost": "$250",
-            "cost_extra": "/mo",
+            "cost_extra": "per $200,000",
             "description": "All the features at a set monthly fee."
         },
         "enterprise": {

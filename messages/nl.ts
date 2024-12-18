@@ -129,14 +129,14 @@ export const DUTCH_TRANSLATIONS = {
         },
         "free": {
             "title": "Starter",
-            "cost": "5%",
+            "cost": "1%",
             "cost_extra": "van inkomsten",
-            "description": "Alle functies zonder kosten vooraf"
+            "description": "$50.000 aan inkomsten gratis"
         },
         "professional": {
             "title": "Professioneel",
             "cost": "$250",
-            "cost_extra": "/mo",
+            "cost_extra": "voor $200.000",
             "description": "Alle functies voor een vast bedrag per maand."
         },
         "enterprise": {

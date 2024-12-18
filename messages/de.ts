@@ -129,14 +129,14 @@ let GERMAN_TRANSLATIONS = {
         },
         "free": {
             "title": "Starter",
-            "cost": "5%",
+            "cost": "1%",
             "cost_extra": "der Einnahmen",
-            "description": "Alle Funktionen ohne Vorabzahlung"
+            "description": "$50.000 Umsatz kostenlos"
         },
         "professional": {
             "title": "Professionell",
             "cost": "$250",
-            "cost_extra": "/mo",
+            "cost_extra": "pro $200.000",
             "description": "Alle Funktionen zu einer festen monatlichen Gebühr."
         },
         "enterprise": {

@@ -129,14 +129,14 @@ export const FRENCH_TRANSLATIONS = {
         },
         "free": {
             "title": "Démarrage",
-            "cost": "5%",
+            "cost": "1%",
             "cost_extra": "des recettes",
-            "description": "Toutes les fonctionnalités sans frais initiaux"
+            "description": "50 000 $ de revenus gratuits"
         },
         "professional": {
             "title": "Professionnel",
             "cost": "$250",
-            "cost_extra": "/mo",
+            "cost_extra": "par 200 000 $",
             "description": "Toutes les fonctionnalités à un tarif mensuel fixe."
         },
         "enterprise": {
