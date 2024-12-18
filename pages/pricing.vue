@@ -21,10 +21,6 @@ useHead({
       </div>
     </div>
 
-    <div class="relative text-center p-2 z-10 max-w-5xl mt-12 mx-auto px-4 sm:px-6 lg:px-8 bg-white rounded">
-      {{ $t('pricing.lifetime_deal') }}
-    </div>
-
     <div class="mt-8 pb-12 bg-gray-50 sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
       <div class="relative">
         <div class="absolute inset-0 h-3/4 bg-gray-900"></div>
