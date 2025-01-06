@@ -47,7 +47,7 @@ const isSolutionsShowing= useState('isSolutionsShowing', () => true)
                   leave-to-class="translate-y-1 opacity-0"
               >
                 <PopoverPanel
-                    class="absolute z-10 w-128 bg-white border border-gray-200 rounded-lg shadow-lg"
+                    class="absolute z-10 mt-2 w-128 bg-white border border-gray-200 rounded-lg shadow-lg"
                 >
                   <div class="grid grid-cols-2 w-128">
                     <div>
@@ -198,9 +198,14 @@ const isSolutionsShowing= useState('isSolutionsShowing', () => true)
                       </NuxtLink>
                     </li>
                     <li>
-                        <a href="https://github.com/billabear" target="_blank" class=" w-full px-5 py-3 text-normal font-medium text-gray-700  flex justify-between items-center hover:text-white hover:bg-teal-500">
-                          {{ $t('menu.more.github.title') }}
-                        </a>
+                      <a href="https://github.com/billabear" target="_blank" class=" w-full px-5 py-3 text-normal font-medium text-gray-700  flex justify-between items-center hover:text-white hover:bg-teal-500">
+                        {{ $t('menu.more.github.title') }}
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://docs.billabear.com/?utm_source=billabear.com" target="_blank" class=" w-full px-5 py-3 text-normal font-medium text-gray-700  flex justify-between items-center hover:text-white hover:bg-teal-500">
+                        {{ $t('menu.more.docs.title') }}
+                      </a>
                     </li>
                     <li>
                       <NuxtLink :to="localePath('/guides')">
@@ -216,12 +221,21 @@ const isSolutionsShowing= useState('isSolutionsShowing', () => true)
           </div>
         </nav>
       </div>
+      <div class="text-end grow my-auto">
+        <LocaleSwitcher/>
+
+        <a href="https://app.sessions.us/book/950e63e2-billabear---demo" target="_blank" class="ml-3 bg-teal-500 text-white font-bold p-2 rounded-lg">{{ $t('pages.subscription_management.demo') }}</a>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
 .solutions-active {
-  @apply text-white bg-teal-300 font-bold underline underline-offset-2;
+  @apply text-white bg-teal-500 font-bold underline underline-offset-2;
+}
+ul {
+  @apply ml-0 p-0;
+  list-style: none;
 }
 </style>

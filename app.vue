@@ -2,7 +2,7 @@
   <div>
 
     <TopMenu />
-
+    <NuxtPage />
 
   </div>
 </template>

@@ -50,7 +50,7 @@ import type {QueryBuilderParams} from "@nuxt/content";
 const query: QueryBuilderParams = { path: '/blog', where: [{ _draft: false }], limit: 5, sort: [{ date: -1 }] }
 </script>
 
-<style>
+<style scoped>
 
 h1 {
   @apply text-4xl mb-5;

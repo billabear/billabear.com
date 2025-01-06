@@ -194,36 +194,15 @@ let ENGLISH_TRANSLATIONS = {
             branding: "Branding",
             subscription_management: "Subscription Management",
         },
-        "departments": {
-            "title": "Department Solutions",
-            "marketing": {
-                "title": "Marketing",
-                "description": "Control how the brand is represented"
-            },
-            "tech": {
-                "title": "Tech",
-                "description": "Remove repetitive tasks and focus on feature work."
-            },
-            "sales": {
-                "title": "Sales",
-                "description": "Create custom deals and quotes"
-            },
-            "finance": {
-                "title": "Finance",
-                "description": "Reports and exports"
-            },
-            "customer_support": {
-                "title": "Customer Support",
-                "description": "Support your customers with their billing needs with ease."
-            },
-        },
         "pricing": "Pricing",
-        "docs": "Docs",
         "more": {
             "title": "More",
             "github": {
                 "title": "GitHub",
                 "description": "See the code on GitHub"
+            },
+            "docs": {
+                "title": "Documentation"
             },
             "blog": {
                 "title": "Blog",
