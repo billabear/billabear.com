@@ -167,30 +167,32 @@ let ENGLISH_TRANSLATIONS = {
         "open_menu": "Open Menu",
         "solutions": {
             "title": "Solutions",
-            "branding": {
-                "title": "Branding",
-                "description": "Ensure your customers get a consistent branding"
+            "overview": "Overview",
+            "departments": "Departments",
+            "finance": {
+                "title": "Finance",
+                "tax": "Tax Management",
+                "reports": "Reports",
+                "pricing": "Pricing",
             },
-            "tax": {
-                "title": "Tax",
-                "description": "With a powerful tax system that knows about thresholds"
+            "subscriptions": {
+                "title": "Subscriptions",
             },
-            "workflows": {
-                "title": "Workflows",
-                "description": "Ensure that actions happen in the correct order"
+            "marketing": {
+                "title": "Marketing",
             },
-            "integrations": {
-                "title": "Integrations",
-                "description": "With integrations with Stripe, Slack, and more"
-            },
-            "subscription_management": {
-                "title": "Subscription Management",
-                "description": "Be in control of subscriptions including custom prices and plans"
-            },
-            "reports": {
-                "title": "Reports",
-                "description": "Powerful reports that give you insights"
+            "technical": {
+                "title": "Technical",
             }
+        },
+        product: {
+            title: "Product",
+            features: "Features",
+            integrations: "Integrations",
+            workflows: "Workflows",
+            tax: "Tax",
+            branding: "Branding",
+            subscription_management: "Subscription Management",
         },
         "departments": {
             "title": "Department Solutions",

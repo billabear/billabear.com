@@ -3,12 +3,6 @@
 
     <TopMenu />
 
-    <div class="container">
-
-    </div>
-    <NuxtPage />
-    <Footer />
-
 
   </div>
 </template>

@@ -9,7 +9,14 @@ export default {
     "./error.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '128': '32rem',
+      },
+      width: {
+        '128': '32rem',
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
