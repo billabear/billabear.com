@@ -15,6 +15,13 @@ export default {
       },
       width: {
         '128': '32rem',
+      },
+      colors: {
+        'first': '#14b8a6',
+        'second': '#02ffe2',
+        'third': '#51ffec',
+        'fourth': '#018071',
+        'fifth': '#288076',
       }
     },
   },

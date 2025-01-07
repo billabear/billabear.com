@@ -10,14 +10,7 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  modules: [
-    "@nuxtjs/i18n",
-    "@nuxt/content",
-    "@nuxt/image",
-    'nuxt-rollbar',
-    "@nuxtjs/sitemap"
-  ],
-
+  modules: ["@nuxtjs/i18n", "@nuxt/content", "@nuxt/image", 'nuxt-rollbar', "@nuxtjs/sitemap", '@nuxtjs/google-fonts'],
   rollbar: {
     serverAccessToken: 'a057384b0e49477994ad8ae9acebde54',
     clientAccessToken: 'd918ae46bc2443c88bc0d5871bb42ca8',
@@ -53,5 +46,13 @@ export default defineNuxtConfig({
       langs: ['php', 'js', 'json', 'shell', 'javascript', 'python', 'vue'],
       theme: 'github-dark',
     }
+  },
+  googleFonts: {
+    families: {
+      "DM Serif Text": [400, 500, 600, 700],
+      "Open Sans": [400, 500, 600, 700],
+    },
+    download: false,
+    fontsDir: 'assets/fonts'
   }
 })

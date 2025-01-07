@@ -224,7 +224,7 @@ const isSolutionsShowing= useState('isSolutionsShowing', () => true)
       <div class="text-end grow my-auto">
         <LocaleSwitcher/>
 
-        <a href="https://app.sessions.us/book/950e63e2-billabear---demo" target="_blank" class="ml-3 bg-teal-500 text-white font-bold p-2 rounded-lg">{{ $t('pages.subscription_management.demo') }}</a>
+        <a href="https://app.sessions.us/book/950e63e2-billabear---demo" target="_blank" class="ml-3 bg-teal-500 text-white font-bold p-2 rounded-lg">{{ $t('menu.book_demo') }}</a>
       </div>
     </div>
   </div>

@@ -37,7 +37,7 @@ if (!article) {
   // Handle the case where no article is found with the slug
   console.error(`Article with slug "${slug}" not found.`)
   // You can redirect to a 404 page here:
-  // return useRouter().push('/404')
+  useRouter().push('/')
 }
 
 useHead({
