@@ -10,20 +10,22 @@ useHead({
   <div>
     <PageHero>
       <template v-slot:title>
-        Focus on your business and growth!
+        {{ $t('pages.landing.hero.title') }}
       </template>
       <template v-slot:subtitle>
-        Offload your billing tasks so you can focus on what makes you great!
+        {{ $t('pages.landing.hero.subtitle') }}
       </template>
       <template v-slot:buttons>
-        <a href="#" class="block w-36 text-center font-bold rounded-xl bg-white text-black mt-4 p-2 hover:bg-transparent border-2 border-white hover:text-white">Book A Demo</a>
+        <a href="#" class="block w-36 text-center font-bold rounded-xl bg-white text-black p-2 hover:bg-transparent border-2 border-white hover:text-white">
+          {{ $t('pages.landing.hero.book_demo') }}
+        </a>
       </template>
       <template v-slot:image>
         <img src="/images/hero/landing.png" alt="Hero Image" />
       </template>
     </PageHero>
-    <div>
-      
+    <div class="py-24 container">
+      <h2 class="text-4xl text-center">{{ $t('pages.landing.helps_you.title') }}</h2>
     </div>
   </div>
 </template>

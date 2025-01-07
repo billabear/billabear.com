@@ -12,9 +12,11 @@ export default {
     extend: {
       spacing: {
         '128': '32rem',
+        '1280': '1280px',
       },
       width: {
         '128': '32rem',
+        '1280': '1280px',
       },
       colors: {
         'first': '#14b8a6',

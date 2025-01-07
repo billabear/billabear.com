@@ -5,3 +5,7 @@
 code {
     background-color: silver;
 }
+
+.container {
+    @apply w-full max-w-1280  m-auto;
+}

@@ -22,7 +22,7 @@ const isSolutionsShowing= useState('isSolutionsShowing', () => true)
 </script>
 
 <template>
-  <div class="relative p-5 bg-white border-b border-gray-200" >
+  <div class="relative py-5 bg-white border-b border-gray-200 container" >
     <div class="flex flex-row">
       <div class="">
         <NuxtLink :to="localePath('/')">

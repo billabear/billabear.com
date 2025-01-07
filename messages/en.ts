@@ -225,6 +225,16 @@ let ENGLISH_TRANSLATIONS = {
         }
     },
     "pages": {
+        "landing": {
+            "hero" : {
+                "title": "Focus on your business and growth!",
+                "subtitle": "Offload your billing tasks so you can foucs on what makes you great!",
+                "book_demo": "Book A Demo",
+            },
+            "helps_you": {
+                "title": "How it can help you"
+            }
+        }
     },
     "departments": {
     },

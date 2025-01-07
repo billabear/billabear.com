@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gradient-to-r from-fuchsia-900 to-fuchsia-950 w-full m-auto">
-    <div class="w-3/4 py-24 m-auto grid grid-cols-2 gap-5">
+    <div class="py-24 grid grid-cols-2 gap-5 container">
       <div class="my-auto">
         <h1 class="text-5xl text-white  headline">
           <slot name="title"></slot>
