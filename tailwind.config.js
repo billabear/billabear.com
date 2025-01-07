@@ -21,7 +21,7 @@ export default {
       colors: {
         'first': '#14b8a6',
         'second': '#02ffe2',
-        'third': '#51ffec',
+        'third': '#b7fff7',
         'fourth': '#018071',
         'fifth': '#288076',
       }
