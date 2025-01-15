@@ -232,7 +232,7 @@ let ENGLISH_TRANSLATIONS = {
                 "book_demo": "Book A Demo",
             },
             "helps_you": {
-                "title": "How it can help you"
+                "title": "How BillaBear can help you"
             }
         }
     },

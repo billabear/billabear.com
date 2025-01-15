@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import {Tab, TabGroup, TabList, TabPanel, TabPanels} from "@headlessui/vue";
+import {DocumentIcon, DocumentCurrencyEuroIcon, CurrencyEuroIcon, PhoneIcon} from "@heroicons/vue/24/outline";
 
 const { locale, setLocale, t } = useI18n()
 useHead({
@@ -29,33 +30,23 @@ useHead({
     <div class="py-24 container">
       <h2 class="text-4xl pb-12 text-center">{{ $t('pages.landing.helps_you.title') }}</h2>
 
-      <div class="rounded-lg shadow-lg w-full">
-        <TabGroup>
-          <TabList class="flex justify-evenly rounded-xl bg-white p-3">
-            <Tab v-slot="{ selected }">
-              <button :class="['p-2 rounded-xl text-xl', selected ? 'bg-gray-100' : 'bg-white hover:bg-gray-50']">
-                Finance
-              </button>
+      <div class="rounded-lg shadow-lg w-full bg-teal-100">
+        <TabGroup as="div">
+          <TabList class="grid grid-flow-col justify-stretch  p-3">
+            <Tab v-slot="{ selected }" :class="['p-2 rounded-xl', selected ? 'bg-teal-500' : 'bg-teal-100 hover:bg-teal-50']">
+             Finance
             </Tab>
-            <Tab v-slot="{ selected }">
-              <button :class="['p-2 rounded-xl text-xl', selected ? 'bg-gray-100' : 'bg-white hover:bg-gray-50']">
-                Tech
-              </button>
+            <Tab v-slot="{ selected }" :class="['p-2 rounded-xl', selected ? 'bg-teal-100' : 'bg-teal-100 hover:bg-teal-50']">
+              Tech
             </Tab>
-            <Tab v-slot="{ selected }">
-              <button :class="['p-2 rounded-xl text-xl', selected ? 'bg-gray-100' : 'bg-white hover:bg-gray-50']">
-                Sales
-              </button>
+            <Tab v-slot="{ selected }" :class="['p-2 rounded-xl', selected ? 'bg-teal-100' : 'bg-teal-100 hover:bg-teal-50']">
+              Sales
             </Tab>
-            <Tab v-slot="{ selected }">
-              <button :class="['p-2 rounded-xl text-xl', selected ? 'bg-gray-100' : 'bg-white hover:bg-gray-50']">
-                Marketing
-              </button>
+            <Tab v-slot="{ selected }" :class="['p-2 rounded-xl', selected ? 'bg-teal-100' : 'bg-teal-100 hover:bg-teal-50']">
+              Marketing
             </Tab>
-            <Tab v-slot="{ selected }">
-              <button :class="['p-2 rounded-xl text-xl', selected ? 'bg-gray-100' : 'bg-white hover:bg-gray-50']">
-                Customer Support
-              </button>
+            <Tab v-slot="{ selected }" :class="['p-2 rounded-xl', selected ? 'bg-teal-100' : 'bg-teal-100 hover:bg-teal-50']">
+              Customer Support
             </Tab>
           </TabList>
           <TabPanels class="p-12">

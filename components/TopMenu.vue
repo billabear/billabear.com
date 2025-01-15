@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import {Popover, PopoverButton, PopoverPanel} from "@headlessui/vue";
-import {ArrowRightIcon, ChevronDownIcon} from "@heroicons/vue/outline";
+import {ArrowRightIcon, ChevronDownIcon} from "@heroicons/vue/24/outline";
 
 const localePath = useLocalePath()
 
