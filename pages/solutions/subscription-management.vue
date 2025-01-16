@@ -45,7 +45,7 @@ useHead({
         <span class="text-balance -mb-1 pb-1 block bg-gradient-to-r from-cyan-600 to-teal-600 bg-clip-text text-transparent">{{ $t('index.last_cta.subtitle') }}</span>
       </h2>
       <div class="mt-6 space-y-4 sm:space-y-0 sm:flex sm:space-x-5">
-        <a href="https://app.sessions.us/book/950e63e2-billabear---demo" class="flex items-center justify-center bg-gradient-to-r from-cyan-600 to-teal-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-cyan-700 hover:to-teal-700">{{ $t('index.last_cta.demo_cta') }}</a>
+        <a href="https://calendly.com/iain-billabear/30min" class="flex items-center justify-center bg-gradient-to-r from-cyan-600 to-teal-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-cyan-700 hover:to-teal-700">{{ $t('index.last_cta.demo_cta') }}</a>
       </div>
     </div>
   </div>

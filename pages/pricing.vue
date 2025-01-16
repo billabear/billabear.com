@@ -477,7 +477,7 @@ useHead({
                   </li>
                 </ul>
                 <div class="rounded-md shadow">
-                  <a href="https://app.sessions.us/book/950e63e2-billabear---demo"
+                  <a href="https://calendly.com/iain-billabear/30min"
                      class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"
                      aria-describedby="tier-standard">{{ $t('pricing.contact_sales') }}</a>
                 </div>
@@ -497,7 +497,7 @@ useHead({
               <div class="mt-4 text-lg text-gray-600">{{ $t('pricing.support.description') }}</div>
             </div>
             <div class="mt-6 rounded-md shadow lg:mt-0 lg:ml-10 lg:flex-shrink-0">
-              <a href="https://app.sessions.us/book/950e63e2-billabear---demo" target="_blank"
+              <a href="https://calendly.com/iain-billabear/30min" target="_blank"
                  class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50">{{
                   $t('pricing.contact_sales')
                 }}</a>
