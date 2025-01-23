@@ -28,7 +28,7 @@ useHead({
             <img class="h-full w-full object-cover" src="/images/hero-splash.jpg" alt="" />
             <div class="absolute inset-0 bg-gradient-to-r from-cyan-800 to-teal-700 mix-blend-multiply"></div>
           </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-12 lg:px-8">
             <h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
               <span class="block text-white">{{ $t('index.hero.header.line_one') }}</span>
               <span class="block text-teal-200">{{ $t('index.hero.header.line_two') }}</span>
@@ -51,25 +51,25 @@ useHead({
       <div class="relative">
         <TaxOverall />
       </div>
-      <div class="mt-12 overflow-hidden">
+      <div class="mt-3 overflow-hidden">
         <SubscriptionManagementOverall />
       </div>
-      <div class="mt-12 overflow-hidden">
+      <div class="mt-3 overflow-hidden">
         <WorkflowOverall />
       </div>
-      <div class="mt-12 overflow-hidden">
+      <div class="mt-3 overflow-hidden">
         <IntegrationsOverall />
       </div>
-      <div class="mt-12 overflow-hidden">
+      <div class="mt-3 overflow-hidden">
         <BrandingOverall />
       </div>
-      <div class="mt-12 overflow-hidden">
+      <div class="mt-3 overflow-hidden">
         <ReportsOverall />
       </div>
-      <div class="mt-12 overflow-hidden">
+      <div class="mt-3 overflow-hidden">
         <IntegrationsStripe />
       </div>
-      <div class="mt-12 overflow-hidden">
+      <div class="mt-3 overflow-hidden">
         <TechSdk />
       </div>
     </div>

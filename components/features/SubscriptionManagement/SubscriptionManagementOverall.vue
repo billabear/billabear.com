@@ -2,7 +2,7 @@
 
   <div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
 
-    <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0">
+    <div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-12 lg:max-w-none lg:mx-0 lg:px-0">
       <div>
         <div>
                 <span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-cyan-600 to-teal-600">
@@ -23,9 +23,9 @@
         </div>
       </div>
     </div>
-    <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
-      <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-        <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none" src="/images/features/subscription_management/overview.png" :alt="$t('features.subscription_management_overall.image_alt')">
+    <div class="mt-12 sm:mt-16 lg:mt-0 lg:col-start-1 content-center">
+      <div class="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative">
+        <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="/images/features/subscription_management/overview.png" :alt="$t('features.subscription_management_overall.image_alt')">
       </div>
     </div>
   </div>
