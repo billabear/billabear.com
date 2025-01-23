@@ -12,14 +12,14 @@
         </div>
         <div class="mt-6">
           <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">{{ $t('features.reports_overall.title') }}</h2>
-          <p class="mt-4 text-lg text-gray-500">
+          <div class="mt-4 text-lg text-gray-500">
             <ul class="list-disc ml-5">
               <li>{{ $t('features.reports_overall.features.lifetime_value') }}</li>
               <li>{{ $t('features.reports_overall.features.churn_reports') }}</li>
               <li>{{ $t('features.reports_overall.features.subscription_reports') }}</li>
               <li>{{ $t('features.reports_overall.features.tax_reports') }}</li>
             </ul>
-          </p>
+          </div>
           <div class="mt-6">
             <a href="https://cloud.billabear.com" target="_blank" class="inline-flex bg-gradient-to-r from-cyan-600 to-teal-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-cyan-700 hover:to-teal-700">{{ $t('features.reports_overall.cta_button') }}</a>
           </div>

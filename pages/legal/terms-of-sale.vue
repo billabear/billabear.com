@@ -3,7 +3,7 @@
     <div class="container">
 
       <h1 class="text-7xl mb-5">Website terms and conditions of sale</h1>
-      <p>
+      <div>
         Please read the following important terms and conditions before you buy
         anything on our website and check that they contain everything which you
         want and nothing that you are not willing to agree to.
@@ -56,7 +56,7 @@
           https://billabear.com
           <br/><strong>You or your</strong> means the person accessing or using our site to make purchases from us.
         </p>
-        <p>
+        <div>
           If you don't understand any of this contract and want to talk to us about it, please
           contact us by: e-mail: support@billabear.com
           <h3 class="text-3xl my-3">Who we are</h3>
@@ -331,7 +331,7 @@
             (d). are installed properly (if we install any goods).<br/>
           </p>
           2. We must provide you with goods that comply with your legal rights.
-        </p>
+        </div>
         <p>
           3. The packaging of the goods may be different from that shown on our site.</p>
         <p>
@@ -473,7 +473,7 @@
         4. If you want to take court proceedings, the relevant courts of the United Kingdom
 
         will have exclusive jurisdiction in relation to these Terms.
-      </p>
+      </div>
       <p>
         5. The laws of England will apply to these Terms.</p></div>
 

@@ -12,13 +12,13 @@
         </div>
         <div class="mt-6">
           <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">{{ $t('features.integrations_overall.title') }}</h2>
-          <p class="mt-4 text-lg text-gray-500">
+          <div class="mt-4 text-lg text-gray-500">
             <ul class="list-disc ml-5">
               <li>{{ $t('features.integrations_overall.features.slack') }}</li>
               <li>{{ $t('features.integrations_overall.features.email_providers') }}</li>
               <li>{{ $t('features.integrations_overall.features.pdf_generators') }}</li>
             </ul>
-          </p>
+          </div>
           <div class="mt-6">
             <a href="https://cloud.billabear.com" target="_blank" class="inline-flex bg-gradient-to-r from-cyan-600 to-teal-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-cyan-700 hover:to-teal-700">{{ $t('features.integrations_overall.cta_button') }}</a>
           </div>

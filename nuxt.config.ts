@@ -8,8 +8,10 @@ export default defineNuxtConfig({
       script: [{src: 'https://stats.ha-infra.xyz/info.js', async: true, defer: 'true', referrerpolicy: 'unsafe-url', 'data-domain': 'billabear.com'}],
     }
   },
+
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
+
   modules: [
     "@nuxtjs/i18n",
     "@nuxt/content",
@@ -22,9 +24,11 @@ export default defineNuxtConfig({
     serverAccessToken: 'a057384b0e49477994ad8ae9acebde54',
     clientAccessToken: 'd918ae46bc2443c88bc0d5871bb42ca8',
   },
+
   sitemap: {
     strictNuxtContentPaths: true
   },
+
   i18n: {
     strategy: 'prefix_except_default',
     defaultLocale: 'en',
@@ -42,16 +46,20 @@ export default defineNuxtConfig({
       redirectOn: 'root' // recommended
     }
   },
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   content: {
     highlight: {
       langs: ['php', 'js', 'json', 'shell', 'javascript', 'python', 'vue'],
       theme: 'github-dark',
     }
-  }
+  },
+
+  compatibilityDate: '2025-01-23'
 })

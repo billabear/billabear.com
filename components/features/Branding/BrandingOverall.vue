@@ -15,13 +15,13 @@
           <p class="mt-4 text-lg text-gray-500">
             {{ $t('features.branding_overall.paragraph') }}
           </p>
-          <p class="mt-4 text-lg text-gray-500">
+          <div class="mt-4 text-lg text-gray-500">
             <ul class="list-disc ml-5">
               <li class="p-1">{{ $t('features.branding_overall.features.multiple_brands') }}</li>
               <li class="p-1">{{ $t('features.branding_overall.features.pdf_templates') }}</li>
               <li class="p-1">{{ $t('features.branding_overall.features.email_templates') }}</li>
             </ul>
-          </p>
+          </div>
           <div class="mt-6">
             <a href="https://cloud.billabear.com" target="_blank" class="inline-flex bg-gradient-to-r from-cyan-600 to-teal-600 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-cyan-700 hover:to-teal-700">{{ $t('features.workflow_list.cta_button') }}</a>
           </div>
