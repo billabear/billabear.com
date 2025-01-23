@@ -20,8 +20,8 @@
       </div>
     </div>
     <div class="mt-12 sm:mt-16 lg:mt-0">
-      <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
-        <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/images/features/integrations/configure_email.png" :alt="$t('features.integrations_emails.image_alt')">
+      <div class="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative content-center">
+        <img class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5" src="/images/features/integrations/configure_email.png" :alt="$t('features.integrations_emails.image_alt')">
       </div>
     </div>
   </div>
