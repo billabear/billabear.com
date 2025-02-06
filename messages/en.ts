@@ -12,7 +12,7 @@ let ENGLISH_TRANSLATIONS = {
             },
             "paragraph": "With deep integration with Stripe, a power tax system, automated workflow processes, and lots more you'll have complete control",
             "get_demo": "Get Demo",
-            "start_trial": "Start Free Trial"
+            "start_trial": "Start For Free"
         },
         "social_proof": {
             "title": "As seen on",
@@ -357,6 +357,12 @@ let ENGLISH_TRANSLATIONS = {
         }
     },
     "features": {
+        "audit_log": {
+            "title": "Audit Log",
+            "paragraph": "Be able to see audit logs for all actions taken in BillaBear. With the ability to see who did what and when you'll be able to ensure that your team is doing what they should be doing.",
+            "cta_button": "Start For Free",
+            "image_alt": "A view of the customer audit log"
+        },
         "branding_overall": {
             "title": "Control Your Branding" ,
             "paragraph": "Billing can be an important area where your branding and how you're represented can be important.",
@@ -365,13 +371,13 @@ let ENGLISH_TRANSLATIONS = {
                 "pdf_templates": "With the ability to have full control over PDF templates, you can ensure your receipts and invoices represent you correctly",
                 "email_templates": "With the ability to have full control over email templates, you can ensure your email communications are tip-top."
             },
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of PDF template edit page"
         },
         "doc_templates": {
             "title": "Control Your Documents Look",
             "paragraph": "From quotes to invoices, you control how your documents are presented. Using the powerful Twig templating language you're able to ensure your template looks how you want it. And with a choice of PDF renders from wkhtmltopdf to Docraptor integration you can ensure that the PDF is generated how you need it to be.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of PDF template edit page"
         },
         "email_templates": {
@@ -380,39 +386,39 @@ let ENGLISH_TRANSLATIONS = {
             "line_two": "You have complete control over templates from using the Twig templating language or Email Providers' templating systems.",
             "line_three": "With email templates connected to a brand, you can ensure each brand is correctly displayed.",
             "line_four": "Choose which emails are sent on a per-brand basis.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of Email template list page"
         },
         "workflow_list": {
             "title": "Ensure important tasks are done",
             "paragraph": "With Workflows, you're able to ensure important billing and subscription processes are completed fully. No more, finding out a subscription cancellation didn't go through a month later when the customer complains they got rebilled.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of workflow list page"
         },
         "edit_workflow": {
             "title": "Control Your Billing Workflows",
             "paragraph": "With the ability to create custom steps in your workflow from both a code point of view and from the WebUI you'll be able to ensure your billing and subscription workflows match how your business works.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of workflow list page"
         },
         "subscription_management_overall": {
             "title": "Manage Subscriptions With Ease",
             "paragraph": "Manage all aspects of your subscriptions. With the ability to create custom plans and prices on the fly, you're no longer constrained in how you support your customers.",
             "paragraph_two": "With the ability to easily change existing subscriptions, you'll be able to handle edge cases with a few clicks instead of requiring technical intervention.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of subscription overview page"
         },
         "subscription_mass_change": {
             "title": "Mass Changes To Your Subscription Plans",
             "paragraph": "Ensure you maximise your revenue with ease when you increase your prices. No need to plan and align with tech to apply a mass change to existing subscriptions to new prices or new plans. With a click of a few buttons you can select which subscriptions to change and see the potential change in revenue caused by the change.",
             "paragraph_two": "With the ability to export affected customers you'll be able to send an email blast to affected customers with ease.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of subscription mass change page"
         },
         "subscription_addons": {
             "title": "Upsell with Ease",
             "paragraph": "With the ability to create multiple subscriptions that all work together to define what a customer's abilities are, add-ons are just a matter of a few clicks.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of subscription create page"
         },
         "subscription_cancel": {
@@ -429,7 +435,7 @@ let ENGLISH_TRANSLATIONS = {
                 "pro rata": "Prorata based on usage",
                 "none": "No Refund"
             },
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of subscription overview page with cancel modal"
         },
         "plan_creation": {
@@ -442,13 +448,13 @@ let ENGLISH_TRANSLATIONS = {
                 "limits": "Limits",
                 "prices": "Prices"
             },
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of subscription plan creation page"
         },
         "tax_report": {
             "title": "See Your Tax Collection At A Glance",
             "paragraph": "With a quick glance at the tax report map, you're able to see which countries you've collected taxes for and how much. See how close you are to reaching tax thresholds for countries with the threshold amount and the transacted amount listed out for each country where you've had a transaction from.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of tax report page"
         },
         "tax_overall": {
@@ -461,20 +467,20 @@ let ENGLISH_TRANSLATIONS = {
                 "per_state": "Control the tax rate on a state level",
                 "eu_rules": "Handle EU tax rules such as OSS and reverse charge."
             },
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of tax report page"
         },
         "tax_rules": {
             "title": "Manage Your Taxes With Dynamic Rules",
             "paragraph_one": "With the ability to create tax rules via the UI you're able to quickly and easily control which tax rates are being applied.",
             "paragraph_two": "Tax laws don't change often but when they do they cause companies a lot of pain. With the ability to create new rules with validity dates, you can be prepared for tax changes without a lot of drama and work.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of country overview page"
         },
         "tax_export": {
             "title": "Quick And Easy Exports",
             "paragraph_one": "Easily export your payment information with a click of a button. You'll be able to easily provide your finance experts with the data they need within minutes.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of tax export sample"
         },
         "integrations_overall": {
@@ -484,25 +490,25 @@ let ENGLISH_TRANSLATIONS = {
                 "email_providers": "With API integrations with email providers such as SendGrid, Postmark, MailGun, etc.",
                 "pdf_generators": "Choose how PDFs are generated so you're in control of how your PDFs look."
             },
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of tax export sample"
         },
         "integrations_slack": {
             "title": "Get Notified Of Important Things You Care About",
             "paragraph": "With the ability to choose which events send a notification to Slack, control the notification template with variables from the event, and to which webhook you're in control of what and how you're notified of important events you care about.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of create slack notification"
         },
         "integrations_emails": {
             "title": "Integrate With Your Email Service Provider",
             "paragraph": "With API integrations to SendGrid, MailGun, Postmark, etc you're able to use the templating system that they provide to give you complete control over how emails are sent.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of configuring email settings"
         },
         "integrations_pdfs": {
             "title": "Control how your PDFS are displayed",
             "paragraph": "The look of PDFs can often depend on how you're generating them. Some PDF rendering tools support a lot more features than others. Some are missing features, some just don't work how you want. With the ability to choose the rendering tools, you control how your PDFs look.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of configuring pdf settings"
         },
         "integrations_stripe": {
@@ -512,7 +518,7 @@ let ENGLISH_TRANSLATIONS = {
                 "disable": "Disable Stripe Billing with a click of a button and let BillaBear take over and save you money.",
                 "webhook": "Register and deregister your webhook with ease"
             },
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of configuring pdf settings"
         },
         "reports_overall": {
@@ -523,25 +529,25 @@ let ENGLISH_TRANSLATIONS = {
                 "subscription_reports": "See which subscriptions are the most popular",
                 "tax_reports": "See where your company has collected tax"
             },
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of lifetime value"
         },
         "quote_create": {
             "title": "Easily Create Quotes",
             "paragraph": "With the ability to create custom quotes for customers, you'll be able to give time-sensitive offers that create urgency to help close deals.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of configuring pdf settings"
         },
         "tech_sdk": {
             "title": "With out-of-the-box SDKs integration is easy",
             "paragraph": "You'll be able to get up and running in no time with SDKs provided for many major languages.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of configuring pdf settings"
         },
         "vatsense": {
             "title": "Automate Tax Rules With VAT Sense",
             "paragraph": "Automate the maintenance of your tax rules with VAT Sense. With the VAT Sense integration, BillaBear will check daily if the tax rules have changed and if they have BillaBear will automatically create a new tax rule.",
-            "cta_button": "Start Free Trial",
+            "cta_button": "Start For Free",
             "image_alt": "Screenshot of vatsense page"
         }
     }

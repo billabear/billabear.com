@@ -357,6 +357,12 @@ export const FRENCH_TRANSLATIONS = {
         }
     },
     "features": {
+        "audit_log": {
+            "title": "Journal d'audit",
+            "paragraph": "Consultez les journaux d'audit de toutes les actions entreprises dans BillaBear.  Grâce à la possibilité de voir qui a fait quoi et quand, vous serez en mesure de vous assurer que votre équipe fait ce qu'elle doit faire.",
+            "cta_button": "Commencer Gratuitement",
+            "image_alt": "Une vue du journal d'audit client"
+        },
         "branding_overall": {
             "title": "Contrôlez votre image de marque",
             "paragraph": "La facturation peut être un domaine important où votre image de marque et la manière dont vous êtes représenté peuvent avoir de l'importance.",

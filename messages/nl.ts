@@ -353,6 +353,12 @@ export const DUTCH_TRANSLATIONS = {
         }
     },
     "features": {
+        "audit_log": {
+            "title": "Auditlog",
+            "paragraph": "Bekijk auditlogs voor alle acties die zijn ondernomen in BillaBear. Met de mogelijkheid om te zien wie wat wanneer heeft gedaan, kun je ervoor zorgen dat je team doet wat ze moeten doen.",
+            "cta_button": "Gratis starten",
+            "image_alt": "Een weergave van het auditlog van de klant"
+        },
         "branding_overall": {
             "title": "Controleer uw branding",
             "paragraph": "Facturering kan een belangrijk gebied zijn waar je naamsbekendheid en hoe je wordt vertegenwoordigd belangrijk kunnen zijn.",

@@ -16,6 +16,9 @@
   <div class="mt-12 overflow-hidden">
     <SubscriptionCancel />
   </div>
+  <div class="mt-12 overflow-hidden">
+    <AuditLog />
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -26,6 +29,7 @@ import SubscriptionManagement from "~/pages/solutions/subscription-management.vu
 import SubscriptionCancel from "~/components/features/SubscriptionManagement/SubscriptionCancel.vue";
 import SubscriptionManagementOverall
   from "~/components/features/SubscriptionManagement/SubscriptionManagementOverall.vue";
+import AuditLog from "~/components/features/Customer/AuditLog.vue";
 
 const { locale, setLocale, t } = useI18n()
 useHead({

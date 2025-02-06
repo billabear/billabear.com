@@ -358,6 +358,12 @@ let GERMAN_TRANSLATIONS = {
         }
     },
     "features": {
+        "audit_log": {
+            "title": "Prüfprotokoll",
+            "paragraph": "Sehen Sie sich Prüfprotokolle für alle in BillaBear durchgeführten Aktionen an. Mit der Möglichkeit zu sehen, wer was wann getan hat, können Sie sicherstellen, dass Ihr Team das tut, was es tun soll.",
+            "cta_button": "Kostenlos starten",
+            "image_alt": "Eine Ansicht des Kunden-Prüfprotokolls"
+        },
         "branding_overall": {
             "title": "Kontrollieren Sie Ihr Branding",
             "paragraph": "Die Rechnungsstellung kann ein wichtiger Bereich sein, in dem Ihr Markenauftritt und die Art und Weise, wie Sie repräsentiert werden, wichtig sein können.",

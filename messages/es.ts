@@ -357,6 +357,12 @@ export const SPAINISH_TRANSLATIONS = {
         }
     },
     "features": {
+        "audit_log": {
+            "title": "Registro de Auditoría",
+            "paragraph": "Podrá ver los registros de auditoría de todas las acciones realizadas en BillaBear. Con la capacidad de ver quién hizo qué y cuándo, podrá asegurarse de que su equipo está haciendo lo que debe hacer.",
+            "cta_button": "Comenzar Gratis",
+            "image_alt": "Una vista del registro de auditoría del cliente"
+        },
         "branding_overall": {
             "title": "Controle su marca",
             "paragraph": "La facturación puede ser un área importante en la que su marca y la forma en que está representado pueden ser importantes.",

@@ -357,6 +357,12 @@ export const ITALIEN_TRANSLATIONS = {
         }
     },
     "features": {
+        "audit_log": {
+            "title": "Registro di Audit",
+            "paragraph": "Visualizza i registri di audit per tutte le azioni intraprese in BillaBear. Con la possibilità di vedere chi ha fatto cosa e quando, potrai assicurarti che il tuo team stia facendo ciò che dovrebbe fare.",
+            "cta_button": "Inizia Gratis",
+            "image_alt": "Una vista del registro di audit del cliente"
+        },
         "branding_overall": {
             "title": "Controllare il proprio marchio",
             "paragraph": "La fatturazione può essere un'area importante in cui il vostro marchio e il modo in cui siete rappresentati possono essere importanti.",
