@@ -442,6 +442,7 @@ function responseMenu() {
         </github-button>
 
         <LocaleSwitcher/>
+      </div>
   </div>
 
   <!--
