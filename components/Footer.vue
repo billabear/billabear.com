@@ -46,10 +46,6 @@ const availableLocales = computed(() => {
             <h3 class="text-sm font-semibold text-gray-400 tracking-wider uppercase">{{ $t('footer.support.title') }}</h3>
             <ul role="list" class="mt-4 space-y-4">
               <li>
-                <NuxtLink :to="localePath('/pricing')" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.support.pricing') }}</NuxtLink>
-              </li>
-
-              <li>
                 <a href="https://docs.billabear.com" target="_blank" class="text-base text-gray-500 hover:text-gray-900">{{ $t('footer.support.documentation') }}</a>
               </li>
 

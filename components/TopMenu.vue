@@ -373,9 +373,6 @@ function responseMenu() {
           </div>
         </Menu>
 
-        <NuxtLink :to="localePath('/pricing')" class="text-base font-medium text-gray-500 hover:text-gray-900">
-          {{ $t('menu.pricing') }}
-        </NuxtLink>
         <a href="https://docs.billabear.com" target="_blank"
            class="text-base font-medium text-gray-500 hover:text-gray-900"> {{ $t('menu.docs') }} </a>
 
@@ -563,10 +560,6 @@ function responseMenu() {
       </div>
       <div class="py-6 px-5">
         <div class="grid grid-cols- gap-4">
-          <NuxtLink :to="localePath('/pricing')" @click="showResponseMenu = !showResponseMenu"
-                    class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.pricing') }}
-          </NuxtLink>
-
           <a href="https://docs.billabear.com" target="_blank"
              class="text-base font-medium text-gray-900 hover:text-gray-700"> {{ $t('menu.docs') }} </a>
 
