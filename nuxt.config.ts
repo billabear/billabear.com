@@ -5,7 +5,7 @@ import path from 'path';
 export default defineNuxtConfig({
   app: {
     head: {
-      script: [{src: 'https://stats.ha-infra.xyz/info.js', async: true, defer: 'true', referrerpolicy: 'unsafe-url', 'data-domain': 'billabear.com'}],
+      script: [{src: 'https://stats.iain.rocks/info.js', async: true, defer: 'true', referrerpolicy: 'unsafe-url', 'data-domain': 'billabear.com'}],
     }
   },
 
